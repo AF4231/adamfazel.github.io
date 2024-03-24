@@ -1,0 +1,572 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201810 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2549                
+POS_VISITOR 10552               
+POS_DAY 15923               
+POS_DOMAIN 3339                
+POS_LOGIN 3570                
+POS_ROBOT 3725                
+POS_WORMS 4274                
+POS_EMAILSENDER 4405                
+POS_EMAILRECEIVER 4548                
+POS_SESSION 16677               
+POS_SIDER 16835               
+POS_FILETYPES 4683                
+POS_OS 4897                
+POS_BROWSER 5030                
+POS_SCREENSIZE 5292                
+POS_UNKNOWNREFERER 5366                
+POS_UNKNOWNREFERERBROWSER 5987                
+POS_ORIGIN 6175                
+POS_SEREFERRALS 6316                
+POS_PAGEREFS 6474                
+POS_SEARCHWORDS 6704                
+POS_KEYWORDS 6856                
+POS_MISC 2213                
+POS_ERRORS 6915                
+POS_CLUSTER 3426                
+POS_SIDER_404 7042                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20181101030622 1965 364553 36183556749
+FirstTime 20181001004710
+LastTime 20181031223827
+LastUpdate 20181102034512 1965 1856 108 0 0
+TotalVisits 194                 
+TotalUnique 123                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 158                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 13 42502 22 29 1452196
+1 3 3 0 25 26 23849
+2 5 11 2704 24 27 1682984
+3 7 17 2704 32 46 1689020
+4 9 14 28459 20 37 1643727
+5 17 27 82815 52 60 10121440
+6 36 135 280091 343 531 1302471
+7 10 17 20193 44 61 196993
+8 14 14 5273 16 18 487317
+9 6 22 584887 20 44 375411
+10 7 10 5273 17 28 298171
+11 14 16 43929 27 34 53784
+12 12 14 21721 12 27 108215
+13 11 38 179802 29 41 1188701
+14 15 34 2636180 21 27 22892
+15 6 7 1889311 35 50 18820111
+16 10 37 52502 39 41 27616
+17 8 16 17882 40 50 139061
+18 8 23 35156 26 33 22668
+19 12 54 57284968 34 46 123660245
+20 12 43 2257516 39 45 45316
+21 9 21 76369 21 32 969945
+22 8 14 3009 31 37 29015
+23 14 77 16360601 20 22 882279
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 259 677 81913847
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+spider 467 1284038 20181031063811 0
+googlebot 169 7713657 20181031053528 0
+baiduspider 63 10167875 20181031155555 0
+yandex 52 21764631 20181031175233 0
+bot[+:,\.\;\/\\-] 49 2073533 20181031073946 0
+no_user_agent 11 5408 20181030101810 0
+exabot 7 13512 20181026075237 0
+mail\.ru 6 2704 20181019110135 0
+python 3 0 20181024152505 0
+core 2 0 20181031193413 0
+netcraft 1 2704 20181008222704 0
+nutch 1 0 20181028232707 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 67 467616 0 0
+png 26 14747413 0 0
+mov 1 0 0 0
+html 197 37856 0 0
+js 278 749270 0 0
+jpg 37 19694666 0 0
+jpeg 5 106592 0 0
+Unknown 61 176703 0 0
+gif 5 45933731 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+macosx 179
+winlong 7
+winxp 16
+win2003 11
+winnt 92
+Unknown 43
+winvista 6
+linux 156
+win2008 167
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 17
+firefox50.0 19
+msie6.0 9
+firefox53.0 3
+firefox48.0 1
+firefox42.0 1
+chrome 328
+firefox52.0 1
+curl 1
+firefox63.0 1
+firefox61.0 16
+firefox62.0 22
+mozilla 46
+msie7.0 13
+firefox6.0 1
+msie9.0 114
+Unknown 20
+safari 81
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20181029005243
+\ 20181018233217
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20181010043527
+Mozilla/5.0_(compatible;_Dataprovider.com) 20181002113620
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12ca;__http://researchscan.comsys.rwth-aachen.de) 20181030234551
+curl/7.54.0 20181017051643
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12sns;__http://researchscan.comsys.rwth-aachen.de) 20181029054832
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+\ 20181018233217
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20181010043527
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 182 273
+From1 4 22
+From2 32 124
+From3 1 1
+From4 40 257
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 32 124
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://www.blog4u.top/how-to-generate-traffic-to-your-website-fast/16816079/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+206 2 121740435
+406 3 827
+407 7 2905
+404 549 471198
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 95
+/blog/wp-includes/wlwmanifest.xml 3 -
+/sitemap.xml 1 -
+/robots.txt 213 -
+/wordpress/ 24 -
+/images/prettyPhoto/light_rounded/btnNext.png 2 http://www.adamfazel.com/composer
+/wp-includes/indes.php 1 -
+/console/css/dashboard-min.css 5 -
+/.git/HEAD 1 -
+/forum/ 1 http://adamfazel.com/forum/
+/site/wp-includes/wlwmanifest.xml 3 -
+/new/ 2 -
+/wp-content/themes/twentyfifteen/index.php 1 -
+/accesson.php 1 -
+/jQuery-File-Upload/js/jquery.fileupload.js 1 -
+/wp-admin/yt.php 1 -
+/joomla/robots.txt 1 -
+/directorcommercial 5 http://www.adamfazel.com
+/.DS_Store 1 -
+/css_.php 4 -
+/wp-content/themes/CherryFramework/404.php 1 -
+/wp-content/themes/classic/404.php 1 -
+/assets/fileUpload/server/php/files/index.php 1 -
+/xmlrpc.php 25 -
+/images/prettyPhoto/dark_rounded/loader.gif 2 http://www.adamfazel.com/composer
+/scripts/setup.php 3 -
+/old/ 2 -
+/modules/mod_feed/tmpl/mod_feed.php 1 -
+/wp-content/themes/template-parts/content-single.php 1 -
+/th1s_1s_a_4o4.html 31 http://www.google.com/url
+/wp-content/themes/better-mag/footer.php 1 -
+/bea_wls_deployment_internal 1 -
+/wp-content/themes/agregado/404.php 1 -
+/user/register 4 -
+/images/prettyPhoto/dark_rounded/contentPattern.png 2 http://www.adamfazel.com/composer
+/test/ 2 -
+/cache/cachee.php 1 -
+/pma/index.php 1 https://google.com
+/sarg/ 1 -
+/cpanel 1 -
+/wp-content/plugins/background-image-cropper/image/ico/search.php 1 -
+/img/MFcoverAdamFazel&AlanParsons.jpg/license.php 2 -
+/interst.php 1 -
+/payload.php 1 -
+/wordpress/wp-admin/setup-config.php 1 -
+/phpMyAdmin/scripts/setup.php 4 -
+/joomla/administrator/index.php 1 -
+/wp-login.php 6 -
+/wp-content/themes/advancesettings/404.php 1 -
+/wp-admin/includes/index.php 1 -
+/_phpMyAdmin/scripts/setup.php 4 -
+/wp-content/indes.php 1 -
+/.well-known/assetlinks.json 5 -
+/__media__/js/netsoltrademark.php 1 -
+/wp-content/themes/twentyfifteen/content.php 1 -
+/assets/images/accesson.php 1 -
+/wp-includes/wlwmanifest.xml 3 -
+/index.html 17 -
+/phpmyadmin/scripts/setup.php 4 -
+/blog/ 24 -
+/.git/index 1 -
+/wp-content/themes/twentytwelve/404.php 1 -
+/wp/ 24 -
+/wp-content/themes/sketch/404.php 1 -
+/cms/wp-includes/wlwmanifest.xml 3 -
+/wp-load.php 1 -
+/license.php 5 -
+/media/media.php 1 -
+/admin/scripts/setup.php 3 -
+/ads.txt 1 -
+/blog/administrator/index.php 1 -
+/search.php 1 -
+/blog/robots.txt 22 -
+//newsite/wp-admin/setup-config.php 1 -
+/wp-content/themes/bloggingcream/404.php 1 -
+/wp/wp-includes/wlwmanifest.xml 3 -
+/img/MFarticleAdamFazelNov2012.jpg/license.php 2 -
+/wp-content/themes/twentyseventeen/footer.php 1 -
+/wp-content/themes/twentyfifteen/content-link.php 1 -
+/wp/wp-admin/setup-config.php 1 -
+/status 11 -
+/wp-admin/maint/index.php 1 -
+/administrator/index.php 2 https://google.com
+/user/register/ 1 -
+/wordpress/wp-includes/wlwmanifest.xml 3 -
+/wp-content/themes/twentyseventeen/inc/color-patterns.php 1 -
+//wp-admin/setup-config.php 1 -
+/pma/scripts/setup.php 4 -
+/images/prettyPhoto/dark_rounded/sprite.png 2 http://www.adamfazel.com/composer
+/pressprint 5 http://www.adamfazel.com
+/wp-content/themes/twentyseventeen/404.php 1 -
+/wp-admin/setup-config.php 1 -
+/index.php 4 -
+/wp-content/themes/default/404.php 1 -
+/phpmyadmin/index.php 1 https://google.com
+/wp-includes/css/login_wall.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 158
+52.53.201.78 13 13 2704 20181030171745
+104.192.74.44 11 11 5273 20181027083041
+13.57.233.99 11 11 18928 20181029162631
+184.154.36.176 10 37 110836 20181031063805
+158.69.225.35 10 10 43929 20181002113620
+38.100.21.63 9 11 19017 20181016122419
+137.226.113.27 8 8 5408 20181030234551
+47.34.225.57 8 50 57284968 20181031193414
+178.62.82.141 6 6 18773 20181027143143
+18.237.141.163 5 15 112484 20181021131822
+40.77.190.31 0 1 0 
+180.76.15.140 1 3 939 20181021100825
+113.10.156.85 1 7 41981 20181008162600
+27.115.124.69 0 2 10767 
+202.46.53.195 0 1 0 
+202.46.52.164 0 1 0 
+158.46.142.54 1 1 0 20181010222638
+104.131.56.97 1 6 28237 20181007062624
+138.246.253.5 5 5 0 20181031222903
+192.162.102.35 2 2 5273 20181008102916
+40.77.188.132 0 1 0 
+209.141.45.6 1 1 0 20181027163726
+112.115.139.56 1 1 0 20181031040439
+138.197.104.16 1 6 0 20181031170434
+202.46.54.132 0 1 0 
+202.46.53.56 0 1 16226 
+202.46.50.91 0 1 0 
+5.62.62.14 1 1 0 20181007183918
+97.81.221.132 0 1 1889311 
+27.123.255.250 1 1 0 20181001230403
+202.46.55.175 1 1 0 20181028132851
+180.76.15.154 1 2 0 20181025051942
+165.227.78.136 1 6 10050 20181024134751
+104.165.75.99 1 1 0 20181014095349
+137.226.113.28 2 2 0 20181029005243
+40.77.188.222 0 1 0 
+52.173.241.248 1 1 0 20181027180253
+40.77.190.139 0 1 305 
+173.211.84.91 1 1 0 20181017205914
+165.227.119.186 1 7 40020 20181011213641
+159.203.93.120 1 7 0 20181020201146
+27.115.124.67 0 1 16226 
+52.36.71.35 1 1 0 20181003104257
+27.123.255.225 1 1 0 20181009052511
+184.154.36.174 5 19 18682 20181018064117
+40.77.190.62 0 2 0 
+27.123.255.235 1 1 0 20181028074337
+37.115.184.19 2 2 0 20181028090544
+35.196.135.229 1 1 0 20181006072006
+35.237.75.197 1 1 0 20181014034403
+34.198.91.152 1 1 0 20181001110353
+18.196.80.222 1 1 0 20181007151343
+180.76.15.24 0 1 0 
+85.10.204.252 1 1 0 20181015031515
+91.90.192.195 1 1 0 20181017100353
+142.44.232.99 1 1 0 20181018212935
+112.5.248.252 1 1 0 20181018152749
+94.250.249.41 0 2 0 
+173.252.87.8 0 1 305 
+206.180.165.147 1 1 0 20181006032536
+165.227.212.161 2 12 56544 20181007141807
+198.23.202.57 1 1 0 20181028151312
+158.46.148.55 1 1 0 20181019153730
+66.240.192.138 1 1 2704 20181005222652
+31.184.238.2 1 1 0 20181024074445
+202.46.54.130 0 1 16226 
+142.93.184.122 2 12 86514 20181024201750
+138.197.11.168 1 1 0 20181003191022
+51.15.125.181 1 1 0 20181024173100
+202.46.58.165 0 1 0 
+184.154.36.175 5 20 27488 20181024063214
+190.2.148.176 1 1 0 20181027122202
+27.123.255.243 1 1 0 20181022175937
+204.101.161.159 3 21 130412 20181019133902
+188.162.43.10 1 1 0 20181002054324
+198.143.158.83 1 1 0 20181031064133
+216.74.109.240 1 1 0 20181031223827
+181.215.49.121 1 1 0 20181010054129
+188.166.114.112 2 2 0 20181030070809
+35.190.168.222 1 1 0 20181029085639
+202.46.48.208 1 1 0 20181028063952
+165.227.210.230 2 7 0 20181021035335
+35.231.197.154 1 1 0 20181024073545
+37.144.94.45 1 1 0 20181029162319
+54.202.102.5 1 1 0 20181026140532
+180.76.15.15 0 1 0 
+172.107.2.121 1 1 0 20181003074044
+151.106.60.193 2 2 0 20181020142657
+18.220.216.237 1 1 0 20181023224300
+184.154.36.173 5 24 54796 20181030063334
+172.56.30.137 1 15 2257045 20181008231636
+180.76.15.160 1 1 0 20181015174718
+104.196.176.39 1 1 0 20181001062613
+35.231.242.252 1 1 0 20181014075656
+42.236.10.124 1 5 0 20181008162534
+202.46.48.135 0 1 0 
+147.135.4.74 1 1 0 20181017051643
+184.94.240.92 3 3 0 20181006011922
+211.56.145.140 4 5 32722 20181008055034
+180.76.15.19 0 1 0 
+35.229.91.215 1 1 0 20181014083315
+35.185.79.61 1 1 0 20181010141005
+27.123.255.229 1 1 0 20181001024654
+181.215.47.153 1 1 0 20181010223500
+139.81.127.170 1 1 0 20181025041219
+138.197.111.113 1 6 26276 20181004001212
+185.220.101.27 1 1 0 20181024173054
+54.69.94.3 1 1 0 20181029184943
+173.252.87.1 1 2 13744 20181010043523
+108.244.157.105 3 27 11814877 20181030231140
+54.36.65.80 1 1 0 20181008205613
+180.76.15.33 2 2 0 20181011113659
+159.65.37.161 1 7 29970 20181003060115
+192.154.225.251 1 1 0 20181021223930
+180.76.15.20 0 1 10050 
+137.226.113.26 2 2 0 20181011004723
+27.115.124.68 1 3 305 20181008211239
+159.203.82.212 1 6 305 20181014073134
+202.46.49.123 0 1 0 
+27.123.255.226 1 1 0 20181013201708
+198.143.155.142 1 1 0 20181006150101
+139.81.108.68 1 1 0 20181003212512
+142.54.169.34 2 2 0 20181013041750
+71.85.54.160 1 1 0 20181022050316
+5.45.74.17 1 1 0 20181028191039
+62.210.83.78 2 2 0 20181028132905
+138.197.111.97 1 6 16226 20181017183639
+40.77.190.5 0 1 0 
+66.160.134.4 3 9 31931 20181004140155
+180.76.15.21 0 4 717 
+40.77.188.64 0 4 0 
+42.236.10.117 0 2 0 
+54.90.1.120 1 1 0 20181005042446
+184.154.47.6 1 1 0 20181017045210
+31.184.238.102 1 1 0 20181011045416
+173.252.87.5 0 1 10050 
+47.41.230.236 3 19 584887 20181009091151
+74.119.89.62 2 17 2171002 20181007204747
+180.76.15.136 1 2 16226 20181019005117
+173.252.87.4 0 1 717 
+198.23.202.38 4 4 0 20181026202416
+217.227.164.233 0 2 2518882 
+173.252.87.7 0 1 939 
+138.197.4.21 4 24 26747 20181028184830
+52.165.148.51 2 2 0 20181028053316
+180.76.15.8 0 1 16226 
+159.203.99.106 1 6 0 20181010164228
+104.196.25.195 1 1 0 20181019085545
+107.6.171.130 1 1 2704 20181018030948
+167.99.176.29 4 4 0 20181009231833
+27.115.124.66 0 1 939 
+40.77.190.13 0 1 0 
+202.46.56.71 0 1 0 
+172.56.41.190 1 15 2241290 20181008233357
+185.246.210.170 1 1 0 20181008203450
+46.105.92.122 1 1 0 20181028213741
+184.154.36.172 3 13 13744 20181029063541
+45.55.225.186 2 12 0 20181027235348
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20181001 8 11 2704 8
+20181002 13 16 43929 4
+20181003 6 13 29970 6
+20181004 6 20 74655 4
+20181005 4 13 7642 4
+20181006 8 11 2704 6
+20181007 11 44 2258487 9
+20181008 15 65 4606548 11
+20181009 10 27 584887 5
+20181010 10 24 35805 10
+20181011 5 16 40020 5
+20181012 3 6 2704 3
+20181013 4 6 0 3
+20181014 7 15 25131 7
+20181015 5 11 20586 5
+20181016 13 28 54364 4
+20181017 8 15 28980 8
+20181018 7 22 105818 7
+20181019 6 18 2576150 6
+20181020 5 15 21386 5
+20181021 13 39 128710 8
+20181022 5 14 19235 5
+20181023 6 9 0 6
+20181024 10 28 110308 9
+20181025 4 10 16226 4
+20181026 4 7 2704 4
+20181027 23 31 1932039 8
+20181028 12 34 68566 11
+20181029 7 11 13744 7
+20181030 7 34 11814877 5
+20181031 14 64 57284968 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 189
+30s-2mn 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/ 197 37856 191 175
+/composer 17 51040 3 9
+/pressPrint 8 21975 0 1
+/directorCommercial 8 42184 0 2
+/directorFilm 7 22080 0 2
+/home 4 8112 0 0
+/directorVideo 4 7946 0 2
+/pressMedia 4 11070 0 2
+/composerMusic 3 4093 0 1
+/composerEnsembles 3 4097 0 0
+/composerCues 3 4106 0 0
+/video/Banzai1280x650.mov 1 0 0 0
+END_SIDER

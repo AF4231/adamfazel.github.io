@@ -1,0 +1,845 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201908 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2548                
+POS_VISITOR 16871               
+POS_DAY 25468               
+POS_DOMAIN 3421                
+POS_LOGIN 3653                
+POS_ROBOT 3808                
+POS_WORMS 4481                
+POS_EMAILSENDER 4612                
+POS_EMAILRECEIVER 4755                
+POS_SESSION 26261               
+POS_SIDER 26458               
+POS_FILETYPES 4890                
+POS_OS 5132                
+POS_BROWSER 5256                
+POS_SCREENSIZE 5559                
+POS_UNKNOWNREFERER 5633                
+POS_UNKNOWNREFERERBROWSER 6004                
+POS_ORIGIN 6261                
+POS_SEREFERRALS 6401                
+POS_PAGEREFS 6559                
+POS_SEARCHWORDS 6760                
+POS_KEYWORDS 6912                
+POS_MISC 2212                
+POS_ERRORS 6971                
+POS_CLUSTER 3509                
+POS_SIDER_404 7089                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190901000102 2775 530091 25988956578
+FirstTime 20190801003549
+LastTime 20190831212128
+LastUpdate 20190901031024 2775 2700 74 0 0
+TotalVisits 232                 
+TotalUnique 180                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 248                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 9 18928 68 99 77961076
+1 8 20 102890 80 106 67760635
+2 18 100 171931524 54 109 697813001
+3 8 8 17617 10 11 456623
+4 30 42 10262641 27 28 67229891
+5 12 24 110867 44 57 67372296
+6 53 190 58534103 383 576 136574482
+7 7 18 123085 43 62 134452385
+8 14 17 44288 48 48 201675952
+9 16 40 3798793 37 46 67370956
+10 18 28 150916 40 44 68248241
+11 12 41 40140639 35 39 67281122
+12 9 14 6376251 70 82 201875868
+13 7 12 46173 36 53 67367901
+14 14 56 57268816 54 62 591579284
+15 5 5 18141 21 36 134678118
+16 14 83 105627293 27 57 512222189
+17 9 39 2418911 42 53 68257589
+18 11 11 24590 61 62 68078766
+19 11 11 24336 38 40 67299590
+20 9 36 14267577 63 88 786827
+21 12 33 2903843 49 63 67375487
+22 18 49 331241 56 79 153472013
+23 11 22 102531 53 55 67518653
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 335 908 474645994
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+spider 494 3211749 20190831063541 5
+googlebot 209 1239218 20190831234048 43
+crawl 166 1390973 20190831104805 12
+yandex 112 1172001340 20190831125545 55
+bot[+:,\.\;\/\\-] 97 4582460 20190831070729 21
+robot 63 140576 20190831205221 27
+unknown 26 0 20190831170724 26
+python 16 40560 20190831162537 1
+baiduspider 13 10118662 20190830184604 0
+mail\.ru 7 15464 20190824220103 4
+core 3 13729 20190808145154 0
+exabot 4 5408 20190803231754 2
+no_user_agent 5 8112 20190831211811 0
+ia_archiver 2 2704 20190813185908 1
+netcraft 1 2704 20190806024322 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 79 1245520 0 0
+png 80 40578566 0 0
+pdf 2 20142994 0 0
+txt 11 0 0 0
+html 217 520561 0 0
+js 294 2214942 0 0
+jpg 57 32313482 0 0
+jpeg 25 532960 0 0
+Unknown 105 420654 0 0
+gif 38 376676315 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 259
+winxp 14
+winlong 11
+winnt 168
+Unknown 83
+winvista 6
+linux 203
+win2008 164
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 19
+firefox28.0 2
+msie6.0 1
+firefox66.0 1
+firefox50.0 18
+firefox57.0 1
+firefox53.0 3
+firefox3.5.6 1
+chrome 477
+firefox3.0.1 2
+firefox21.0 1
+firefox63.0 4
+firefox62.0 3
+firefox6.0.2 5
+firefox64.0 2
+mozilla 81
+firefox65.0 7
+msie9.0 124
+Unknown 63
+safari 112
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+PleskBot 20190825124659
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20190802202242
+Go-http-client/1.1 20190830035910
+Mozilla/5.0_(compatible;_Dataprovider.com) 20190812055342
+Mozilla/5.0_(compatible;_ips-agent) 20190826102457
+okhttp/4.1.0 20190828193943
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+PleskBot 20190825124659
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20190802202242
+Go-http-client/1.1 20190830035910
+okhttp/4.1.0 20190828193943
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 233 348
+From1 0 0
+From2 34 128
+From3 2 2
+From4 66 430
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 34 128
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://m.facebook.com 1 1
+https://l.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 87 2461374524
+500 1 675
+404 649 560087
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 264
+/blog/wp-includes/wlwmanifest.xml 7 -
+/ficheiros/conteudos/spy.txt 1 -
+/wordpress/ 14 -
+/ftpsync.settings 1 -
+/composerpressprint 2 -
+/wp-admin/install.php 3 -
+/composerMusiccomposercues 2 -
+/site/wp-includes/wlwmanifest.xml 7 -
+/2015/wp-includes/wlwmanifest.xml 2 -
+/admin/libraries/ajaxfilemanager/ajax_create_folder.php 1 -
+/pressMediapressmedia 2 -
+/xmlrpc.php 10 -
+/test/wp-includes/wlwmanifest.xml 3 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 3 -
+/server/php 1 -
+/store/wp-includes/wlwmanifest.xml 1 -
+/libraries/jscripts/kcfinder/upload.php 1 -
+/wp/wp-admin/install.php 1 -
+/assets/plugins/ckeditor/kcfinder/upload.php 1 -
+/th1s_1s_a_4o4.html 31 http://www.google.com/url
+/web/image/upload.php 1 -
+/composerCuescomposercues 2 -
+/vendor_extra/elfinder/php/connector.minimal.php 1 -
+/test/ 4 -
+/shop/wp-includes/wlwmanifest.xml 2 -
+/public/upload_nhieuanh/server/php/_index.php 2 -
+/directorFilmcomposer 2 -
+/wp-login.php 4 -
+/admin/editor/plugins/filemanager/ajax_create_folder.php 1 -
+/.ssh/id_dsa 1 -
+/id_rsa 1 -
+/mailto:adam@adamfazel.com 1 -
+/pressMediacomposermusic 1 -
+/editor/plugins/filemanager/ajax_create_folder.php 1 -
+/directorVideopressprint 2 -
+/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 1 -
+/directorFilmdirectorcommercial 2 -
+/language/en-GB/en-GB.xml 1 -
+/pressMediadirectorvideo 2 -
+/sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/kill.php 1 -
+/index.html 41 -
+/license.txt 1 -
+/WinSCP.ini 1 -
+/homedirectorcommercial 2 -
+/pressMediahome 2 -
+/old/wp-admin/install.php 1 -
+/ads.txt 6 -
+/AndroidFileUpload/fileUpload.php 1 -
+/adminside/server/php/ 2 -
+/pressMediacomposerensembles 2 -
+/id_dsa 1 -
+/umapresence/umaservices/umapage/inc/contentCss.php 1 -
+/wp/wp-admin/setup-config.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 7 -
+/directorCommercialpressprint 2 -
+/blog/wp-admin/install.php 1 -
+/application/configs/application.ini 1 -
+/directorCommercialpressmedia 2 -
+/tinymce/plugins/imgsurfer/main.php 1 -
+/2016/wp-includes/wlwmanifest.xml 2 -
+/directorVideopressmedia 1 -
+/assets/uploadify/old/uploadify.php 1 -
+/images/prettyPhoto/dark_rounded/sprite.png 10 http://www.adamfazel.com/composer
+/libraries/jscripts/kcfinder/upload/files/up.php.jd 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/admin/ckeditor/kcfinder/upload/files/up.php.jd 1 -
+/v2/wp-includes/wlwmanifest.xml 1 -
+/staging/wp-includes/wlwmanifest.xml 1 -
+/pressMediadirectorcommercial 1 -
+/composerMusiccomposer 1 -
+//vendor/phpunit/phpunit/src/Util/PHP/kill.php 1 -
+/composerEnsemblesdirectorvideo 2 -
+/WS_FTP.ini 1 -
+/admin/ckeditor/kcfinder/upload.php 1 -
+/AndroidFileUpload/uploads/up.php 1 -
+/composerCuescomposer 2 -
+/new/ 4 -
+/.ftpconfig 1 -
+/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+/.git/config 1 -
+/ajax/api/hook/decodeArguments 1 -
+/wordpress 1 http://adamfazel.com/wordpress
+/beta/wp-includes/wlwmanifest.xml 2 -
+/directorCommercialcomposer 2 -
+/portal/wp-includes/wlwmanifest.xml 1 -
+/composerCuescomposermusic 2 -
+/composerCuesdirectorcommercial 2 -
+/directorCommercialhome 3 -
+/scripts/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+/assets/global/plugins/jquery-file-upload/server/php/files/up.php 1 -
+/pressMediadirectorfilm 2 -
+/composerEnsemblespressmedia 2 -
+/composerCuespressprint 2 -
+/vendor/phpunit/phpunit/src/Util/PHP/kill.php 1 -
+/composerEnsemblesdirectorfilm 2 -
+/composerEnsemblescomposer 3 -
+/composerEnsemblescomposermusic 2 -
+/new/wp-includes/wlwmanifest.xml 1 -
+/main/wp-includes/wlwmanifest.xml 1 -
+/admin/images/cal_date_over.gif 4 -
+/.vscode/sftp.json 1 -
+/admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 1 -
+/server/php/files/up.php 1 -
+/newsite/wp-includes/wlwmanifest.xml 1 -
+/pressPrintpressmedia 3 -
+/admin/ 5 -
+/directorVideocomposermusic 1 -
+/assets/ckeditor/kcfinder/upload/files/up.php.jd 1 -
+/templates/admin/js/tinymce/plugins/imgsurfer/main.php 1 -
+/templates/system/css/system.css 3 -
+/composerdirectorcommercial 1 -
+/assets/admin/ckeditor/kcfinder/upload.php 1 -
+/.ssh/id_ed25519 1 -
+/composerMusichome 2 -
+/blog/ 14 -
+/wp/ 14 -
+/test/wp-admin/install.php 1 -
+/cms/wp-includes/wlwmanifest.xml 7 -
+/2018/wp-includes/wlwmanifest.xml 3 -
+/public/js/plugins/imgsurfer/main.php 1 -
+/pressPrintcomposermusic 2 -
+/assets/ckeditor/kcfinder/upload.php 1 -
+/scripts/jquery/kcfinder/upload.php 1 -
+/helpdesk/media/editor/plugins/filemanager/ajax_create_folder.php 1 -
+/composerCueshome 2 -
+/composerEnsemblescomposercues 2 -
+/directorFilmcomposerensembles 2 -
+/FileZilla.xml 1 -
+/media/wp-includes/wlwmanifest.xml 2 -
+/wp 1 http://adamfazel.com/wp
+/assets/plugins/ckeditor/kcfinder/upload/files/up.php.jd 1 -
+/assets/admin/ckeditor/kcfinder/upload/files/up.php.jd 1 -
+/composerMusicpressmedia 2 -
+/directorVideoindex.html 1 -
+/images/prettyPhoto/light_rounded/btnNext.png 10 http://www.adamfazel.com/composer
+/kcfinder-2.51/upload.php 1 -
+/sftp-config.json 1 -
+/.git/HEAD 2 -
+/directorFilmcomposercues 2 -
+/pressPrintdirectorcommercial 2 -
+/en/wp-includes/wlwmanifest.xml 1 -
+/pressMediacomposercues 2 -
+/directorFilmdirectorfilm 2 -
+/composerpressmedia 2 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+/homepressprint 2 -
+/directorVideocomposerensembles 2 -
+/blog/wp-admin/setup-config.php 1 -
+/directorcommercial 10 http://www.adamfazel.com
+/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/blog 1 http://adamfazel.com/blog
+/images/prettyPhoto/dark_rounded/loader.gif 10 http://www.adamfazel.com/composer
+/homecomposer 1 -
+/sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/plugins/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/composerdirectorvideo 2 -
+/1/wp-includes/wlwmanifest.xml 1 -
+/composercomposerensembles 2 -
+/pma/ 1 -
+/infusions/mp3player_panel/upload.php 1 -
+/assets/js/mylibs/kcfinder/upload.php 1 -
+/vendor/phpunit/phpunit/composer.json 1 -
+//user/login 1 -
+/web/image/Images/up.php 1 -
+/userfiles/file/spy.txt 1 -
+/filezilla.xml 1 -
+/directorFilmcomposermusic 2 -
+/vehiculo_photos/server/php/ 1 -
+/pdfs/musiciansfriend/feb2012issue.pdf 2 -
+/public/upload_nhieuanh/server/php/files/up.php 1 -
+/.ssh/id_ecdsa 1 -
+/.ssh/id_rsa 1 -
+/winscp.ini 1 -
+/wordpress/wp-admin/install.php 1 -
+/composercomposermusic 4 -
+/ws_ftp.ini 1 -
+/pressPrintdirectorfilm 4 -
+/composerCuespressmedia 1 -
+/new/wp-admin/install.php 1 -
+/composerEnsemblescomposerensembles 2 -
+/wp-includes/wlwmanifest.xml 7 -
+/directorVideocomposercues 4 -
+/kcfinder-2.51/upload/files/up.php.jd 1 -
+//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/composerMusicdirectorfilm 2 -
+/oldsite/wp-includes/wlwmanifest.xml 1 -
+/app/webroot/js/tinymce/plugins/imgsurfer/main.php 1 -
+/administrator/index.php 2 -
+/deployment-config.json 1 -
+/sito/wp-includes/wlwmanifest.xml 2 -
+/cfg-contactform-1/inc/upload.php 1 -
+/directorVideodirectorcommercial 1 -
+/js/ckeditor/kcfinder/upload/files/up.php.jd 1 -
+/WS_FTP.INI 1 -
+/secure/ContactAdministrators!default.jspa 1 -
+/.vscode/ftp-sync.json 1 -
+/mailto:adam%40adamfazel.com 1 http://adamfazel.com/mailto:adam%40adamfazel.com
+/vehiculo_photos/server/php/files/up.php 1 -
+/tpl/plugins/upload9.1.0/server/php/up.php 1 -
+/sitemap.xml 1 -
+/directorFilmpressmedia 2 -
+/js/ckeditor/kcfinder/upload.php 1 -
+/scripts/jquery/kcfinder/upload/files/up.php.jd 1 -
+/modul/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+/admin/login.php 7 -
+/directorCommercialdirectorfilm 2 -
+/wp1/wp-includes/wlwmanifest.xml 2 -
+/admin/index.php 7 -
+/themes/dashboard/assets/plugins/jquery-file-upload/server/php/ 1 -
+/ckeditor/kcfinder/upload/files/up.php.jd 1 -
+/pressPrintcomposer 2 -
+/old/ 4 -
+/web/wp-includes/wlwmanifest.xml 3 -
+/composercomposer 2 -
+/composerCuescomposerensembles 2 -
+/ckeditor/kcfinder/upload.php 1 -
+/assets/global/plugins/jquery-file-upload/server/php/ 2 -
+/pressPrintpressprint 2 -
+/tpl/plugins/upload9.1.0/server/php/ 3 -
+/images/prettyPhoto/dark_rounded/contentPattern.png 10 http://www.adamfazel.com/composer
+/news/wp-includes/wlwmanifest.xml 3 -
+/pressMediacomposer 2 -
+/vendor/phpunit/phpunit/build.xml 1 -
+/pressPrinthome 2 -
+/assets/tinymce/plugins/imgsurfer/main.php 1 -
+/wordpress/wp-admin/setup-config.php 1 -
+/composerhome 2 -
+/pressPrintcomposercues 2 -
+/directorCommercialdirectorvideo 1 -
+/website/wp-includes/wlwmanifest.xml 3 -
+/old/wp-includes/wlwmanifest.xml 1 -
+/new/wp-admin/setup-config.php 1 -
+/pdfs/musiciansfriend/nov2012issue.pdf 1 -
+/.well-known/assetlinks.json 3 -
+/.remote-sync.json 1 -
+/blogs/wp-includes/wlwmanifest.xml 1 -
+/2017/wp-includes/wlwmanifest.xml 2 -
+/files/uploadify/uploadify.php 1 -
+/composerEnsembleshome 2 -
+/assets/js/mylibs/kcfinder/upload/files/up.php.jd 1 -
+/old/wp-admin/setup-config.php 1 -
+/.env 28 -
+/update.php 1 -
+//wp-admin/admin-post.php 1 -
+/directorVideodirectorfilm 2 -
+/tpl/plugins/upload9.1.0/server/php/files/up.php 1 -
+/composercomposercues 2 -
+/test/wp-admin/setup-config.php 1 -
+/directorVideocomposer 2 -
+/wp/wp-includes/wlwmanifest.xml 7 -
+/pressPrintdirectorvideo 2 -
+/server/php/ 2 http://www.adamfazel.com/server/php/
+/dev/wp-includes/wlwmanifest.xml 1 -
+/assets/uploadify/uploadify.php 1 -
+/composerCuesdirectorvideo 2 -
+/composerMusiccomposermusic 2 -
+/composerMusicdirectorvideo 2 -
+/pressprint 11 http://www.adamfazel.com
+/media/editor/plugins/filemanager/ajax_create_folder.php 1 -
+/wp-admin/setup-config.php 1 -
+//blog/ 2 http://adamfazel.com/
+/images/block/up.php 1 -
+/sitemanager.xml 1 -
+/wp2/wp-includes/wlwmanifest.xml 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 248
+47.156.116.167 13 97 171220061 20190818164526
+104.192.74.201 11 53 57294160 20190803065601
+144.178.28.137 11 53 57260704 20190808145150
+158.69.225.36 10 10 50163 20190812045120
+184.154.36.174 9 36 342914 20190824063845
+184.94.240.92 9 9 49227 20190828223004
+184.154.36.173 8 31 285162 20190829063458
+66.246.224.12 8 8 41067 20190818134759
+64.21.98.47 7 7 30066 20190810113730
+46.101.80.192 7 7 36748 20190827224126
+5.196.203.169 5 5 8112 20190825045340
+181.214.184.102 1 1 0 20190808104942
+181.215.85.148 1 1 0 20190804042828
+45.55.252.28 2 12 101229 20190813224531
+202.46.50.182 0 1 717 
+40.77.191.61 0 1 717 
+40.77.190.175 0 1 305 
+38.145.81.212 1 1 0 20190803070012
+45.160.75.11 1 1 2704 20190809230527
+136.34.28.223 0 1 1889311 
+138.246.253.5 4 4 0 20190828042753
+202.46.54.186 1 1 2704 20190825200356
+144.76.102.243 2 2 6801 20190827062713
+40.77.188.198 0 1 305 
+202.46.48.99 1 1 2704 20190809194804
+202.46.48.80 0 1 10050 
+138.197.73.96 1 6 30941 20190821202854
+3.88.248.126 1 1 2704 20190823003815
+184.154.189.90 1 1 0 20190810061852
+69.171.251.46 0 1 37234 
+83.97.23.233 1 1 2704 20190811064127
+159.65.175.240 2 12 101229 20190827073740
+45.40.123.108 1 1 2704 20190804103349
+89.108.99.199 1 1 2704 20190815163602
+18.206.92.180 1 1 2704 20190827151746
+69.171.251.27 0 1 467289 
+34.211.62.245 1 1 2704 20190826084945
+51.91.194.104 2 2 5408 20190802230123
+52.55.189.195 1 1 0 20190828193943
+181.215.78.5 1 1 0 20190810083038
+179.61.167.80 1 1 2704 20190829010349
+181.214.190.156 1 1 2704 20190812101942
+173.252.87.14 0 1 0 
+36.99.136.140 0 5 15474322 
+35.227.127.76 1 1 2704 20190801030207
+40.77.188.127 0 1 939 
+139.162.14.37 4 4 21682 20190820041512
+108.178.61.58 1 1 2704 20190808043249
+108.62.5.26 2 2 5408 20190810150435
+40.77.189.100 0 1 10050 
+35.237.0.4 1 1 2704 20190829141407
+173.252.87.17 0 1 0 
+34.222.106.99 1 1 2704 20190824080201
+139.28.217.222 1 1 2704 20190803025407
+27.123.253.225 2 2 2704 20190803214735
+178.93.35.118 1 1 2704 20190825204609
+223.17.188.146 4 4 21682 20190805095058
+54.149.166.221 1 1 0 20190827113919
+148.251.151.235 1 1 2704 20190830142317
+40.77.190.84 0 1 939 
+36.99.136.139 0 1 467289 
+85.10.204.252 1 1 2704 20190810211234
+54.191.217.52 1 1 2704 20190806034039
+52.89.170.1 1 1 2704 20190828042037
+69.58.178.28 3 3 14357 20190826102457
+202.46.55.68 0 1 16226 
+207.99.46.205 1 1 2704 20190813191542
+34.97.90.169 2 2 2704 20190821134649
+202.46.49.143 0 1 10050 
+83.97.23.236 4 4 10816 20190801124810
+54.184.108.215 1 1 2704 20190816084118
+202.46.53.121 0 1 939 
+69.171.251.26 1 1 0 20190802202236
+76.168.33.13 4 29 53028500 20190808021933
+138.59.18.110 1 1 2704 20190824153418
+66.102.6.175 1 1 10071497 20190823202256
+34.68.108.185 2 2 2704 20190816053715
+181.214.190.52 1 1 2704 20190805031344
+173.252.87.8 0 1 0 
+142.93.67.85 2 12 101229 20190809105039
+159.203.110.102 2 12 101229 20190831170732
+167.99.212.214 1 1 2704 20190806133621
+129.78.110.131 1 1 0 20190803002322
+202.46.54.105 0 1 16226 
+54.202.207.79 1 1 2704 20190817093201
+66.240.192.138 2 2 2704 20190805123624
+138.197.104.6 1 6 30941 20190825224421
+36.99.136.135 2 4 679403 20190830160707
+202.46.50.80 0 1 305 
+181.215.50.100 1 1 2704 20190811081155
+202.46.51.197 0 1 10050 
+35.174.61.79 1 1 2704 20190823090231
+207.99.15.82 4 4 24513 20190810065347
+193.32.161.130 1 1 2704 20190825020144
+202.46.55.146 1 1 2704 20190803215052
+181.215.145.125 1 1 2704 20190803005430
+167.30.222.58 4 21 2857118 20190807211053
+45.86.247.106 1 1 0 20190812102010
+181.215.79.104 1 1 2704 20190806234701
+158.115.230.100 1 1 2704 20190808023604
+34.219.121.42 1 1 0 20190828042023
+40.77.189.90 0 1 10050 
+35.244.75.222 1 1 2704 20190820181033
+103.90.224.155 1 1 2704 20190803111809
+202.46.51.207 0 1 717 
+3.91.33.209 1 1 2704 20190823045912
+45.82.48.44 1 1 2704 20190815062947
+184.154.36.175 5 19 190484 20190821064202
+35.224.176.62 2 2 2704 20190818213237
+35.237.57.253 1 1 2704 20190817062437
+52.34.66.165 1 1 2704 20190829074003
+202.46.48.199 1 1 2704 20190810190757
+193.70.34.209 1 1 2704 20190831020811
+40.77.190.14 0 1 717 
+202.46.58.59 1 1 2704 20190804111758
+202.46.52.146 1 1 2704 20190815185758
+34.73.67.152 1 1 2704 20190813054940
+34.217.11.227 1 1 2704 20190822080703
+74.208.18.44 4 4 5408 20190819011440
+142.93.184.142 2 12 101229 20190805020816
+36.99.136.142 0 4 1863468 
+191.96.242.242 1 1 0 20190813064822
+172.118.199.23 2 16 2259477 20190803180929
+45.82.50.173 1 1 0 20190811082058
+202.46.56.111 1 1 2704 20190821194221
+202.46.54.19 0 1 305 
+36.99.136.133 0 2 14109581 
+173.252.95.40 1 6 28459 20190816061500
+202.46.48.208 1 1 2704 20190805194905
+129.146.104.132 1 1 2704 20190820004446
+173.252.87.22 0 1 0 
+40.77.191.52 0 2 1656 
+35.231.76.237 1 1 2704 20190809045937
+52.64.20.252 1 1 2704 20190816231536
+202.46.58.161 0 1 16226 
+202.46.49.114 1 1 2704 20190829201639
+69.171.251.16 0 1 69979 
+18.237.255.156 1 1 0 20190822080704
+36.99.136.131 1 1 6380 20190830160707
+54.190.141.144 1 1 2704 20190816084121
+85.17.27.210 1 1 2704 20190827011016
+202.46.54.196 1 1 2704 20190814185357
+3.214.21.251 2 2 5408 20190821135405
+202.46.50.121 1 2 12754 20190805232852
+40.77.188.131 0 2 16943 
+202.46.50.83 0 1 939 
+66.192.64.34 1 7 44685 20190830161922
+51.68.152.26 2 2 2704 20190821183631
+54.233.136.143 1 1 2704 20190827052031
+173.252.87.15 0 1 0 
+38.131.155.230 1 1 0 20190809082246
+40.77.189.6 0 1 16226 
+40.77.188.59 0 6 41981 
+35.237.115.160 1 1 2704 20190821104217
+40.77.190.207 0 1 13744 
+158.46.173.135 1 1 2704 20190822005228
+165.227.98.114 2 12 101229 20190818113931
+202.46.51.31 1 1 2704 20190802191116
+81.46.200.250 1 1 2704 20190805101400
+206.189.154.8 1 1 2704 20190803094932
+202.46.54.138 0 1 717 
+181.214.186.40 1 1 2704 20190809075718
+36.99.136.141 0 1 11949829 
+109.165.72.50 1 1 2704 20190825232305
+34.222.103.28 1 1 2704 20190827113921
+40.77.189.157 0 1 10050 
+45.82.51.126 1 1 2704 20190805063233
+66.249.137.50 1 1 2704 20190814090951
+181.214.178.46 1 1 0 20190807032017
+202.46.50.181 0 1 305 
+173.252.95.16 0 1 16226 
+40.77.191.71 0 1 16226 
+199.249.230.117 1 1 0 20190830042411
+38.131.159.181 1 1 2704 20190807093933
+136.244.67.153 2 2 2704 20190817002712
+128.90.119.60 1 1 2704 20190822020317
+46.51.203.18 2 2 2704 20190825124659
+36.99.136.138 0 1 939 
+78.30.212.77 1 1 2704 20190813011615
+96.127.158.234 1 1 2704 20190828162222
+184.154.36.176 2 12 132644 20190825064150
+173.252.87.6 0 1 0 
+202.46.51.154 1 1 2704 20190817194647
+69.171.251.21 0 1 1540977 
+202.46.51.102 0 1 13744 
+202.46.56.17 0 1 13744 
+104.196.12.125 1 1 2704 20190805040043
+165.227.120.74 2 12 101229 20190822224504
+36.99.136.132 0 1 4938 
+70.36.114.122 1 1 2704 20190817065338
+138.197.96.209 1 6 30941 20190801131328
+172.91.68.124 2 16 39981615 20190810112352
+36.99.136.134 1 3 26498 20190830160438
+213.231.34.57 4 4 10816 20190803175248
+45.86.246.22 1 1 2704 20190810083038
+107.6.183.226 1 1 0 20190827050721
+142.11.252.248 1 1 2704 20190819201230
+35.187.1.25 1 1 2704 20190823071310
+184.154.74.66 1 1 2704 20190804235254
+38.131.156.169 1 1 2704 20190802094242
+155.235.122.56 1 1 2704 20190804094133
+115.127.65.194 1 1 2704 20190826054515
+40.77.190.106 0 1 16226 
+18.237.79.238 1 1 2704 20190819082734
+71.9.69.84 3 42 3872230 20190818093544
+54.69.123.121 1 1 2704 20190825060123
+51.77.246.68 1 7 44685 20190812055341
+128.14.209.226 1 1 2704 20190803031915
+202.46.54.18 0 1 717 
+202.46.58.58 0 1 939 
+35.153.204.125 1 1 2704 20190823002219
+178.171.9.74 1 1 2704 20190801003549
+202.46.52.145 0 1 16226 
+144.217.60.239 0 6 41981 
+66.249.138.164 1 1 2704 20190803172442
+202.46.53.120 0 1 305 
+40.77.191.98 0 1 305 
+202.46.54.23 1 1 2704 20190801194909
+82.165.113.28 2 2 2704 20190814220303
+202.46.53.140 0 1 717 
+40.77.188.44 0 2 27488 
+202.46.56.62 0 1 16226 
+78.85.163.19 1 1 2704 20190823101046
+173.252.87.7 0 1 0 
+76.187.100.211 0 5 6355934 
+54.81.67.164 1 1 2704 20190823101458
+35.184.71.83 2 2 5408 20190830181153
+178.18.62.195 1 1 2704 20190831212128
+40.77.188.114 0 1 13744 
+36.99.136.130 0 7 8556387 
+162.241.232.23 1 1 2704 20190809234957
+181.214.191.11 1 1 2704 20190807171714
+45.82.48.141 1 1 0 20190814091000
+3.226.235.138 1 1 2704 20190827145753
+52.34.105.164 1 1 2704 20190830035910
+45.76.8.102 2 2 2704 20190804191813
+40.77.190.249 0 1 305 
+34.253.106.206 1 1 2704 20190821011818
+207.99.15.87 4 4 21616 20190814200306
+202.46.48.85 1 1 10071497 20190802045314
+69.171.251.14 0 1 55523 
+202.46.49.62 0 1 939 
+23.228.90.99 1 1 2704 20190812234826
+104.196.154.205 1 1 2704 20190813053546
+202.46.48.14 1 1 2704 20190807014952
+184.154.36.172 5 20 205758 20190830063633
+40.77.189.2 0 2 10989 
+202.46.53.110 1 1 2704 20190812084803
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20190801 13 26 118644 10
+20190802 8 32 12379402 7
+20190803 29 93 59660906 14
+20190804 9 17 99298 8
+20190805 14 32 212800 10
+20190806 4 8 64580 4
+20190807 12 37 2952600 7
+20190808 20 101 116726140 7
+20190809 11 30 206257 10
+20190810 18 35 40068486 11
+20190811 4 7 44531 4
+20190812 15 25 140096 6
+20190813 10 23 166347 9
+20190814 8 17 94142 7
+20190815 6 9 52925 6
+20190816 9 24 152245 8
+20190817 8 11 75167 7
+20190818 24 145 175121095 10
+20190819 5 8 47401 4
+20190820 8 11 60481 5
+20190821 13 20 66622 10
+20190822 7 20 146953 6
+20190823 9 13 12012881 9
+20190824 3 12 80780 3
+20190825 14 22 102595 10
+20190826 6 9 63521 4
+20190827 19 32 197833 11
+20190828 9 12 55430 7
+20190829 6 9 56244 6
+20190830 10 51 53266791 9
+20190831 4 17 152801 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 1
+5mn-15mn 2
+15mn-30mn 1
+30s-2mn 4
+2mn-5mn 1
+0s-30s 223
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 16
+/ 213 508352 202 171
+/composer 27 133980 6 14
+/directorCommercial 15 58003 4 6
+/pressPrint 14 80575 2 6
+/blog/robots.txt 10 0 0 9
+/directorVideo 9 39730 2 4
+/directorFilm 8 22080 1 2
+/composerMusic 7 12279 1 2
+/home 7 13520 2 3
+/pressMedia 7 27675 3 4
+/joomla/robots.txt 1 0 0 1
+/composerEnsembles 5 16388 1 2
+// 3 8112 3 3
+/composerCues 6 16424 2 3
+/pdfs/musiciansfriend/Nov2012Issue.pdf 2 20142994 2 2
+/composerEnsembles.html 1 4097 1 0
+END_SIDER

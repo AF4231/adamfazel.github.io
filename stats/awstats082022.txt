@@ -1,0 +1,771 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 202208 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2536                
+POS_VISITOR 13935               
+POS_DAY 21435               
+POS_DOMAIN 3313                
+POS_LOGIN 3545                
+POS_ROBOT 3700                
+POS_WORMS 4281                
+POS_EMAILSENDER 4412                
+POS_EMAILRECEIVER 4555                
+POS_SESSION 22171               
+POS_SIDER 22350               
+POS_FILETYPES 4690                
+POS_OS 4909                
+POS_BROWSER 5035                
+POS_SCREENSIZE 5235                
+POS_UNKNOWNREFERER 5309                
+POS_UNKNOWNREFERERBROWSER 5789                
+POS_ORIGIN 6042                
+POS_SEREFERRALS 6182                
+POS_PAGEREFS 6340                
+POS_SEARCHWORDS 6537                
+POS_KEYWORDS 6689                
+POS_MISC 2200                
+POS_ERRORS 6748                
+POS_CLUSTER 3401                
+POS_SIDER_404 6882                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220901000347 3683 727483 36003787115
+FirstTime 0
+LastTime 20220831144530
+LastUpdate 20220901025810 3683 3498 184 0 0
+TotalVisits 243                 
+TotalUnique 195                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 216                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 5 0 29 72 35710
+1 5 5 0 15 48 29229
+2 4 4 0 54 89 51825
+3 10 11 30216 32 98 62273
+4 14 20 0 48 115 87076
+5 12 13 12515 71 113 42114
+6 36 123 208748 517 693 520752
+7 7 8 2699 87 122 62433
+8 5 5 0 64 115 68990
+9 7 8 0 103 153 129512
+10 7 7 2699 37 66 92068
+11 13 42 14159641 56 84 76433
+12 11 11 10796 64 115 68877
+13 6 32 13687399 30 58 34975
+14 75 90 46008128 85 139 82419016
+15 5 7 2699 32 59 67146950
+16 13 42 13720697 20 57 67304425
+17 5 21 45933731 78 118 134458461
+18 9 49 64128012 86 128 67278576
+19 6 6 2699 64 98 83433353
+20 19 63 13304300 137 174 100845025
+21 13 19 10640 31 36 630509
+22 4 7 2699 26 32 114285
+23 7 8 2699 165 208 168964
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 298 606 211231017
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+spider 450 390859 20220831063533 0
+bot[+:,\.\;\/\\-] 209 1095902 20220831195958 103
+googlebot 100 224074 20220831190157 20
+robot 88 13321657 20220831090037 17
+yandex 46 2578010 20220831211700 19
+unknown 13 0 20220829042317 13
+crawl 12 0 20220819042734 1
+python 4 0 20220825213158 0
+no_user_agent 3 0 20220819082510 0
+netcraft 2 5398 20220810204150 0
+gulperbot 1 0 20220806114138 0
+mail\.ru 1 11381 20220801033529 0
+baiduspider 1 0 20220820140602 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 48 128384 0 0
+png 42 58892868 0 0
+html 235 56679 0 0
+jpg 42 13322987 0 0
+js 143 251926 0 0
+jpeg 8 663204 0 0
+txt 3 1647 0 0
+Unknown 60 112129 0 0
+gif 25 137801193 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+winxp 4
+winnt 159
+linuxubuntu 8
+winvista 3
+linux 120
+macosx 135
+Unknown 37
+win2008 140
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 12
+msie8.0 1
+firefox64.0 1
+firefox40.0 1
+mozilla 28
+netscape5.0 5
+chrome 393
+firefox59.0 3
+firefox89.0 2
+firefox97.0 3
+msie9.0 131
+Unknown 15
+safari 23
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+\\\ 20220804021442
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220821094411
+panscient.com 20220812212336
+Mozilla/5.0_(compatible;_ips-agent) 20220813145631
+Mozilla/5.0 20220813111720
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20220822185324
+Go-http-client/1.1 20220813111816
+Mozilla/5.0_(compatible;_Dataprovider.com) 20220825044950
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+\\\ 20220804021442
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20220822185324
+Go-http-client/1.1 20220813111816
+panscient.com 20220812212336
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 182 201
+From1 0 0
+From2 36 123
+From3 5 5
+From4 75 277
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 36 123
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://www.bing.com 4 4
+http://voyagela.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 2 434
+302 842 181942
+206 12 586327380
+404 1204 1024794
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 235
+/blog/wp-includes/wlwmanifest.xml 41 -
+/wp-content/plugins/dzs-zoomsounds/savepng.php 1 -
+/shell20220621.php 1 -
+/wordpress/ 1 -
+/images/prettyPhoto/light_rounded/btnNext.png 6 https://adamfazel.com/css/prettyPhoto.css
+/.well-known/traffic-advice 4 -
+/js/tinymce4/plugins/filemanager/dialog.php 1 -
+/phpformbuilder/plugins/filemanager/dialog.php 1 -
+/admin.php 8 -
+/kcfinder/upload.php 2 -
+/mysqladmin/ 1 -
+/asset/kcfinder/upload.php 2 -
+/2021/wp-includes/wlwmanifest.xml 5 -
+/site/wp-includes/wlwmanifest.xml 41 -
+/public/_ignition/health-check/ 1 http://adamfazel.com/public/_ignition/health-check/
+/ALFA_DATA/alfacgiapi/ 1 -
+/phpinf.php 1 -
+/wp-content/wso.php 1 -
+/2019/wp-includes/wlwmanifest.xml 41 -
+/wp-blockup.php 11 -
+/radio.php 2 -
+/wp-admin/fw.php 1 -
+/sites/default/files/ 2 binance.com
+/sql/ 1 -
+/test/wp-includes/wlwmanifest.xml 41 -
+/images/prettyPhoto/dark_rounded/loader.gif 6 https://adamfazel.com/css/prettyPhoto.css
+/mt/ 2 -
+/wp-includes/fw.php 1 -
+/tinymce/plugins/filemanager/dialog.php 1 -
+/wp-config.php.old 1 -
+/wp-config.php.txt 1 -
+/doc.php 1 -
+/images/ALFA_DATA/alfacgiapi/perl.alfa 1 -
+/th1s_1s_a_4o4.html 31 -
+/alwso.php 1 -
+/_profiler/phpinfo 3 -
+/pma/ 1 -
+/assets/plugins/filemanager/dialog.php 1 -
+/.cgi/cache/index.php 1 -
+/test/ 1 -
+/_backups/wallet.dat 1 -
+/backup.rar 1 -
+/shop/wp-includes/wlwmanifest.xml 41 -
+/assets/filemanager/dialog.php 1 -
+/wp-content/uploads/2021/12/up.php 1 -
+/backup/wallet.dat 1 -
+/mt/mt-xmlrpc.cgi 1 -
+/myadmin/ 1 -
+/.index.env 1 -
+/credentials.php 1 -
+/wp-config.php.bak 1 -
+/backup/2022/wallet.dat 1 -
+/wp-stream.php 11 -
+/export.php 1 -
+/admin/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/phpinfo.php 1 -
+/backup.tar 1 -
+/assets/js/kcfinder/upload.php 2 -
+/BTC/wallet.dat 1 -
+/.well-known/ 2 binance.com
+/login.action 1 -
+/sql.php 1 -
+/ALFA_DATA/alfacgiapi/perl.alfa 5 www.google.com
+/__media__/js/netsoltrademark.php 1 -
+/assets/elfinder/elfinder.html 1 -
+/wp-includes/SimplePie/wp-logs.php 1 -
+/shop/ 1 -
+/private/wallet.dat 1 -
+/assets/tinymce/plugins/filemanager/dialog.php 1 -
+/wp-includes/wlwmanifest.xml 36 -
+/coins/wallet.dat 1 -
+/wp-admin/admin-ajax.php 1 -
+/index.html 21 -
+/assets/admin/js/tinymce/plugins/filemanager/dialog.php 1 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/wp-includes/Requests/class-wp.php 1 -
+/filemanager/dialog.php 1 -
+/rqmgqpwm.php 1 www.google.com
+/.aws.yml 1 -
+/telescope/requests 1 -
+/backup.sql 1 -
+/smtphec.php 1 -
+/admin/filemanager/dialog.php 1 -
+/ads.txt 5 http://adamfazel.com/ads.txt
+/old-index.php 2 adamfazel.com
+/wp-includes/wso.php 1 -
+/wp-config.inc 1 -
+/wp-admin/wso.php 1 -
+/_ignition/health-check/ 1 http://adamfazel.com/_ignition/health-check/
+/ups.php 1 -
+/up.php 1 -
+/wp-admin/includes/class-wp-media-list-data.php 1 -
+/wp-beckup.php 11 -
+/phpinfo.html 1 -
+/wp-config.txt 1 -
+/wordpress/wp-includes/wlwmanifest.xml 41 -
+/sito/wp-includes/wlwmanifest.xml 36 -
+/images/alfacgiapi/perl.alfa 1 -
+/wp-content/uploads/wp-blockdown.php 11 -
+/filemanager/filemanager/dialog.php 1 -
+/fox.php 1 -
+/mt/pekok.php 1 -
+/images/prettyPhoto/dark_rounded/sprite.png 6 https://adamfazel.com/css/prettyPhoto.css
+/shx.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 -
+/phpmyadmin 20 -
+/wp-config.php.dist 1 -
+/wp-options.php 1 -
+/.env/config 1 -
+/_BACKUP/wallet.dat 1 -
+/_btc/wallet.dat 1 -
+/assets/plugins/elfinder/elfinder.html 1 -
+/s/36352e3235342e3232372e323234/_/ 1 -
+/media-admin.php 1 -
+/sitemap.xml 2 -
+/wp-includes/images/wlw/javascripts/js/wp-logs.php 1 -
+/wp-blockdown.php 11 -
+/wp-admin.php 1 -
+/wallet/wallet.dat 1 -
+/admin/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/wso.php 1 -
+/alfacgiapi/perl.alfa 4 www.google.com
+/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/jindex.php 6 -
+/feed/ 5 -
+/admin/controller/extension/extension/ 2 binance.com
+/new/ 1 -
+/db/ 1 -
+/wp1/wp-includes/wlwmanifest.xml 41 -
+/wp-content/fw.php 1 -
+/shell.php 1 -
+/1index.php 1 -
+/.DS_Store 1 -
+/.git/config 8 -
+/wp-config.php.inc 1 -
+/wp-blog-post.php 11 -
+/wp-content/uploads/2021/12/fw.php 1 -
+/old/ 1 -
+/wp-includes/alfacgiapi/perl.alfa 1 -
+/wp-admin/ALFA_DATA/alfacgiapi/perl.alfa 1 -
+/adminer.php 1 -
+/fw.php 2 -
+/xltavrat.php 6 -
+/takeout.php 6 -
+/phpmyadmin/ 2 -
+/mysql/ 1 -
+/web/wp-includes/wlwmanifest.xml 41 -
+/bitcoin/wallet.dat 1 -
+/xlet.php 6 -
+/new-index.php 1 -
+/wp-admin/alfacgiapi/perl.alfa 1 -
+/wp-admin/css/colors/blue/wp-logs.php 1 -
+/backup.zip 1 -
+/sh3llx.php 6 -
+/about.php 1 -
+/content.php 1 -
+/images/prettyPhoto/dark_rounded/contentPattern.png 6 https://adamfazel.com/css/prettyPhoto.css
+/news/wp-includes/wlwmanifest.xml 36 -
+/plugins/kcfinder/upload.php 1 -
+/wp-content/ALFA_DATA/alfacgiapi/ 1 -
+/lyda.php 1 -
+/backup.tar.gz 1 -
+/assets/scripts/filemanager/dialog.php 1 -
+/wp-content/uploads/wp-blockup.php 11 -
+/wp-content/mu-plugins-old/index.php 1 -
+/wp-22.php 17 -
+/wikindex.php 2 -
+/xleet-shell.php 6 -
+/wp-config.old 1 -
+/wp-includes/ID3/license.txt 4 -
+/public/.env 1 -
+/aiazfrmy.php 1 www.google.com
+/wp-includes/css/css.php 1 -
+/xleet.php 7 -
+/_profiler/empty/search/results 1 -
+/admin/ 1 https://adamfazel.com/
+/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/website/wp-includes/wlwmanifest.xml 36 -
+/pma 1 -
+/wp-activate.php 1 -
+/wp-includes/css/wp-atom.php 1 -
+/wp-admin/css/ 2 binance.com
+/assets/kcfinder/upload.php 2 -
+/database/ 1 -
+/.well-known/ALFA_DATA/alfacgiapi/perl.alfa 1 -
+/wp-includes/css/xm.php 1 -
+/mine/wallet.dat 1 -
+/blog/ 1 -
+/wp_wrong_datlib.php 1 -
+/wp-config.php~ 1 -
+/.env 24 -
+/wp/ 1 -
+/class-wp-widget-archives.php 1 -
+/cms/wp-includes/wlwmanifest.xml 41 -
+/wp-load.php 1 adamfazel.com
+/2018/wp-includes/wlwmanifest.xml 32 -
+/info.php 2 -
+/js/kcfinder/upload.php 2 -
+/lufix.php 1 -
+/wp-content/uploads/wp-stream.php 11 -
+/whyezzqb.php 1 www.google.com
+/shells.php 1 -
+/wp-admin/alfa.php 1 -
+/mini.php 1 -
+/_private/wallet.dat 1 -
+/tinymce/filemanager/dialog.php 1 -
+/2021/wallet.dat 1 -
+/demo/ 1 -
+/wp/wp-includes/wlwmanifest.xml 41 -
+/scripts/filemanager/dialog.php 1 -
+/wp-plain.php 3 www.google.com
+/wp-commentin.php 18 -
+/assets/admin/tinymce/plugins/filemanager/dialog.php 1 -
+/backup/ 1 -
+/3index.php 2 -
+/config.json 1 -
+/2020/wp-includes/wlwmanifest.xml 9 -
+/_BACKUPS/wallet.dat 1 -
+/media/wp-includes/wlwmanifest.xml 32 -
+/DATA/wallet.dat 1 -
+/wp 1 -
+/Panels.txt 1 -
+/wp-includes/css/wp.php 1 -
+/wp-includes/images/wp-blog.php 1 -
+/wp-logs.php 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 1 -
+/mybtc/wallet.dat 1 -
+/wp-content/uploads/ALFA_DATA/alfacgiapi/perl.alfa 1 -
+/alfa.php 1 -
+/coin/wallet.dat 1 -
+/phpMyAdmin/ 1 -
+/assets/plugins/kcfinder/upload.php 1 -
+/2index.php 1 -
+/wp-content/alfacgiapi/perl.alfa 1 -
+/wp2/wp-includes/wlwmanifest.xml 36 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 216
+76.91.225.183 14 101 73006193 20220810191350
+184.154.76.34 11 41 64878 20220831063515
+173.239.232.9 11 11 7941 20220812212336
+149.56.150.158 10 10 0 20220825044943
+198.20.67.200 8 32 47376 20220827063142
+147.78.47.233 6 6 2699 20220829071237
+213.55.244.93 5 41 64053544 20220816180443
+196.199.119.218 4 4 10868 20220807051535
+107.158.93.120 4 4 5268 20220818161753
+128.199.228.141 3 3 0 20220809003127
+34.220.135.109 1 1 0 20220804144422
+35.208.97.249 1 1 0 20220816150239
+34.214.109.141 1 1 0 20220808142203
+54.191.228.237 1 1 0 20220821141919
+207.46.13.202 0 1 0 
+81.161.229.100 1 1 0 20220822095100
+5.188.62.21 2 2 0 20220827113226
+193.188.22.35 1 1 0 20220804062438
+157.55.39.220 0 1 91556 
+20.163.74.84 1 1 0 20220812182902
+40.77.188.175 0 1 0 
+93.158.91.242 1 1 0 20220811054902
+46.161.11.182 2 2 0 20220813154420
+40.77.190.179 0 1 0 
+192.71.2.171 1 1 0 20220802204654
+93.158.91.253 1 1 1647 20220811054900
+151.106.120.184 1 1 0 20220813111732
+51.158.183.92 1 1 0 20220815231726
+73.149.63.220 2 25 13682131 20220812130426
+172.107.238.146 1 1 0 20220817204902
+20.97.193.115 1 1 0 20220816174206
+193.186.4.101 1 1 0 20220816180138
+102.112.79.103 0 1 751672 
+54.184.232.61 1 1 0 20220824143149
+52.10.222.218 1 1 0 20220809144247
+35.91.13.248 1 1 0 20220806141333
+195.3.222.14 1 1 0 20220817221748
+184.154.139.6 2 8 0 20220822063506
+15.236.247.196 1 1 2699 20220814193554
+54.201.59.199 1 1 0 20220816143653
+209.126.5.99 2 2 2699 20220816051217
+54.190.155.72 1 1 0 20220806141257
+178.62.7.249 1 1 2699 20220813111816
+35.88.212.86 1 1 0 20220805142320
+35.88.86.201 1 1 0 20220817144057
+69.171.251.9 0 1 37234 
+209.127.17.159 3 3 0 20220818145930
+20.118.170.33 1 1 0 20220811111051
+77.222.117.43 1 1 0 20220801113526
+173.252.127.8 0 3 0 
+54.244.150.230 1 1 0 20220829142748
+185.39.144.147 1 1 0 20220821054516
+20.163.43.150 1 1 0 20220811082329
+85.10.204.252 1 1 0 20220815025140
+52.34.254.72 1 1 0 20220819144656
+65.154.226.166 1 7 40020 20220813111909
+20.25.135.56 1 1 0 20220802202509
+189.202.206.163 1 1 0 20220816205714
+138.197.173.124 1 1 0 20220826200932
+138.197.175.225 1 1 0 20220820190415
+142.93.43.68 1 1 0 20220807173546
+23.231.15.20 1 1 0 20220818161746
+35.86.143.209 1 1 0 20220818141806
+40.77.190.91 0 1 0 
+18.237.144.42 1 1 0 20220811141002
+72.13.46.6 3 3 8169 20220813145631
+52.33.139.221 1 1 2699 20220825144627
+18.236.108.235 1 1 0 20220825143508
+207.46.13.89 0 1 0 
+165.227.220.219 1 1 0 20220801062536
+188.17.157.19 1 1 0 20220806181159
+44.204.204.131 1 1 2699 20220814225702
+138.199.18.82 2 2 2699 20220830201036
+138.68.141.39 2 2 0 20220809071153
+184.154.139.9 3 11 0 20220818063052
+34.222.86.2 1 1 0 20220810143425
+34.218.80.45 1 1 0 20220831144530
+40.77.167.38 0 1 0 
+150.249.214.254 1 1 0 20220823040354
+34.219.117.45 1 1 0 20220827142726
+46.161.11.8 2 2 0 20220822061944
+52.12.117.22 1 1 0 20220801141830
+130.61.72.164 1 1 0 20220815020845
+40.87.64.241 1 1 2699 20220823233142
+68.183.206.91 1 1 0 20220801034847
+34.220.77.68 1 1 0 20220816143225
+24.180.28.91 2 17 45933731 20220805175601
+40.77.188.185 0 1 0 
+20.118.129.77 1 1 0 20220802170207
+38.242.218.121 1 1 0 20220808134154
+35.88.188.65 1 1 0 20220804143239
+34.221.222.29 1 1 0 20220804144559
+159.65.126.78 3 3 0 20220811094131
+52.26.184.94 1 1 0 20220814141530
+157.55.39.167 0 1 0 
+35.88.162.191 1 1 0 20220802144017
+34.217.133.36 1 1 0 20220802142053
+3.233.240.48 1 1 0 20220829042317
+184.154.139.8 3 12 0 20220816063608
+35.160.52.30 1 1 0 20220807141932
+185.180.143.12 1 1 0 20220807192017
+35.92.133.25 1 1 0 20220822142851
+198.244.220.113 3 3 0 20220804123723
+54.187.230.122 1 1 2699 20220824142532
+18.236.209.84 1 1 0 20220819143019
+35.160.125.78 1 1 0 20220812143100
+34.216.2.83 1 1 0 20220820144116
+173.252.127.22 0 1 37234 
+69.127.113.140 1 1 0 20220814014431
+35.91.181.229 1 1 0 20220827141526
+34.122.208.86 1 1 0 20220825011147
+54.196.82.60 1 1 0 20220821222909
+13.125.38.115 1 1 2699 20220807030105
+130.245.169.39 1 1 0 20220813111720
+54.69.31.202 1 1 0 20220830143531
+157.55.39.15 0 1 0 
+54.185.8.115 1 1 0 20220828144835
+20.14.84.11 2 2 0 20220814083732
+54.212.227.241 1 1 0 20220826190325
+35.91.62.210 1 1 0 20220829142332
+20.63.154.167 1 1 0 20220804100646
+181.214.107.225 3 3 0 20220811163458
+35.91.88.56 1 1 0 20220814141407
+142.93.154.142 1 1 0 20220801233914
+159.65.199.17 1 1 0 20220814130352
+34.220.98.134 1 1 0 20220802142053
+173.252.127.9 1 2 2699 20220807215548
+139.99.130.220 1 1 0 20220818045554
+194.190.179.79 1 1 0 20220808031827
+20.115.99.185 1 1 0 20220803123006
+54.245.155.148 1 1 0 20220822142847
+93.158.91.234 1 1 0 20220819102157
+192.36.53.165 1 1 0 20220802204652
+35.91.215.158 1 1 2699 20220807141931
+34.213.43.47 1 1 2699 20220827141436
+35.91.220.166 1 1 0 20220820144446
+51.81.167.146 1 1 0 20220813111849
+65.21.206.46 2 2 0 20220803182155
+18.237.77.3 1 1 0 20220826141115
+194.36.99.179 1 1 0 20220807035951
+181.214.173.89 3 3 8097 20220804120503
+54.213.188.115 1 1 0 20220809144229
+34.217.112.65 1 1 0 20220816143227
+167.235.139.222 1 1 0 20220825124729
+184.153.220.33 3 25 13362551 20220831114818
+222.110.159.98 1 1 0 20220805073205
+178.128.169.213 1 1 0 20220818211713
+34.216.65.217 1 1 0 20220813141214
+54.71.151.213 1 1 0 20220813140514
+181.215.16.253 1 1 0 20220807051526
+184.154.139.5 2 7 0 20220810063452
+40.77.167.76 0 1 0 
+20.218.133.89 1 1 0 20220803072023
+167.94.138.62 1 1 0 20220821094411
+185.181.60.39 2 2 0 20220820000751
+54.191.239.121 1 1 0 20220801141910
+34.211.193.137 1 1 0 20220821153339
+35.164.195.15 1 1 0 20220821141931
+119.17.221.61 1 1 0 20220810102817
+40.77.167.44 0 3 0 
+44.234.47.52 1 1 0 20220826113136
+40.77.167.67 0 3 0 
+35.87.205.242 1 1 0 20220814140921
+173.252.127.16 0 1 0 
+34.216.251.90 1 1 0 20220803142438
+54.191.78.4 1 1 0 20220823141547
+40.77.190.244 0 1 0 
+65.21.206.43 1 1 5268 20220827132245
+82.223.110.224 1 1 0 20220805122550
+138.68.182.188 1 1 0 20220829091626
+157.55.39.200 0 1 0 
+193.118.53.138 1 1 0 20220802232222
+172.245.42.221 1 1 0 20220809102102
+149.56.150.117 0 6 0 
+188.165.202.227 1 1 0 20220830221602
+134.209.111.58 1 1 0 20220828124951
+20.219.18.5 1 1 0 20220824013510
+35.90.89.1 1 1 0 20220831144154
+143.198.32.83 3 3 0 20220829002045
+20.40.75.179 1 1 0 20220810034107
+76.72.172.166 1 1 0 20220825061034
+18.236.113.253 1 1 0 20220817142617
+3.230.169.99 1 1 0 20220807231653
+185.74.5.84 2 2 5398 20220825101152
+35.88.76.145 1 1 0 20220806141301
+54.185.59.162 1 1 0 20220815152706
+34.208.73.133 1 1 0 20220823141547
+222.110.59.108 1 1 0 20220809010542
+34.217.99.39 1 1 0 20220811140858
+54.212.223.81 1 1 0 20220821144422
+103.167.84.15 1 1 2699 20220827125913
+159.89.35.226 1 1 0 20220815100429
+185.181.60.189 1 1 0 20220828093505
+149.202.180.22 1 1 0 20220817060641
+185.204.0.106 1 1 0 20220801023425
+178.254.0.103 1 1 0 20220831001124
+35.88.200.179 1 1 2699 20220815152706
+20.225.159.100 1 1 0 20220809202707
+51.159.37.34 1 1 0 20220814201709
+35.86.131.236 1 1 0 20220826141428
+52.12.18.22 1 1 0 20220818141446
+18.236.159.22 1 1 0 20220823142817
+184.154.139.7 2 6 4938 20220828063628
+76.236.30.200 1 1 0 20220804021442
+93.158.91.193 1 1 0 20220819102159
+52.141.26.179 1 1 0 20220811161209
+199.244.88.224 1 1 0 20220819120550
+35.87.38.78 1 1 0 20220828144835
+35.166.113.173 1 1 0 20220830143953
+35.89.225.250 1 1 0 20220830143530
+45.152.199.116 3 3 24818 20220807035955
+34.222.134.44 1 1 0 20220818141445
+162.142.125.211 1 1 0 20220817094154
+128.14.141.42 1 1 0 20220822234613
+38.18.48.199 1 1 0 20220816085358
+35.90.155.155 1 1 0 20220810145638
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20220801 11 16 2699 11
+20220802 9 12 0 9
+20220803 7 28 45989163 6
+20220804 20 66 13309698 12
+20220805 6 24 45933731 5
+20220806 6 9 0 6
+20220807 18 26 46482 13
+20220808 7 10 34908 7
+20220809 9 13 0 9
+20220810 10 41 13715429 7
+20220811 16 19 15391 14
+20220812 16 43 13690072 5
+20220813 12 21 50888 10
+20220814 10 12 5398 10
+20220815 8 12 25286 8
+20220816 15 58 64182334 11
+20220817 8 10 0 8
+20220818 14 18 5268 9
+20220819 6 9 0 6
+20220820 5 8 0 5
+20220821 8 11 0 8
+20220822 7 11 37234 6
+20220823 6 8 2699 6
+20220824 4 7 2699 4
+20220825 19 27 5398 10
+20220826 7 10 0 7
+20220827 7 12 24410 7
+20220828 6 11 756610 6
+20220829 7 11 29970 7
+20220830 7 10 2699 6
+20220831 7 33 13362551 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 1
+30s-2mn 2
+0s-30s 238
+2mn-5mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/ 235 56679 230 222
+/directorCommercial 15 26340 6 5
+/composer 13 32676 0 3
+/pressPrint 8 11381 1 4
+/composerMusic 5 12264 0 4
+/home 4 5398 0 0
+/composerCues 4 4101 1 1
+/directorVideo 4 15882 2 1
+/composerEnsembles 3 4087 0 0
+/humans.txt 3 1647 3 3
+/directorFilm 3 0 0 0
+/pressMedia 1 0 0 0
+END_SIDER
