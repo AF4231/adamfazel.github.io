@@ -1,0 +1,420 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201210 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2547                
+POS_VISITOR 8187                
+POS_DAY 10771               
+POS_DOMAIN 3324                
+POS_LOGIN 3556                
+POS_ROBOT 3711                
+POS_WORMS 4202                
+POS_EMAILSENDER 4333                
+POS_EMAILRECEIVER 4476                
+POS_SESSION 11475               
+POS_SIDER 11675               
+POS_FILETYPES 4611                
+POS_OS 4816                
+POS_BROWSER 4961                
+POS_SCREENSIZE 5278                
+POS_UNKNOWNREFERER 5352                
+POS_UNKNOWNREFERERBROWSER 5756                
+POS_ORIGIN 6025                
+POS_SEREFERRALS 6162                
+POS_PAGEREFS 6319                
+POS_SEARCHWORDS 6698                
+POS_KEYWORDS 6912                
+POS_MISC 2211                
+POS_ERRORS 7039                
+POS_CLUSTER 3412                
+POS_SIDER_404 7156                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20121101061137 1564 342591 36419174680
+FirstTime 20121001211057
+LastTime 20121030172810
+LastUpdate 20121102031432 1564 1555 8 0 0
+TotalVisits 79                  
+TotalUnique 60                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 65                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 29 11629177 48 50 9072957
+1 17 59 3191078 6 16 24706
+2 11 60 10643236 49 62 9290416
+3 6 35 9260157 47 52 8647588
+4 5 34 1514389 9 9 22357
+5 3 20 28724 17 17 37928
+6 12 71 5999707 24 28 76737
+7 7 32 3571651 9 15 25186
+8 1 1 1458 8 9 132007
+9 1 1 2992 9 9 16090
+10 10 10 18444 13 13 21355
+11 8 46 13099858 8 17 9374846
+12 1 1 2992 8 8 8614928
+13 9 59 3050150 8 19 27964
+14 12 77 9090301 14 18 27938
+15 16 85 15169364 51 78 8878061
+16 2 2 2916 11 11 19999
+17 4 40 3978287 8 9 15577
+18 13 42 1650913 15 24 48949
+19 6 28 1518201 20 25 46776
+20 8 30 44384 20 26 419730
+21 14 62 7558713 8 13 22457
+22 6 28 1519437 33 34 390742
+23 2 26 3002508 7 7 10409
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 179 878 105549037
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+bot[+:,\.\;\/\\-] 62 71120 20121028021830 0
+yandex 39 8663635 20121030002503 0
+baiduspider 30 30744 20121019164233 0
+googlebot 23 44317 20121027013650 0
+crawl 11 49577 20121029060536 0
+msnbot\-media 8 2950940 20121025114856 0
+mail\.ru 3 8976 20121025074901 0
+surveybot 2 2916 20121020055320 0
+legs 1 1458 20121023155654 0
+ia_archiver 1 2992 20121025043859 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 96 379150 0 0
+png 197 48897378 0 0
+html 63 125977 0 0
+jpg 26 19404138 0 0
+pdf 5 35110977 0 0
+js 358 865044 0 0
+jpeg 22 498505 0 0
+Unknown 111 267868 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+macosx 667
+winxp 22
+winlong 1
+win2003 28
+winnt 3
+win2000 1
+Unknown 19
+linuxfedora 12
+linux 43
+win2008 82
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 21
+firefox3.6.24 20
+msie6.0 1
+firefox5.0 2
+msie5.01 1
+firefox3.6 1
+chrome 426
+lynx 2
+msie5.5 3
+firefox3.5.3 11
+msie8.0 1
+firefox6.0.2 4
+mozilla 1
+msie7.0 32
+firefox16.0 54
+firefox3.6.28 7
+firefox3.6.3 1
+msie9.0 36
+Unknown 16
+safari 173
+firefox15.0.1 85
+firefox3.0.15 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+intelium_bot 20121027101944
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20121016064927
+facebookplatform/1.0_(_http://developers.facebook.com) 20121016064925
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20121026133758
+Mozilla/4.0_(compatible;_Synapse) 20121019025832
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+intelium_bot 20121027101944
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20121016064927
+facebookplatform/1.0_(_http://developers.facebook.com) 20121016064925
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 74 83
+From1 0 0
+From2 17 19
+From3 7 7
+From4 81 769
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 17 19
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://www.orangeask.com 3 3
+http://caucana.com 1 1
+http://evuln.com/tools/malware-scanner/adamfazel.com/ 1 1
+http://us.mc1210.mail.yahoo.com/mc/welcome 1 1
+http://emporia.campuspack.net/Groups/MU270BD470BD201250mg/Weekly_Blog 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 4
+adam+fazel 6
+imking+clothing 1
+adamfazel.com 1
+alan+parsons 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 7
+fazel 6
+adam 6
+clothing 1
+imking 1
+parsons 1
+alan 1
+adamfazel.com 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 1 734
+206 140 42964288
+404 248 474006
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 19
+/robots.txt 116 -
+/images/prettyPhoto/light_rounded/btnNext.png 21 http://adamfazel.com/css/prettyPhoto.css
+/pressmedia 1 -
+/images/prettyPhoto/dark_rounded/contentPattern.png 21 http://adamfazel.com/css/prettyPhoto.css
+/administrator/index.php 1 http://adamfaustxxx.com/administrator/index.php
+/composerensembles 1 -
+/composercues 1 -
+/wp-admin/ 1 -
+/index.html 1 -
+/images/prettyPhoto/dark_rounded/sprite.png 42 http://adamfazel.com/css/prettyPhoto.css
+/directorcommercial 2 -
+/directorvideo 4 -
+/pressprint 3 -
+/images/prettyPhoto/dark_rounded/loader.gif 21 http://adamfazel.com/css/prettyPhoto.css
+/pdfs/musiciansfriend/feb2012issue.pdf 1 -
+/directorfilm 4 -
+/wp-login.php 1 -
+/composermusic 2 -
+/pressprint.html 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 65
+76.170.158.114 45 302 48060213 20121030012530
+69.58.178.59 11 11 49577 20121015014434
+67.217.35.30 10 10 18444 20121027101944
+38.100.21.63 9 11 76500 20121015185029
+75.82.184.61 8 41 10674674 20121025151330
+64.203.40.215 8 41 6059878 20121023144305
+66.27.121.164 6 34 13065877 20121030114454
+76.170.129.15 4 4 7189 20121023201403
+76.170.243.111 4 20 1495669 20121023195638
+70.197.141.46 3 19 1493913 20121011021702
+59.92.146.80 1 7 19540 20121014143611
+23.23.7.67 1 1 2992 20121002222115
+202.46.54.154 1 1 2286 20121026063720
+69.203.13.184 1 7 19540 20121013032041
+76.168.199.66 1 7 19540 20121015035019
+176.9.142.237 1 1 1458 20121013221036
+69.171.237.6 0 1 332818 
+202.46.55.209 1 1 1458 20121022165053
+176.9.111.204 1 1 2992 20121013183305
+96.227.124.37 1 1 2992 20121009000313
+69.171.237.3 0 1 377628 
+65.52.111.147 1 4 17484 20121007040132
+207.244.185.91 3 20 2983273 20121021153609
+68.35.31.51 2 12 33981 20121008010844
+5.9.37.146 1 1 1458 20121030063403
+69.171.237.2 0 1 202482 
+2.219.27.118 1 7 19540 20121029182118
+202.46.60.176 1 1 1458 20121022165053
+188.165.230.147 3 3 8976 20121028191134
+76.89.179.48 1 16 1486605 20121023130027
+76.175.192.129 1 16 1486605 20121023210023
+198.136.53.234 1 1 1458 20121003081251
+78.158.11.226 2 2 5984 20121026133758
+23.20.81.121 1 1 1458 20121008201555
+157.55.17.76 1 9 26112 20121010065947
+24.32.206.170 1 7 19540 20121023191641
+75.230.233.238 1 10 28131 20121017154035
+109.206.168.101 1 1 2992 20121013182153
+83.145.227.200 2 8 22532 20121002224759
+69.171.237.1 0 2 304291 
+176.9.192.110 1 1 2992 20121022095647
+98.164.222.117 3 26 3079350 20121014014329
+108.23.235.144 1 16 1486605 20121025142125
+109.206.181.137 1 1 2992 20121027135351
+54.245.30.105 3 3 8976 20121001211059
+76.73.3.18 1 1 2992 20121004122742
+108.170.8.114 3 3 10371 20121025150705
+12.130.122.104 1 16 1548889 20121026182800
+5.9.189.180 1 1 2992 20121019025832
+206.225.83.83 1 1 1458 20121030172810
+76.175.232.19 2 18 1492455 20121024132635
+65.52.111.145 1 4 16647 20121007061421
+99.73.210.214 1 10 28133 20121010130535
+159.115.184.64 1 21 2484374 20121016170737
+202.46.55.35 1 1 2286 20121026063721
+203.132.87.89 2 18 1492455 20121011171907
+83.159.116.114 2 12 33981 20121017111231
+198.72.143.77 3 13 35737 20121025202933
+95.55.150.194 1 12 1521286 20121017142946
+64.183.220.26 2 18 1492455 20121023223923
+69.171.237.5 0 1 241095 
+108.80.45.161 2 12 33981 20121012133220
+98.164.213.30 2 13 611090 20121014031623
+173.55.7.245 1 11 1472915 20121023150323
+109.206.163.196 1 1 2992 20121003045613
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20121001 3 3 8976 1
+20121002 3 9 25524 2
+20121003 3 3 7442 3
+20121004 1 1 2992 1
+20121007 2 8 34131 2
+20121008 3 13 35439 2
+20121009 1 1 2992 1
+20121010 5 38 1548158 3
+20121011 6 44 3005908 3
+20121012 2 12 33981 1
+20121013 4 10 26982 4
+20121014 23 116 13335298 5
+20121015 21 29 145617 3
+20121016 10 86 17075261 6
+20121017 5 41 6265449 4
+20121018 0 6 0 0
+20121019 1 1 2992 1
+20121020 0 6 0 0
+20121021 3 20 2983273 1
+20121022 4 10 25448 4
+20121023 28 172 26586281 10
+20121024 2 18 1492455 1
+20121025 18 95 15195704 5
+20121026 8 52 3072891 7
+20121027 12 24 1516348 3
+20121028 1 1 2992 1
+20121029 1 7 19540 1
+20121030 9 46 13096963 4
+20121031 0 6 0 0
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 4
+0s-30s 64
+15mn-30mn 1
+30s-2mn 5
+2mn-5mn 4
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/ 62 124220 53 33
+/directorCommercial 29 64023 10 12
+/pressPrint 18 47726 7 8
+/composerEnsembles 15 31463 0 5
+/composerMusic 9 20906 0 1
+/directorFilm 9 22240 2 0
+/home 8 14732 1 5
+/composerCues 8 19194 1 4
+/directorVideo 8 29830 1 3
+/pressMedia 7 17754 2 3
+/pdfs/musiciansfriend/Feb2012Issue.pdf 5 35110977 1 4
+/composerEnsembles.html 1 1757 1 1
+END_SIDER

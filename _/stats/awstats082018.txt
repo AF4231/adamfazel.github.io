@@ -1,0 +1,447 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201808 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2547                
+POS_VISITOR 3430                
+POS_DAY 6453                
+POS_DOMAIN 7039                
+POS_LOGIN 7269                
+POS_ROBOT 7424                
+POS_WORMS 7907                
+POS_EMAILSENDER 8038                
+POS_EMAILRECEIVER 8181                
+POS_SESSION 8257                
+POS_SIDER 8415                
+POS_FILETYPES 8804                
+POS_OS 8964                
+POS_BROWSER 9098                
+POS_SCREENSIZE 9299                
+POS_UNKNOWNREFERER 9373                
+POS_UNKNOWNREFERERBROWSER 9913                
+POS_ORIGIN 9995                
+POS_SEREFERRALS 10133               
+POS_PAGEREFS 10290               
+POS_SEARCHWORDS 10544               
+POS_KEYWORDS 10696               
+POS_MISC 2211                
+POS_ERRORS 10755               
+POS_CLUSTER 7125                
+POS_SIDER_404 10869               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180901005547 1104 191908 40818263434
+FirstTime 20180811063400
+LastTime 20180831201913
+LastUpdate 20180911035756 1104 0 1103 0 0
+TotalVisits 108                 
+TotalUnique 72                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 83                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 8 0 9 9 6904
+1 6 6 0 6 6 2589
+2 6 28 103096 14 17 76436297
+3 12 12 37549 7 8 6041
+4 3 15 43942 11 11 12947
+5 8 14 52797 46 55 406497
+6 35 97 316524 218 341 873692
+7 4 10 59908 29 41 92393
+8 9 18 2186883 11 18 67222737
+9 13 13 2704 8 8 10097560
+10 6 6 0 6 15 67281621
+11 2 2 2704 18 38 456563
+12 1 1 2704 7 7 5293
+13 6 16 30941 9 11 43545
+14 3 8 18162 15 16 51913
+15 4 4 5408 22 22 19101
+16 5 5 18978 8 10 17069
+17 9 31 2226727 4 4 3567
+18 2 7 0 9 9 67202756
+19 3 9 41981 5 7 37297
+20 8 8 0 19 28 67236750
+21 6 6 2704 11 14 13277
+22 1 1 0 28 43 10293415
+23 3 8 18930 21 22 496230
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 83
+167.114.117.176 10 10 43929 20180811064139
+38.100.21.62 10 10 0 20180816095650
+52.53.201.78 10 10 2704 20180830054308
+192.99.44.141 10 10 37549 20180829035731
+13.57.233.99 7 7 16224 20180831170809
+184.94.240.92 6 6 0 20180823131108
+188.165.192.220 5 5 10816 20180815050033
+159.65.24.22 4 4 18978 20180814165548
+175.196.127.153 4 5 13744 20180814174603
+138.246.253.5 3 3 0 20180831022348
+107.6.183.165 1 1 0 20180820193406
+138.197.111.191 1 6 0 20180814182617
+184.154.36.173 2 11 92408 20180831064050
+34.247.66.228 1 1 2704 20180830230000
+184.154.139.50 3 12 10050 20180818065840
+107.6.169.253 1 1 0 20180811085813
+173.252.95.5 1 2 13744 20180826055954
+138.197.73.96 1 6 12754 20180822144240
+23.106.248.162 1 1 0 20180817160610
+144.168.163.10 2 2 0 20180817202955
+163.172.132.199 1 1 0 20180812210527
+185.93.180.194 2 2 2704 20180826212117
+46.229.170.197 1 1 0 20180818011022
+95.181.179.64 1 1 0 20180812055233
+137.226.113.28 2 2 0 20180828174457
+78.24.222.112 1 1 0 20180812012915
+94.250.254.57 1 1 0 20180831201913
+184.154.139.4 3 11 19888 20180819063431
+173.252.95.8 0 1 16226 
+107.6.150.243 1 1 2704 20180827093957
+159.65.46.162 1 7 41981 20180823044906
+173.252.95.16 0 1 939 
+40.77.189.146 0 6 41981 
+104.168.7.39 1 1 0 20180829005754
+112.5.248.150 1 1 0 20180831094923
+159.203.94.185 1 6 30941 20180825131850
+173.211.114.166 1 1 0 20180822204606
+95.181.177.225 1 1 4093 20180813061700
+184.154.36.174 3 12 62390 20180825064307
+134.249.50.5 1 1 0 20180811085022
+199.30.228.128 2 13 41981 20180819192744
+137.226.113.26 1 1 0 20180829023913
+173.252.87.2 0 2 10767 
+184.154.36.176 1 4 0 20180823064033
+94.130.40.150 1 1 0 20180829224104
+35.237.103.26 1 1 0 20180828063832
+173.252.87.6 0 1 16226 
+159.89.35.143 2 12 16430 20180827022142
+138.197.111.185 1 6 16226 20180818231754
+173.252.95.7 0 1 305 
+212.83.177.250 1 1 0 20180826032626
+35.237.29.89 1 1 0 20180823060648
+137.226.113.27 3 3 2704 20180827083926
+199.30.228.137 0 1 0 
+129.45.76.133 2 17 2171002 20180811170526
+173.252.95.9 0 1 717 
+188.166.116.151 3 3 0 20180824063811
+173.252.87.16 0 1 939 
+173.252.87.8 1 2 13744 20180820172020
+146.252.109.67 1 1 0 20180815205317
+173.252.87.5 0 1 305 
+159.89.207.77 1 1 0 20180824152620
+104.236.118.204 1 7 1961 20180814043100
+122.15.156.179 1 1 0 20180821060600
+184.154.139.49 1 4 0 20180820063221
+159.89.43.193 1 7 44685 20180819024534
+184.154.36.175 3 12 27488 20180826064037
+51.15.145.148 1 1 0 20180826200157
+104.196.20.27 1 1 0 20180813063254
+34.250.78.64 1 1 0 20180828205433
+173.252.95.3 0 1 10050 
+184.154.139.52 1 4 29970 20180812063121
+91.207.175.172 2 2 0 20180825194053
+104.131.178.32 1 6 0 20180828134826
+90.242.52.81 3 12 2181475 20180831080153
+193.106.30.99 1 1 0 20180814081829
+69.58.178.57 3 3 0 20180812102309
+62.210.196.97 1 1 0 20180821200053
+35.237.255.164 1 1 0 20180818072707
+209.97.159.128 1 7 40020 20180831063613
+172.245.244.28 1 1 0 20180825115644
+18.208.195.56 1 1 0 20180816135339
+184.154.36.172 3 12 46196 20180828063151
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20180811 16 34 2214931 6
+20180812 8 11 32674 6
+20180813 3 6 17837 3
+20180814 14 29 80847 8
+20180815 8 11 33408 4
+20180816 14 17 2704 5
+20180817 5 14 41981 4
+20180818 6 20 26276 6
+20180819 5 19 89370 5
+20180820 6 15 41981 4
+20180821 6 9 0 6
+20180822 4 12 15458 4
+20180823 9 18 41981 7
+20180824 3 6 29970 3
+20180825 7 15 49871 7
+20180826 6 15 58429 5
+20180827 5 18 21838 4
+20180828 7 15 18930 7
+20180829 14 17 62375 5
+20180830 2 5 32674 2
+20180831 9 27 2259107 7
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 157 333 5172642
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+spider 332 913940 20180831064055 0
+googlebot 90 9239593 20180830232456 0
+bot[+:,\.\;\/\\-] 42 11380735 20180831224816 0
+yandex 17 346542648 20180828041808 0
+no_user_agent 11 0 20180822151119 0
+archive\.org_bot 8 30068 20180813230943 0
+mail\.ru 3 0 20180828225235 0
+core 1 0 20180831080217 0
+java 1 0 20180816052751 0
+netcraft 1 2704 20180811120331 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30s-2mn 1
+0s-30s 107
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 11
+/ 113 51376 107 96
+/composer 11 25520 0 3
+/pressPrint 7 21975 0 3
+/directorCommercial 6 15819 0 1
+/composerMusic 5 16372 1 3
+/composerEnsembles 3 8194 0 1
+/home 3 5408 0 0
+/composerCues 3 8212 0 0
+/pressMedia 3 11070 0 0
+/directorFilm 2 8832 0 1
+/directorVideo 1 0 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 36 252080 0 0
+png 4 4016532 0 0
+html 113 51376 0 0
+jpg 6 325472 0 0
+js 130 405780 0 0
+Unknown 44 121402 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+winlong 4
+winxp 3
+winnt 24
+linuxubuntu 1
+linux 116
+macosx 33
+win2003 10
+Unknown 29
+win2008 113
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 12
+firefox50.0 2
+msie6.0 1
+firefox53.0 6
+chrome 166
+firefox52.0 1
+firefox34.0 1
+firefox56.0 6
+mozilla 39
+msie7.0 13
+firefox3.6.28 1
+msie9.0 82
+safari 15
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20180828174457
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20180829035731
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12sns;__http://researchscan.comsys.rwth-aachen.de) 20180829023913
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12ca;__http://researchscan.comsys.rwth-aachen.de) 20180827083926
+Mozilla/5.0_(compatible;_ips-agent) 20180812102309
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 119 154
+From1 1 1
+From2 22 84
+From3 2 2
+From4 13 92
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 22 84
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://www.cjb.net 1 1
+https://www.kakablog.net/5-real-ways-to-make-money-online-from-home/16816079/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+406 11 2863
+407 10 4150
+404 233 199353
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 70
+/messages/ 1 -
+/discussion/forum.php 1 -
+/blog/wp-includes/wlwmanifest.xml 2 -
+/sitemap.xml 2 -
+/robots.txt 95 -
+/wordpress/ 2 -
+/forums/forum.php 3 -
+/admin/editor/filemanager/connectors/uploadtest.html 1 -
+/vBulletin/ 1 -
+/board/ 1 -
+/forums/ 3 -
+/forum/ 3 -
+/cms/editor/filemanager/connectors/uploadtest.html 1 -
+/Forum/ 1 -
+/site/wp-includes/wlwmanifest.xml 2 -
+/vb/ 1 -
+/community/forum/forum.php 1 -
+/downloader/ 1 -
+/directorcommercial 1 http://www.adamfazel.com
+/community/ 1 -
+/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/boards/ 1 -
+/xmlrpc.php 6 -
+/editor/editor/filemanager/connectors/uploadtest.html 1 -
+/th1s_1s_a_4o4.html 21 http://www.google.com/url
+/vb/forum.php 1 -
+/modules/fckeditor/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/administrator 1 -
+/bulletin/ 1 -
+/VB/ 1 -
+/VB/forum.php 1 -
+/admin/editor/editor/filemanager/connectors/uploadtest.html 1 -
+/dbs.php 1 -
+/vbulletin/forum.php 1 -
+/editor/filemanager/connectors/uploadtest.html 1 -
+/forum/forum.php 3 -
+/connectors/system/phpthumb.php 1 -
+/Forums/ 1 -
+/cms/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/HTMLEditor/editor/filemanager/connectors/uploadtest.html 1 -
+/vbulletin/ 1 -
+/bulletin/forum.php 1 -
+/wysiwyg/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/.well-known/assetlinks.json 2 -
+/ckeditor/filemanager/connectors/uploadtest.html 1 -
+/blog/xmlrpc.php 1 -
+/wp-includes/wlwmanifest.xml 2 -
+/index.html 15 -
+/plugins/p_fckeditor/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/blog/ 2 -
+/cms/editor/filemanager/connectors/uploadtest404.html 1 -
+/js/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/community/forum/ 1 -
+/administrator/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/wp/ 2 -
+/cms/wp-includes/wlwmanifest.xml 2 -
+/Forums/forum.php 1 -
+/discussion/ 1 -
+/license.php 4 -
+/community/forum.php 1 -
+/ads.txt 4 -
+/blog/robots.txt 2 -
+/wp/wp-includes/wlwmanifest.xml 2 -
+/wordpress/wp-includes/wlwmanifest.xml 2 -
+/editor/editor/filemanager/upload/test.html 1 -
+/admin/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/forum.php 5 -
+/sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/discussions/ 1 -
+/pressprint 1 http://www.adamfazel.com
+END_SIDER_404
