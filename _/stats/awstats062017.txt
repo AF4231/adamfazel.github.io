@@ -1,0 +1,611 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201706 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2548                
+POS_VISITOR 11216               
+POS_DAY 18139               
+POS_DOMAIN 3303                
+POS_LOGIN 3534                
+POS_ROBOT 3689                
+POS_WORMS 4186                
+POS_EMAILSENDER 4317                
+POS_EMAILRECEIVER 4460                
+POS_SESSION 18870               
+POS_SIDER 19039               
+POS_FILETYPES 4595                
+POS_OS 4777                
+POS_BROWSER 4911                
+POS_SCREENSIZE 5340                
+POS_UNKNOWNREFERER 5414                
+POS_UNKNOWNREFERERBROWSER 5724                
+POS_ORIGIN 5970                
+POS_SEREFERRALS 6112                
+POS_PAGEREFS 6270                
+POS_SEARCHWORDS 6562                
+POS_KEYWORDS 6714                
+POS_MISC 2212                
+POS_ERRORS 6773                
+POS_CLUSTER 3390                
+POS_SIDER_404 6889                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170701003701 1460 251207 16415641320
+FirstTime 20170601063234
+LastTime 20170630203346
+LastUpdate 20170701040022 1460 1419 40 0 0
+TotalVisits 181                 
+TotalUnique 145                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 213                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 13 612111 5 6 3068
+1 9 15 42525 28 28 31913
+2 11 16 58158 15 16 28172
+3 8 14 32674 18 20 218255
+4 7 8 9084 16 21 6111628
+5 6 18 63615 22 25 62770
+6 35 136 2727653 342 535 1564664
+7 7 17 49876 22 55 2307559
+8 8 15 49960 16 19 985542
+9 3 3 0 12 14 49302
+10 7 22 2282260 9 17 669671
+11 6 11 3421 9 10 42603
+12 10 15 40025 16 19 10569302
+13 8 21 705179 20 22 47438
+14 7 27 46013984 10 12 69018491
+15 9 20 44634 15 15 12675
+16 18 24 75042 12 13 11141
+17 2 9 892698 16 18 13671807
+18 9 15 1915623 18 25 691048
+19 8 29 2330255 17 19 23690
+20 2 2 0 5 5 6175
+21 22 28 47971 13 15 477497
+22 7 12 36349 9 16 75485
+23 5 5 0 10 10 21261
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 220 495 58033097
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+spider 467 1239693 20170630063318 0
+googlebot 45 309975 20170629221552 0
+yandex 39 27488129 20170630185654 0
+no_user_agent 14 27040 20170627052108 0
+bot[+:,\.\;\/\\-] 14 45262 20170630103418 0
+mail\.ru 13 10116582 20170620032957 0
+baiduspider 7 14010 20170630202501 0
+commons\-httpclient 2 0 20170617142543 0
+python 1 0 20170612103405 0
+slurp 1 0 20170624081948 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 44 437216 0 0
+png 8 6617979 0 0
+html 179 111789 0 0
+jpg 14 3906747 0 0
+js 204 879277 0 0
+Unknown 41 146358 0 0
+gif 5 45933731 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+macosx 120
+winlong 3
+winxp 13
+win2003 11
+winnt 113
+Unknown 20
+linux 20
+winvista 10
+win2008 185
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 29
+firefox28.0 11
+msie6.0 1
+firefox40.0 1
+chrome 225
+firefox10.0 1
+firefox26.0 4
+opera 1
+firefox3.0 1
+firefox52.0 1
+firefox21.0 5
+firefox18.0 1
+firefox29.0 9
+firefox54.0 1
+firefox34.0 1
+firefox30.0 1
+firefox7.0.1 3
+msie8.0 1
+firefox6.0.2 7
+mozilla 18
+msie7.0 11
+firefox14.0.1 1
+msie10.0 3
+firefox40.1 1
+firefox3.6.3 1
+msie9.0 120
+Unknown 10
+safari 51
+firefox15.0.1 3
+firefox27.3 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+SafeDNSBot_(https://www.safedns.com/searchbot) 20170603183035
+HEADMasterSEO 20170630152017
+Go-http-client/1.1 20170621120604
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20170611165258
+redback/v0-570-g26f8c96 20170604020527
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+SafeDNSBot_(https://www.safedns.com/searchbot) 20170603183035
+HEADMasterSEO 20170630152017
+Go-http-client/1.1 20170621120604
+redback/v0-570-g26f8c96 20170604020527
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 136 153
+From1 1 1
+From2 42 131
+From3 11 13
+From4 30 197
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 42 131
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://burger-imperia.com 7 7
+http://pizza-tycoon.com 2 2
+http://hvd-store.com 1 1
+http://hundejo.com 1 1
+http://www.bing.com/images/search 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 2 67196076
+406 5 1309
+404 345 263081
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 66
+/sitemap.xml 1 -
+/admin/content/sitetree/ 1 -
+/robots.txt 167 -
+/wordpress/ 1 -
+/manager/ 1 -
+/admin.php 4 -
+/admin/fckeditor/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/.well-known/apple-app-site-association 6 -
+/shop 1 adamfazel.com/shop
+/FCKEDITOR/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/admin/include/fckeditor/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/published/wbsadmin/html/scripts/balance.php 1 -
+/wp-admin/ 4 http://adamfazel.com/wp-login.php
+/admin/include/FCKeditor/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/directorcommercial 12 http://adamfazel.com
+/inc/FCKEDITOR/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/js/FCKEDITOR/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/xmlrpc.php 1 -
+/admin/FCK/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/inc/fck/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/th1s_1s_a_4o4.html 30 http://www.google.com/url
+/.weebly.CIZ6CgR5sQA10VKTqbrpMg/verify 3 -
+/user/register 2 -
+/include/FCKEDITOR/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/administrator/ 4 -
+/wp-includes/js/quicktags.js 1 -
+/wp-login.php 7 -
+/components/ 1 -
+/admin/ 1 -
+/include/fckeditor/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/js/tools.js 1 -
+/js/fck/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/FCKeditor/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/.well-known/assetlinks.json 6 -
+/inc/FCKeditor/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/includes/FCK/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/admin/fck/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/language/en-GB/en-GB.xml 1 -
+/include/FCKeditor/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/libraries/sfn.php 1 -
+/index.html 22 -
+/js/FCKeditor/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/blog/ 1 -
+/admin/FCKeditor/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/wp/ 1 -
+/js/mage/cookies.js 1 -
+/js/FCK/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/license.php 1 -
+/includes/fckeditor/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/js/fckeditor/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/blog/robots.txt 1 -
+/includes/fck/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/administrator/index.php 4 http://adamfazel.com/administrator/
+/simpla/ 1 -
+/admin 4 -
+/includes/FCKeditor/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/fck/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/includes/FCKEDITOR/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/pressprint 12 http://adamfazel.com
+/FCK/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/index.php 2 -
+/include/fck/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/inc/fckeditor/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/apple-app-site-association 7 -
+/fckeditor/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+/inc/FCK/fckconfig.js 1 http://astratest.ru/iz-chego-sostoit-tz-struktura-texnicheskogo-zadaniya/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 213
+38.100.21.65 10 11 0 20170609214238
+167.114.65.240 10 10 43929 20170611165258
+184.154.36.175 9 34 118462 20170629063136
+184.154.36.176 8 31 124758 20170625063628
+184.154.36.174 6 23 106799 20170622063053
+184.154.36.173 5 20 83249 20170630063311
+198.211.119.173 4 4 12619 20170603183035
+45.55.255.88 4 4 12760 20170615192944
+46.229.170.197 3 3 0 20170629053714
+5.9.145.132 3 3 12860 20170619023444
+202.46.51.161 0 1 0 
+71.83.182.83 1 15 2259477 20170624062702
+202.46.51.131 1 2 21499 20170618023558
+180.76.15.12 0 1 0 
+138.197.111.67 1 6 28237 20170603155415
+202.46.52.151 0 1 717 
+138.197.111.102 1 6 28237 20170621075151
+202.46.52.202 1 1 0 20170601214631
+65.55.210.173 0 1 13744 
+71.200.186.221 0 1 862423 
+35.185.239.191 1 1 0 20170611013859
+202.46.50.94 0 1 0 
+199.30.25.68 0 1 0 
+202.46.50.96 0 1 0 
+194.44.247.218 1 1 0 20170616164255
+138.197.111.186 2 2 6380 20170610215802
+217.69.143.217 1 1 0 20170625121449
+202.46.56.186 1 1 2704 20170625154032
+171.33.197.4 1 7 44685 20170623055636
+37.6.2.248 0 1 629571 
+52.183.115.242 1 1 0 20170611154438
+202.46.49.119 1 1 0 20170610052456
+202.46.52.79 1 2 0 20170616141713
+202.46.49.74 1 1 0 20170620074748
+202.46.48.149 1 1 2704 20170622005841
+202.46.58.160 0 1 0 
+138.197.111.120 1 6 28237 20170618021349
+138.197.104.23 2 2 0 20170622150943
+202.46.51.157 1 1 0 20170625143352
+202.46.58.150 1 1 2704 20170606023021
+206.41.179.185 1 1 0 20170615050442
+131.161.9.201 1 1 0 20170619011402
+202.46.53.151 1 1 7946 20170609215751
+202.46.49.67 1 1 2704 20170606111044
+198.27.85.233 1 1 0 20170606163608
+65.55.210.76 0 1 0 
+78.109.23.1 1 1 0 20170619135917
+185.147.83.101 1 1 0 20170619063758
+64.62.210.39 1 1 0 20170609175835
+202.46.50.163 1 1 0 20170619084924
+202.46.51.156 0 1 0 
+176.126.252.12 1 1 0 20170621031842
+37.1.207.21 1 1 0 20170620094945
+202.46.52.174 0 1 16226 
+202.46.54.187 0 1 0 
+35.192.18.76 1 1 0 20170616102735
+109.201.133.100 1 1 0 20170622231822
+138.197.111.170 2 12 59178 20170624132510
+202.46.56.117 0 1 10050 
+131.161.11.245 1 1 0 20170609214824
+202.46.58.183 1 1 2704 20170602153039
+202.46.55.130 0 1 0 
+35.192.20.62 1 1 0 20170615100953
+88.99.141.3 1 1 2704 20170619190852
+202.46.57.163 0 1 0 
+51.141.45.96 2 2 0 20170630152017
+131.161.11.233 1 1 0 20170608202544
+188.165.26.121 1 1 0 20170602162638
+52.71.64.37 2 2 0 20170624004008
+202.46.53.44 0 1 717 
+202.46.56.68 0 2 939 
+202.46.53.201 1 1 7946 20170607075339
+5.196.66.162 1 1 0 20170618042917
+138.197.111.184 2 2 6380 20170603163242
+66.70.217.179 1 1 0 20170627022345
+193.169.135.133 1 1 0 20170623084227
+202.46.54.93 1 1 0 20170628073209
+202.46.58.130 0 1 10050 
+2.85.92.192 1 1 0 20170630203346
+202.46.55.66 1 1 2704 20170626224006
+202.46.51.197 0 1 16226 
+104.137.100.12 0 1 1889311 
+202.46.50.14 0 1 10050 
+59.2.167.111 2 2 0 20170621120604
+180.76.15.146 1 1 0 20170604033645
+199.30.24.158 0 1 16226 
+202.46.51.177 0 1 0 
+202.46.52.170 0 1 10050 
+202.46.51.201 0 1 0 
+46.165.230.5 1 1 0 20170623160741
+202.46.53.50 0 1 16226 
+202.46.50.139 0 1 305 
+54.81.73.46 1 1 0 20170604223049
+104.156.230.231 2 2 0 20170622064329
+202.46.55.60 1 1 0 20170610115850
+131.161.10.215 1 1 0 20170615215805
+202.46.51.168 0 1 717 
+202.46.58.85 0 1 0 
+202.46.48.199 2 2 5408 20170610123209
+202.46.51.165 1 2 305 20170606004602
+202.46.58.59 0 1 305 
+202.46.58.89 0 2 1656 
+202.46.50.82 0 1 0 
+131.161.10.204 1 1 0 20170622220246
+51.15.37.18 1 1 0 20170620235115
+131.161.9.253 1 1 0 20170616235553
+202.46.58.80 0 1 305 
+202.46.58.137 1 1 0 20170613052211
+202.46.52.203 1 1 0 20170612164501
+202.46.57.160 1 2 3421 20170622211008
+109.236.8.8 1 1 2704 20170604020527
+131.161.11.250 1 1 0 20170623220758
+138.197.111.176 2 2 6380 20170618025708
+206.41.180.144 1 1 0 20170618081144
+35.184.88.228 1 1 0 20170615131723
+202.46.51.87 1 1 7325 20170625100138
+202.46.53.126 0 1 13744 
+54.173.240.61 1 1 0 20170623033031
+202.46.49.114 0 1 0 
+180.76.15.15 0 1 0 
+202.46.56.93 0 1 16226 
+54.152.63.254 1 1 0 20170616210016
+208.86.199.129 1 1 0 20170608183801
+202.46.55.176 0 1 0 
+138.197.111.142 1 6 28237 20170611132756
+202.46.48.26 1 1 0 20170627151954
+104.155.190.50 1 1 2704 20170614121817
+202.46.56.187 1 1 2704 20170620180212
+37.215.89.142 0 1 37234 
+65.55.210.161 0 1 0 
+159.203.94.91 2 2 0 20170624214224
+138.197.111.123 1 6 10989 20170614180411
+64.137.203.36 1 1 2704 20170620073917
+202.46.52.66 1 1 2704 20170608193110
+195.154.217.116 2 2 2704 20170618011849
+180.76.15.19 1 3 16226 20170605112905
+202.46.50.17 0 1 16226 
+202.46.55.151 0 1 0 
+209.99.131.178 1 1 0 20170604120440
+202.46.51.209 0 1 0 
+206.213.43.100 0 2 593181 
+202.46.58.74 0 1 10050 
+202.46.53.124 1 1 0 20170619061105
+202.46.56.63 0 1 939 
+130.211.203.172 1 1 0 20170616041319
+202.46.53.14 0 1 939 
+202.46.52.210 0 1 305 
+202.46.54.16 1 1 0 20170605120225
+65.19.167.132 1 1 0 20170622173306
+202.46.53.198 0 1 0 
+79.211.253.216 1 7 24733 20170611160557
+209.95.187.66 1 1 0 20170623123824
+54.188.52.243 1 1 0 20170605155129
+92.222.134.129 1 1 0 20170625230404
+178.33.54.161 1 1 0 20170611180823
+202.46.50.125 0 1 717 
+202.46.49.139 1 1 2704 20170617012635
+202.46.52.172 1 1 0 20170616005123
+202.46.53.52 1 1 2704 20170612043239
+138.197.111.194 2 2 6380 20170608132827
+54.201.194.137 1 1 0 20170622190354
+202.46.57.73 0 1 0 
+202.46.54.207 1 1 2704 20170604210341
+109.236.8.6 1 1 0 20170604020527
+202.46.54.162 0 1 0 
+202.46.56.189 0 1 0 
+134.100.17.201 2 17 2272231 20170627101629
+202.46.52.147 0 1 0 
+202.46.54.21 1 1 0 20170623143947
+170.178.152.13 1 1 0 20170628221255
+94.23.75.60 2 2 0 20170630005818
+202.46.50.15 0 1 0 
+202.46.51.174 1 1 0 20170609014212
+138.197.111.52 1 6 28237 20170627195215
+94.173.154.172 2 17 46013984 20170615145821
+202.46.53.113 0 1 0 
+199.19.104.163 1 1 0 20170624140839
+202.46.51.199 0 1 16226 
+146.185.223.113 1 1 0 20170613131339
+202.46.50.78 0 1 0 
+158.69.229.69 2 2 0 20170627060838
+78.84.221.202 1 1 0 20170604031050
+60.54.70.122 1 1 0 20170601074829
+188.226.129.55 1 1 0 20170609124918
+202.46.54.199 0 1 0 
+206.180.165.146 1 1 0 20170621235604
+73.157.93.235 1 1 2704 20170609052815
+202.46.53.156 1 1 2704 20170618030918
+52.206.133.197 1 1 0 20170611113753
+202.46.54.23 1 1 2704 20170625015115
+202.46.58.99 1 1 0 20170620013500
+51.15.62.146 1 1 0 20170628110155
+138.197.111.200 2 2 6380 20170627044820
+138.197.111.183 2 2 0 20170606032800
+202.46.51.108 1 1 2704 20170627080416
+202.46.55.172 1 1 0 20170601094330
+218.71.148.235 1 1 0 20170618004654
+14.139.218.214 0 1 0 
+202.46.51.206 0 1 0 
+178.17.174.14 1 1 0 20170628110136
+159.203.96.37 2 2 6380 20170620084556
+199.30.24.254 0 1 305 
+138.197.111.243 2 2 6380 20170629123819
+202.46.58.75 0 1 16226 
+202.46.50.152 0 1 939 
+85.248.227.165 1 1 0 20170628105619
+202.46.49.144 0 1 0 
+202.46.55.144 0 1 0 
+149.202.207.121 1 1 0 20170614070418
+45.49.243.41 2 17 2252996 20170629192035
+184.154.36.172 2 8 34908 20170613063625
+208.94.227.219 1 1 2704 20170602221235
+202.46.53.110 1 1 2704 20170602102827
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20170601 4 8 73348 4
+20170602 5 8 8112 5
+20170603 8 15 68063 4
+20170604 8 14 21634 8
+20170605 5 13 50829 5
+20170606 8 11 22573 7
+20170607 3 12 38887 3
+20170608 6 9 39022 5
+20170609 19 28 45063 10
+20170610 6 15 26027 5
+20170611 18 33 126837 9
+20170612 3 7 1908241 3
+20170613 5 13 41288 4
+20170614 4 12 30858 4
+20170615 11 29 46039046 9
+20170616 8 18 645521 8
+20170617 2 6 2704 2
+20170618 11 20 64228 9
+20170619 10 17 32812 8
+20170620 9 17 22777 8
+20170621 6 14 58207 6
+20170622 10 18 53533 9
+20170623 9 24 937078 9
+20170624 7 29 2287714 6
+20170625 7 11 32621 7
+20170626 2 6 648501 2
+20170627 10 42 2351533 8
+20170628 6 15 46501 6
+20170629 6 24 2279569 4
+20170630 4 7 29970 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+5mn-15mn 1
+0s-30s 175
+30s-2mn 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/ 173 75712 171 156
+/composer 18 82940 1 15
+/directorCommercial 5 15819 2 3
+/home 3 5408 1 0
+/pressPrint.html 3 14650 3 2
+/composerCues 3 8212 0 0
+/directorFilm 3 8832 1 0
+/composerMusic 2 4093 0 2
+/composerEnsembles 2 8194 0 1
+/pressPrint 2 7325 0 0
+/directorVideo 1 0 0 0
+/pressMedia 2 5535 0 0
+/pressMedia.html 1 5535 0 0
+/directorVideo.html 2 15892 2 2
+END_SIDER

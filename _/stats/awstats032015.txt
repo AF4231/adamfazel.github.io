@@ -1,0 +1,609 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201503 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2549                
+POS_VISITOR 10081               
+POS_DAY 17237               
+POS_DOMAIN 3436                
+POS_LOGIN 3669                
+POS_ROBOT 3824                
+POS_WORMS 4526                
+POS_EMAILSENDER 4657                
+POS_EMAILRECEIVER 4800                
+POS_SESSION 18068               
+POS_SIDER 18264               
+POS_FILETYPES 4935                
+POS_OS 5181                
+POS_BROWSER 5316                
+POS_SCREENSIZE 5768                
+POS_UNKNOWNREFERER 5842                
+POS_UNKNOWNREFERERBROWSER 6394                
+POS_ORIGIN 6678                
+POS_SEREFERRALS 6821                
+POS_PAGEREFS 6991                
+POS_SEARCHWORDS 7435                
+POS_KEYWORDS 7634                
+POS_MISC 2213                
+POS_ERRORS 7731                
+POS_CLUSTER 3525                
+POS_SIDER_404 7884                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150401000659 2919 638167 33901720288
+FirstTime 20150301051155
+LastTime 20150331190934
+LastUpdate 20150401044541 2919 2783 135 0 0
+TotalVisits 221                 
+TotalUnique 176                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 182                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 49 54454753 15 28 3390338
+1 9 29 10846559 20 33 77179453
+2 27 140 53861921 19 102 346998100
+3 35 91 60508138 39 40 67259831
+4 7 20 127135 20 37 241187
+5 43 146 119634447 16 33 247492125
+6 46 97 66386123 29 61 174696304
+7 38 130 51188462 48 60 79880949
+8 20 63 379960 15 45 100045838
+9 14 51 46253065 33 43 18901774
+10 5 11 55501 11 12 73702
+11 8 35 2157853 35 69 4486861
+12 39 132 100427570 25 48 146559891
+13 6 39 2987913 22 36 1919201
+14 22 63 3136323 37 56 1022891
+15 5 29 181444 39 74 9089483
+16 12 75 95278541 27 35 146495218
+17 10 38 8847628 63 70 7822036
+18 8 38 231537 30 60 33916105
+19 30 87 572495 35 45 30547796
+20 31 187 208790461 18 36 371095245
+21 13 53 47096623 11 28 144542943
+22 20 79 3476446 8 21 187465
+23 26 97 54421457 25 62 291211656
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 483 1779 991302355
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+baiduspider 237 114817411 20150331153416 0
+googlebot 121 30848786 20150331053109 0
+bot[+:,\.\;\/\\-] 66 9731065 20150328211129 0
+yandex 49 726832 20150331232318 0
+slurp 22 18765997 20150331210138 0
+seznambot 19 7307048 20150330200750 0
+exabot 16 71518 20150329180140 0
+crawl 15 60256 20150318051723 0
+mail\.ru 7 30057 20150323154805 0
+robot 7 2704 20150330183835 0
+no_user_agent 4 10816 20150325090409 0
+msnbot 1 0 20150303001529 0
+phantom 6 41981 20150319224303 0
+surveybot 2 5408 20150321030219 0
+msnbot\-media 1 335135 20150331234904 0
+nutch 1 2704 20150307111955 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 176 2676992 0 0
+png 145 45729289 0 0
+pdf 6 57493616 0 0
+mov 3 0 0 0
+html 228 631331 0 0
+js 733 4841622 0 0
+jpg 41 50156163 0 0
+jpeg 110 1492288 0 0
+Unknown 246 1060611 0 0
+gif 91 827220443 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+winlong 4
+winxp 85
+winnt 1
+linuxubuntu 1
+winvista 81
+linux 56
+macosx 801
+Unknown 99
+win2008 651
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 31
+msie6.0 18
+firefox5.0 1
+chrome 1457
+firefox26.0 4
+opera 1
+firefox18.0 1
+firefox4.0 1
+firefox10.0.1 1
+firefox34.0 3
+curl 1
+firefox3.5.3 1
+firefox31.0 6
+msie8.0 34
+firefox2.0.0.11 1
+firefox33.0 1
+mozilla 83
+firefox1.0 1
+firefox25.0 8
+firefox14.0.1 11
+msie7.0 1
+msie10.0 7
+firefox23.0 1
+firefox16.0 10
+firefox6.0 15
+netscape4.0 1
+firefox3.6.3 2
+msie9.0 2
+firefox4.2 1
+Unknown 26
+firefox36.0 23
+safari 56
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_(compatible;_PageAnalyzer/1.1;) 20150316002909
+\ 20150330232430
+philippines_dredger_for_sale_(_http://www.dredger.biz_) 20150301123805
+Mozilla/4.0_(HTTP_Header_Survey;__https://github.com/benjojo/Domainiator;_d4a3e46a94b) 20150328030555
+Mozilla/5.0_(compatible;_MegaIndex.ru/2.0;__https://www.megaindex.ru/?tab=linkAnalyze) 20150330121637
+Firefox 20150330220826
+Mechanize/2.7.2_Ruby/2.1.3p242_(http://github.com/sparklemotion/mechanize/) 20150319224303
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+\ 20150330232430
+philippines_dredger_for_sale_(_http://www.dredger.biz_) 20150301123805
+Firefox 20150330220826
+Mechanize/2.7.2_Ruby/2.1.3p242_(http://github.com/sparklemotion/mechanize/) 20150319224303
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 221 238
+From1 1 1
+From2 23 26
+From3 79 81
+From4 159 1433
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 13 16
+yandex 10 10
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+http://semalt.semalt.com/crawler.php 42 42
+http://buttons-for-website.com 28 28
+http://pizza-tycoon.de 2 2
+http://hvd-store.com 2 2
+http://burger-imperia.com 2 2
+http://hvd-store.com 1 1
+http://yandex.ua/clck/jsredir 1 1
+http://tattoo33.ru 1 1
+http://moviespictures.org/biography/Fazel,_Adam 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+adamfazel.com 6
+adam+fazel+home 1
+adam+fazel 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+adamfazel.com 6
+fazel 2
+adam 2
+home 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 1 207
+206 161 2122010523
+409 1 525
+406 17 4407
+407 24 9960
+404 356 273052
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 55
+/export_yml.php 1 -
+/robots.txt 182 -
+/lib/fckeditor/editor/dialog/fck_about.html 1 -
+/images/prettyPhoto/light_rounded/btnNext.png 9 http://adamfazel.com/css/prettyPhoto.css
+/admin.php 3 -
+/forum/ 1 -
+/webalizer/ 1 -
+/js/%7Bpath%7D 1 -
+/images/prettyPhoto/default/loader.gif 1 -
+/old/wp-admin/ 5 -
+/wp-includes/js/tinymce/utils/mctabs.js 2 -
+/shop/js/mage/cookies.js 1 http://ADAMFAZEL.com
+/wp-admin/ 5 -
+/index.html 6 http://www.adamfazel.com/directorVideo
+/admin/index.php 2 -
+/directorcommercial 2 -
+/blog/wp-images/wpminilogo.png 1 -
+/wp-config.php~ 1 -
+/js/mage/cookies.js 1 http://store.ADAMFAZEL.com
+/images/prettyPhoto/dark_rounded/loader.gif 15 http://adamfazel.com/css/prettyPhoto.css
+/netcat/modules/netshop/export/yandexml.php 1 -
+/blog/wp-includes/js/tinymce/utils/mctabs.js 1 -
+/components/com_wrapper/wrapper.xml 1 -
+/images/prettyPhoto/facebook/loader.gif 1 -
+/js/lib/fckeditor/editor/dialog/fck_about.html 1 -
+/wp-images/wpminilogo.png 2 -
+/shop/yandex_market/ 1 -
+/user/ 1 -
+/images/prettyPhoto/facebook/default_thumbnail.gif 1 -
+/images/prettyPhoto/light_rounded/loader.gif 1 -
+/bitrix/admin/index.php 2 -
+/yml/yandex.php 1 -
+/administrator/index.php 1 -
+/images/prettyPhoto/dark_rounded/contentPattern.png 15 http://adamfazel.com/css/prettyPhoto.css
+/yml.php 1 -
+/engine/editor/css/content.css 1 -
+/wordpress/wp-admin/ 5 -
+/modules/mod_sections.xml 1 -
+/includes/shop.yandex.php 1 -
+/scripts/fckeditor/editor/dialog/fck_about.html 1 -
+/images/prettyPhoto/dark_rounded/sprite.png 37 http://adamfazel.com/css/prettyPhoto.css
+/administrator/ 3 -
+/app/js/fckeditor/editor/dialog/fck_about.html 1 -
+/blog/wp-admin/ 5 -
+/pressprint 2 -
+/a 1 -
+/index.php 3 -
+/password_forgotten.php 1 http://ADAMFAZEL.com
+/eshop/yml/ 1 -
+/wp-login.php 8 -
+/admin/to_xml_yandex.php 1 -
+/images/prettyPhoto/default/sprite.png 1 -
+/test/wp-admin/ 5 -
+/upload/yandex.php 1 -
+/wp/wp-admin/ 5 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 182
+23.240.191.104 72 306 209088448 20150331190934
+148.251.236.167 71 71 329008 20150330121637
+71.84.93.63 50 268 217706256 20150327035707
+82.80.249.158 13 15 18758383 20150319054844
+174.52.136.208 11 65 52269607 20150320224400
+64.74.215.94 11 22 233624 20150330232430
+69.58.178.59 11 11 47757 20150317065906
+84.237.182.250 10 51 54037538 20150315081725
+188.143.232.19 9 9 43125 20150330032549
+71.254.169.89 8 58 100825818 20150319210243
+189.218.139.135 1 7 44685 20150314075543
+85.113.55.152 1 1 2704 20150319172714
+72.201.198.26 1 7 44685 20150317101830
+187.1.24.194 1 6 30941 20150311190230
+197.77.45.27 1 1 2704 20150304112230
+191.255.16.14 1 7 44685 20150326202436
+70.194.75.242 0 1 1889311 
+82.85.182.12 1 7 44685 20150322124404
+217.69.133.169 1 1 2704 20150309105014
+177.22.179.102 1 7 44685 20150327090016
+107.129.181.190 1 4 13776 20150328040751
+177.34.182.164 1 7 44685 20150317214506
+212.124.187.162 1 7 44685 20150315053750
+109.247.184.147 4 17 14983342 20150318062042
+200.208.11.227 1 7 44685 20150331133804
+148.251.11.211 1 1 2704 20150316002909
+187.57.162.127 1 7 44685 20150330083444
+54.175.126.102 1 1 2704 20150324045030
+204.124.183.98 3 3 12231 20150329210445
+189.123.118.177 1 7 44685 20150316222732
+200.169.156.244 1 7 44685 20150324222654
+65.55.210.12 0 3 54837 
+197.159.190.32 1 7 44685 20150320123955
+66.249.84.160 1 1 2704 20150330203045
+201.13.41.80 1 7 44685 20150314161102
+167.114.162.111 1 1 2704 20150302050201
+200.249.119.2 1 7 44685 20150303070511
+109.92.123.228 1 7 44685 20150329143019
+177.40.40.133 1 7 44685 20150322161351
+66.249.83.167 1 1 2704 20150325030011
+95.91.224.10 1 7 44685 20150312060205
+177.83.2.191 1 7 44685 20150330134446
+219.64.127.253 1 7 44685 20150310021048
+191.251.145.168 1 7 44685 20150321122408
+74.33.33.87 1 7 44685 20150305194023
+189.114.98.81 1 7 44685 20150325123241
+167.114.162.204 1 1 2704 20150310021552
+66.249.84.167 1 1 2704 20150329184743
+68.11.41.58 0 1 1889311 
+176.97.198.206 6 34 48531572 20150313055344
+150.70.173.9 1 1 2704 20150311231223
+2.92.161.233 1 5 56468 20150325043120
+82.140.129.253 1 1 2704 20150323212128
+178.62.252.66 1 1 2704 20150328030555
+176.9.113.45 1 1 0 20150325163023
+52.1.211.77 2 2 6798 20150314224846
+52.1.198.241 1 1 2704 20150317190227
+95.24.218.168 1 8 58429 20150324110001
+186.104.81.126 5 35 49107979 20150315163132
+186.220.228.21 1 7 44685 20150327233354
+144.76.163.48 1 1 4047 20150314085428
+179.184.135.102 1 6 43968 20150324141831
+177.132.203.74 1 2 12754 20150314130353
+124.122.254.212 1 2 12754 20150318071655
+95.128.246.44 1 1 2704 20150313205158
+54.152.159.228 1 1 2704 20150311075325
+189.63.80.175 1 7 44685 20150311214023
+54.152.110.2 1 1 4094 20150324045031
+64.203.33.14 1 7 44685 20150328201850
+84.97.240.254 3 18 46037846 20150311125929
+79.114.235.72 4 21 48793627 20150304055634
+179.183.146.6 1 7 44685 20150324144959
+184.73.122.243 1 1 2704 20150324091541
+37.187.107.210 1 1 2704 20150329015446
+177.42.211.197 1 7 44685 20150325154802
+62.210.37.113 1 1 2704 20150308173803
+54.174.142.130 1 1 2704 20150320223324
+177.97.64.100 1 7 44685 20150321212858
+179.184.158.82 1 7 44685 20150312084907
+94.131.14.7 1 1 2704 20150303103243
+65.55.210.111 0 6 41981 
+213.55.112.223 1 7 44685 20150310131832
+54.175.19.133 1 1 4094 20150317190229
+186.188.30.189 1 7 44685 20150317093455
+77.87.21.46 1 7 44685 20150322071337
+37.55.237.47 1 10 86142 20150313201306
+85.229.143.75 1 7 44685 20150318073412
+66.102.6.169 2 4 22573 20150317184801
+186.221.151.166 1 7 44685 20150305201743
+177.134.91.115 1 7 44685 20150303140146
+187.127.163.122 1 7 44685 20150303005305
+177.95.197.164 1 7 44685 20150305112245
+177.68.246.227 1 7 44685 20150309215738
+210.199.227.18 1 1 2704 20150312054844
+167.114.162.209 1 1 2704 20150309092943
+62.244.4.66 7 22 46054430 20150313093821
+52.1.14.203 1 1 2704 20150302111600
+2.92.137.79 2 10 112936 20150318092346
+54.174.48.179 1 1 4094 20150311075325
+37.230.114.209 1 1 2704 20150326050805
+186.210.113.23 1 1 2704 20150308215140
+5.164.115.190 1 7 44685 20150303085531
+62.33.244.157 1 1 2704 20150306143353
+94.23.217.201 1 1 2704 20150313205442
+94.131.14.4 1 1 2704 20150323110241
+5.165.246.206 1 7 44685 20150317151316
+189.157.250.14 1 7 44685 20150323222727
+144.76.30.242 1 1 2704 20150327105421
+96.227.124.38 1 1 2704 20150326184305
+66.249.83.174 1 1 2704 20150326032039
+5.165.247.57 1 7 44685 20150321183923
+77.54.134.208 1 7 44685 20150302174312
+188.81.211.209 1 7 44685 20150319062942
+46.188.72.239 1 5 56468 20150326110442
+2.236.194.153 1 7 44685 20150303142223
+74.52.245.146 1 1 2704 20150304105105
+201.15.26.183 1 7 44685 20150315135122
+46.229.170.197 3 3 8112 20150328033047
+66.102.6.187 5 7 24287 20150320064907
+82.61.52.147 1 7 44685 20150302125255
+60.50.125.79 1 12 666932 20150317012518
+190.150.27.96 1 7 44685 20150313160914
+217.12.206.140 1 1 2704 20150313073637
+111.92.94.236 1 7 44685 20150324033726
+77.228.219.89 7 37 49116031 20150312231539
+31.202.216.168 1 1 2704 20150310143618
+91.121.100.66 1 1 2704 20150326032429
+125.212.122.22 1 7 44685 20150321020955
+186.241.123.43 1 7 44685 20150317224507
+185.58.207.63 1 1 2704 20150313153408
+148.251.77.34 2 2 5408 20150323125613
+66.215.150.240 2 12 98943 20150320224619
+204.191.182.249 1 7 44685 20150314231136
+41.250.5.70 1 7 44685 20150308134949
+88.198.68.140 1 1 2704 20150313121759
+144.76.64.115 1 1 2704 20150314094402
+188.244.45.43 1 7 44685 20150317151316
+188.255.37.129 1 5 56468 20150321112115
+181.124.100.165 1 7 44685 20150330180038
+71.117.180.157 1 7 44685 20150323194834
+82.80.244.58 0 1 277603 
+106.186.119.7 1 1 2704 20150326010210
+54.205.117.99 1 1 2704 20150325203409
+92.100.150.203 1 1 2704 20150328212722
+186.16.160.60 1 1 8603814 20150320170651
+179.212.6.113 1 7 44685 20150316182748
+179.180.148.65 1 7 44685 20150303173415
+107.155.70.224 1 2 16448 20150330220826
+96.47.226.21 1 1 2704 20150325064805
+62.210.254.239 1 1 2704 20150331160002
+196.210.60.228 1 7 44685 20150316021916
+104.173.98.179 2 16 4916169 20150312051841
+78.0.201.127 1 7 44685 20150319034522
+167.114.162.211 1 1 2704 20150310121236
+201.23.192.34 1 7 44685 20150317064508
+182.248.150.15 1 1 2704 20150312020352
+27.223.192.63 1 1 2704 20150301123805
+46.99.61.170 1 7 44685 20150304090149
+117.169.1.100 1 6 44380 20150311113750
+104.167.111.42 1 1 2704 20150320234554
+112.133.214.133 1 1 2704 20150318040618
+185.14.30.218 7 7 10096641 20150325032647
+79.230.190.7 0 2 2751734 
+66.249.83.160 2 2 5408 20150327033933
+81.193.231.206 1 7 44685 20150308153651
+104.232.3.33 1 1 2704 20150331001754
+104.53.138.125 1 1 4094 20150320204148
+78.28.34.204 1 7 44685 20150321172947
+54.174.171.129 1 1 2704 20150320223706
+62.210.83.64 1 1 2704 20150304063238
+179.189.137.235 1 7 44685 20150311081311
+54.163.175.107 1 1 2704 20150319224303
+194.6.233.33 1 1 2704 20150304143954
+190.22.217.117 1 7 44685 20150314122623
+179.94.246.81 1 7 44685 20150323195925
+95.244.193.147 1 7 44685 20150327124347
+189.70.4.15 1 7 44685 20150301051155
+66.102.6.178 2 4 19457 20150324021557
+177.70.217.140 1 7 44685 20150302182542
+180.191.106.27 1 7 44685 20150323194623
+95.241.195.154 1 1 2704 20150318050849
+62.108.36.173 1 1 2704 20150323175545
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20150301 4 19 137672 4
+20150302 5 23 139463 5
+20150303 9 55 369757 8
+20150304 11 43 48938021 8
+20150305 3 21 134055 3
+20150306 1 1 2704 1
+20150307 1 7 44685 1
+20150308 15 27 144218 5
+20150309 6 26 4970649 4
+20150310 30 111 96922215 10
+20150311 24 114 100340261 14
+20150312 14 70 54129682 7
+20150313 20 78 94730349 9
+20150314 33 105 54343453 13
+20150315 10 66 49350550 5
+20150316 5 23 139463 5
+20150317 25 88 1142233 15
+20150318 10 34 15105361 7
+20150319 20 51 66029694 7
+20150320 20 90 61031959 10
+20150321 17 52 2218644 7
+20150322 11 59 49249125 6
+20150323 32 175 54132908 10
+20150324 39 104 66721003 11
+20150325 21 71 63170325 9
+20150326 7 17 114673 7
+20150327 6 30 184148 6
+20150328 5 14 66573 5
+20150329 4 10 54136 4
+20150330 49 113 55039479 9
+20150331 26 82 52204897 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 2
+5mn-15mn 3
+2mn-5mn 3
+30s-2mn 10
+0s-30s 199
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 22
+/ 204 519168 194 161
+/composer 39 147384 15 16
+/directorVideo 32 207088 0 2
+/directorCommercial 31 130575 0 4
+/pressMedia 28 105127 4 14
+/composerMusic 25 97032 2 9
+/directorFilm 21 87320 1 1
+/pressPrint 20 114534 0 1
+/composerEnsembles 19 68799 1 3
+/composerCues 17 64896 0 0
+/composerMusic.html 4 12129 1 0
+/pressPrint.html 3 19089 0 0
+/video/Banzai1280x650.mov 3 0 0 0
+/directorVideo.html 2 15872 0 0
+/composerCues.html 2 8112 0 0
+/pdfs/musiciansfriend/Feb2012Issue.pdf 2 17207628 1 1
+/directorCommercial.html 2 10446 0 0
+/home 14 37856 1 3
+/pdfs/musiciansfriend/Nov2012Issue.pdf 4 40285988 0 2
+/composerEnsembles.html 5 20235 1 1
+/directorFilm.html 2 8732 0 0
+/pressMedia.html 4 17548 0 3
+END_SIDER
