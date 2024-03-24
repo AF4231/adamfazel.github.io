@@ -1,0 +1,1547 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 202403 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2531                
+POS_VISITOR 65036               
+POS_DAY 73443               
+POS_DOMAIN 3375                
+POS_LOGIN 3606                
+POS_ROBOT 3761                
+POS_WORMS 4418                
+POS_EMAILSENDER 4549                
+POS_EMAILRECEIVER 4692                
+POS_SESSION 74042               
+POS_SIDER 74210               
+POS_FILETYPES 4827                
+POS_OS 5065                
+POS_BROWSER 5198                
+POS_SCREENSIZE 5454                
+POS_UNKNOWNREFERER 5528                
+POS_UNKNOWNREFERERBROWSER 6499                
+POS_ORIGIN 6826                
+POS_SEREFERRALS 6966                
+POS_PAGEREFS 7123                
+POS_SEARCHWORDS 7271                
+POS_KEYWORDS 7423                
+POS_MISC 2195                
+POS_ERRORS 7482                
+POS_CLUSTER 3462                
+POS_SIDER_404 7644                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240324020138 23893 3514775 0
+FirstTime 0
+LastTime 20240323230710
+LastUpdate 20240324031436 23893 22358 1535 0 0
+TotalVisits 257                 
+TotalUnique 222                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 238                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 10 10 0 1419 1458 534245
+1 6 6 5268 524 587 411961
+2 10 11 48413 1720 1785 1113041
+3 19 19 21917 1021 1050 642052
+4 22 26 19028340 1562 1645 464010
+5 13 13 0 382 468 288987
+6 40 154 239234 1422 1648 1954962
+7 20 40 93441 57 115 76200
+8 19 19 11179 734 782 9255144
+9 13 19 15727 951 993 19176112
+10 22 22 2699 52 79 498256
+11 18 26 74877 76 163 8701114
+12 7 7 0 386 420 270142
+13 17 62 49570345 47 72 126027160
+14 4 4 2699 880 915 602263
+15 9 9 0 1043 1068 12968717
+16 19 30 16453 799 861 842320
+17 12 12 10127 667 748 46397637
+18 13 13 19322 132 196 111103
+19 9 24 11381 392 416 251500
+20 14 21 1569116 377 461 298896
+21 28 74 17821780 960 1004 86077844
+22 8 8 2699 1803 1830 2466701
+23 3 12 29805 1412 1420 344374
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 355 641 88594822
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+spider 326 353517 20240323063406 0
+bot[+:,\.\;\/\\-] 139 2017589 20240323201510 57
+googlebot 121 55435175 20240320115454 19
+robot 39 30707962 20240323052502 12
+no_user_agent 23 107782 20240324020138 0
+sift 20 28174429 20240316110118 2
+unknown 18 0 20240320021341 18
+yandex 16 0 20240311094248 14
+netcraft 16 43184 20240304144923 0
+mail\.ru 13 0 20240322023941 6
+python 6 0 20240323063655 1
+cfnetwork 1 640 20240318205741 0
+[+:,\.\;\/\\-]bot 1 0 20240309110226 0
+custo 5 10796 20240322225240 0
+crawl 13 7412 20240307000609 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 47 163472 0 0
+png 29 22019917 0 0
+pdf 3 28746808 0 0
+txt 5 4941 0 0
+html 225 21592 0 0
+js 171 292080 0 0
+jpg 22 6044388 0 0
+jpeg 7 400493 0 0
+Unknown 122 265509 0 0
+gif 10 30635622 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+winlong 8
+winxp 4
+winnt 127
+winvista 2
+linux 140
+macosx 221
+bsdnetbsd 1
+Unknown 54
+win2008 84
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 17
+firefox99.0 1
+firefox40.0 1
+chrome 453
+opera 2
+firefox114.0 5
+firefox46.0 2
+links 1
+msie8.0 1
+firefox103.0 17
+mozilla 23
+netscape5.0 2
+msie7.0 1
+firefox108.0 1
+msie9.0 82
+Unknown 25
+firefox123 2
+safari 22
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko;_compatible;_GoogleOther)_Chrome/121.0.6167.139_Safari/537.36 20240304130532
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20240320210710
+Mozilla/5.0_(compatible;_ips-agent) 20240318112910
+Mozilla/5.0_(Android_14;_Mobile;_rv:123.0)_Gecko/123.0_Firefox/123 20240318194011
+panscient.com 20240307101842
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102 20240310171735
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20240320021342
+Mozilla/5.0_zgrab/0.x 20240307103418
+Go-http-client/1.1 20240323110236
+Mozilla/5.0_(compatible;_Dataprovider.com) 20240301211003
+Chrome 20240308034231
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko;_compatible;_GeedoProductSearch;__http://www.geedo.com/product-search.html)_Chrome/79.0.3945.88_Safari/537.36 20240320094146
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102 20240310171735
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20240320021342
+Go-http-client/1.1 20240323110236
+panscient.com 20240307101842
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 196 219
+From1 4 4
+From2 23 83
+From3 0 0
+From4 132 335
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 23 83
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 10 2170
+302 10995 2494763
+206 3 193183667
+409 21 1743
+406 17 4866
+404 8381 7229046
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 983
+/blog/wp-includes/wlwmanifest.xml 29 -
+/wp-content/themes/twentyseventeen/assets/images/alfanew.php 2 http://adamfazel.com//wp-content/themes/twentyseventeen/assets/images/alfanew.php
+/gawean.PhP7 16 -
+/wp-content/upload.php 2 http://adamfazel.com//wp-content/upload.php
+/xx.php 2 http://adamfazel.com//xx.php
+/.env.production 1 -
+/wp-l0gin.php 17 -
+/wp-content/plugins/core-plugin/nxd.php 4 http://adamfazel.com//wp-content/plugins/core-plugin/nxd.php
+/wp-content/xl2023.php 2 -
+/inc.php 3 -
+/wp-admin/install.php 6 http://adamfazel.com//wp-admin/install.php
+/well-known/pki-validation/h/a/wp-blog.php 2 http://adamfazel.com//well-known/pki-validation/h/a/wp-blog.php
+/config/.secrets 1 -
+/images/honest.php 2 http://adamfazel.com//images/honest.php
+/wp-content/plugins/jetpack/_inc/build/fonts/wp-blog.php 1 http://adamfazel.com//wp-content/plugins/jetpack/_inc/build/fonts/wp-blog.php
+/wp-content/plugins/woocommerce/alfanew.php7 2 http://adamfazel.com//wp-content/plugins/woocommerce/alfanew.php7
+/radio.php 31 -
+/sites/default/files/ 10 binance.com
+/wp-admin/css/index.php 43 -
+/wp-includes/block-supports/wp-blog.php 1 http://adamfazel.com//wp-includes/block-supports/wp-blog.php
+/test/wp-includes/wlwmanifest.xml 29 -
+/cjfuns.php 10 http://adamfazel.com//cjfuns.php
+/st.php 4 http://adamfazel.com//st.php
+/wzy.php 4 http://adamfazel.com//wzy.php
+/wp-admin/css/colors/midnight/admin.php 14 -
+/wp-includes/mah.php 2 www.google.com
+/_well-known/amaxx.php 1 http://adamfazel.com/_well-known/amaxx.php
+/cache/h/f/b/e/wp-blog.php 1 http://adamfazel.com//cache/h/f/b/e/wp-blog.php
+/doc.php 23 -
+/filefuns.php 14 -
+/wp-includes/radio.php 3 http://adamfazel.com//wp-includes/radio.php
+/wp-json/wp/v2/posts 2 https://www.google.com/
+/class.api.php 12 http://adamfazel.com//class.api.php
+/admin/controller/extension/extension/alfacgiapi 1 www.bing.com
+/shop/wp-includes/wlwmanifest.xml 29 -
+/wp-includes/js/tinymce/skins/lightgray/fonts/font-awesome/wp-blog.php 1 http://adamfazel.com//wp-includes/js/tinymce/skins/lightgray/fonts/font-awesome/wp-blog.php
+/wp-content/uploads/xl2023.php'%5d 1 http://adamfazel.com//wp-content/uploads/xl2023.php']
+/wp-includes/themes.php 2 -
+/wp-content/plugins/rvaftcl/yzeudvto.php 2 http://adamfazel.com//wp-content/plugins/rvaftcl/yzeudvto.php
+/style.php 31 www.google.com
+/wp-links.php 14 -
+/wp-p.php7 38 -
+/xindex.php 1 www.bing.com
+/init.php 3 http://adamfazel.com//init.php
+/main 5 http://adamfazel.com/main
+/sites/default/files/alfacgiapi 1 www.bing.com
+/_wel-known/pki-validation/883d551d-7523-4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV 2 http://adamfazel.com/_wel-known/pki-validation/883d551d-7523-4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV
+/google.php 2 http://adamfazel.com//google.php
+/cjfuns%20.php 1 http://adamfazel.com/cjfuns%20.php
+/wp-admin/xl2023.php 2 -
+/login 1 http://adamfazel.com//login
+/gecko.php 14 -
+/wp-includes/widgets/1.php 2 http://adamfazel.com//wp-includes/widgets/1.php
+/wp-includes/install.php 3 http://adamfazel.com//wp-includes/install.php
+/wp-admin/images/codemirror_controls.php 2 http://adamfazel.com//wp-admin/images/codemirror_controls.php
+/.aws/credentials 1 -
+/wp-includes/assets/godsend.php 2 http://adamfazel.com//wp-includes/assets/godsend.php
+/mailto:adam@adamfazel.com 1 http://adamfazel.com/mailto:adam@adamfazel.com
+/403.phps 2 http://adamfazel.com//403.phps
+/wp-includes/blocks/image/wp-blog.php 1 http://adamfazel.com//wp-includes/blocks/image/wp-blog.php
+/wp-admin/style.php 7 -
+/assets/app.php 14 -
+/dqwfjzxu.php 2 http://adamfazel.com//dqwfjzxu.php
+/wp-includes/nxd.php 2 http://adamfazel.com//wp-includes/nxd.php
+/.well-known/alfacgiapi 1 www.bing.com
+/wp-content/plugins/wp-shortcode___/languages/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/wp-shortcode___/languages/wp-blog.php
+/wp-admin/css/colors/blue/blue.php 20 -
+/wp-content/plugins/smart-slider-3/library/smartslider/libs/ajax_loader/wp-blog.php 1 http://adamfazel.com//wp-content/plugins/smart-slider-3/library/smartslider/libs/ajax_loader/wp-blog.php
+/index1.php 14 -
+/ioxi-aneh.php 2 http://adamfazel.com//ioxi-aneh.php
+/wp-content/network.php 2 http://adamfazel.com//wp-content/network.php
+/wp-includes/blocks/avatar/wp-blog.php 2 http://adamfazel.com//wp-includes/blocks/avatar/wp-blog.php
+/wp-content/ccx/index.php 2 -
+/.well-known/acme-challenge/cloud.php 57 -
+/assets/fonts/icomoon/fonts/wp-blog.php 1 http://adamfazel.com//assets/fonts/icomoon/fonts/wp-blog.php
+/alfa-rex.php 4 http://adamfazel.com//alfa-rex.php
+/wp-admin/x.php 2 -
+/wp-content/plugins/cfkbzsg/nyyvoidp.php 2 http://adamfazel.com//wp-content/plugins/cfkbzsg/nyyvoidp.php
+/wp-content/plugins/query-monitor/wp-images/wp-blog.php 1 http://adamfazel.com//wp-content/plugins/query-monitor/wp-images/wp-blog.php
+/taf.php 2 http://adamfazel.com//taf.php
+/wp-includes/Requests/Cookie/dir/wp-blog.php 2 http://adamfazel.com//wp-includes/Requests/Cookie/dir/wp-blog.php
+/10.php 2 http://adamfazel.com//10.php
+/wp-includes/Text/phpcolors-title.php 2 http://adamfazel.com//wp-includes/Text/phpcolors-title.php
+/wp-links-opml.php 14 -
+/old-index.php 1 www.bing.com
+/edit.php 2 http://adamfazel.com//edit.php
+/wp-content/plugins/mwsliaw/deqdkcxq.php 2 http://adamfazel.com//wp-content/plugins/mwsliaw/deqdkcxq.php
+/wp-admin/wso.php 2 http://adamfazel.com//wp-admin/wso.php
+/wp-includes/js/plupload/dir/wp-blog.php 1 http://adamfazel.com//wp-includes/js/plupload/dir/wp-blog.php
+/wp-content/plugins/auxin-elements/public/assets/js/scripts.js 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/as.php 1 http://adamfazel.com//vendor/phpunit/phpunit/src/Util/PHP/as.php
+/api 1 -
+/input.php 14 -
+/wp-admin/user/cloud.php 38 -
+/wp-includes/IXR/themes.php 5 http://adamfazel.com//wp-includes/IXR/themes.php
+/wp-admin/maint/plugins.php 2 http://adamfazel.com//wp-admin/maint/plugins.php
+/atomlib.php 11 -
+/wp-includes/class-wp-page-icon.php 2 http://adamfazel.com//wp-includes/class-wp-page-icon.php
+/wordpress/wp-includes/wlwmanifest.xml 29 -
+/simpla/ 1 -
+/wp-admin/images/edit-tags.php 2 http://adamfazel.com//wp-admin/images/edit-tags.php
+/if.php 2 http://adamfazel.com//if.php
+/wp-includes/blocks/table/int/tmpl/index.php 4 http://adamfazel.com//wp-includes/blocks/table/int/tmpl/index.php
+/images/prettyPhoto/dark_rounded/sprite.png 1 https://adamfazel.com/css/prettyPhoto.css
+/wp-includes/xl2023.php 2 -
+/wp-rocket.php 2 http://adamfazel.com//wp-rocket.php
+/site/wso.php 2 http://adamfazel.com//site/wso.php
+/core3.php 1 -
+/wp-content/themes/alera/alpha.php 14 -
+/s.php 2 http://adamfazel.com//s.php
+/im.php 1 https://adamfazel.com/im.php
+/cgi-bin/install.php 3 http://adamfazel.com//cgi-bin/install.php
+/truffle-config.js 1 -
+/wp-admin/YP1cuvy6WrD.php 14 -
+/backup 5 http://adamfazel.com/backup
+/media-admin.php 1 www.bing.com
+/wp-content/alfa.php 2 http://adamfazel.com//wp-content/alfa.php
+/alfanew.php 44 -
+/wp-content/ty.php 2 http://adamfazel.com//wp-content/ty.php
+/wso112233.php 11 -
+/wp-content/uploads/ALFA_DATA 1 www.bing.com
+/wp-content/upgrade/about.php 2 http://adamfazel.com//wp-content/upgrade/about.php
+/wp-content/plugins/easy-digital-downloads/assets/css/edd-admin-email-tags-rtl.min.css 23 -
+/wp-content/plugins/wp-postratings/postratings-js.php 1 http://adamfazel.com//wp-content/plugins/wp-postratings/postratings-js.php
+/media/system/js/core.js 2 http://adamfazel.com/media/system/js/core.js
+/wp-includes/customize/upfile.php 1 http://adamfazel.com//wp-includes/customize/upfile.php
+/wp-content/plugins/seoo/wsoyanz.php 41 -
+/wp-includes/SimplePie/acces.php 2 http://adamfazel.com//wp-includes/SimplePie/acces.php
+/.well-known/fierzashell.php 1 -
+/shell.php 14 -
+/wp-includes/SimplePie/XML/Declaration/wp-blog.php 2 http://adamfazel.com//wp-includes/SimplePie/XML/Declaration/wp-blog.php
+/wp-conflg.php 6 -
+/wp-content/plugins/wp-apxupx.php 2 -
+/wp-content/plugins/wordpress-seo/src/config/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/wordpress-seo/src/config/wp-blog.php
+/wp-content/plugins/instabuilder2/cache/plugins/moon.php 14 -
+/wp-content/themes/seotheme/db.php 36 -
+/alfacgiapi 1 www.bing.com
+/wp-content/languages/about.php 35 -
+/worksec.php 14 -
+/cache/g/c/e/b/wp-blog.php 2 http://adamfazel.com//cache/g/c/e/b/wp-blog.php
+/defaul1.php 4 http://adamfazel.com//defaul1.php
+/403.php 4 http://adamfazel.com//403.php
+/wp-content/patior/ 3 http://adamfazel.com//wp-content/patior/
+/wp-content/plugins/core-stab/index.php 2 http://adamfazel.com//wp-content/plugins/core-stab/index.php
+/wp-content/themes/config.bak.php 1 www.bing.com
+/details.php 2 http://adamfazel.com//details.php
+/wp-content/ave.php 2 http://adamfazel.com//wp-content/ave.php
+/wp-includes/js/dist/vendor/wp-blog.php 2 http://adamfazel.com//wp-includes/js/dist/vendor/wp-blog.php
+/cache/a/a/e/a/wp-blog.php 1 http://adamfazel.com//cache/a/a/e/a/wp-blog.php
+/images/cloud.php 40 -
+/sitemap.php 2 http://adamfazel.com//sitemap.php
+/wp-content/plugins/ 3 http://adamfazel.com//wp-content/plugins/
+/wp-admin/network/xmrlpc.php 36 -
+/wp-content/uploads/option.php 14 -
+/post.php 14 -
+/wp-includes/rest-api/about.php 42 http://adamfazel.com//wp-includes/rest-api/about.php
+/includes/alfanew.php 2 http://adamfazel.com//includes/alfanew.php
+/wp-includes/random_compat/random_bytes_cyclone.php 1 http://adamfazel.com//wp-includes/random_compat/random_bytes_cyclone.php
+/wp-content/plugins/backup-backup/includes/backup-heart.php 4 http://adamfazel.com//wp-content/plugins/backup-backup/includes/backup-heart.php
+/wp-content/mu-plugins-old/index.php 1 www.bing.com
+/.vscode/sftp.json 3 -
+/blog.php 8 -
+/.well-known/pki-validation/a.php 14 -
+/wikindex.php 3 www.bing.com
+/qhynhoge.php 2 http://adamfazel.com//qhynhoge.php
+/wp-content/cache/db/singletables/04d/wp-blog.php 2 http://adamfazel.com//wp-content/cache/db/singletables/04d/wp-blog.php
+/css/st.php 2 http://adamfazel.com//css/st.php
+/plugins.js 18 -
+/wp-includ 1 http://adamfazel.com//wp-includ
+/wp-content/plugins/fluid-checkout/sass/abstract/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/fluid-checkout/sass/abstract/wp-blog.php
+/xleet.php 5 www.bing.com
+/wp-includes/Text/Diff/Renderer/eng.php 2 http://adamfazel.com//wp-includes/Text/Diff/Renderer/eng.php
+/wp-includes/random_compat/about.php 4 http://adamfazel.com//wp-includes/random_compat/about.php
+/images/iR7SzrsOUEP.php 2 -
+/wp-content/plugins/sitepress-multilingual-cms/classes/custom-field-translation/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/sitepress-multilingual-cms/classes/custom-field-translation/wp-blog.php
+/wp-admin/js/about.php 59 http://adamfazel.com//wp-admin/js/about.php
+/modules/mod_simplefileuploadv1.3/elements/zxxvnbuh.php 2 http://adamfazel.com//modules/mod_simplefileuploadv1.3/elements/zxxvnbuh.php
+/wp-admin/images/wext.php 1 http://adamfazel.com//wp-admin/images/wext.php
+/wp-includes/style.php 6 -
+/wp-includes/images/include.php 3 http://adamfazel.com//wp-includes/images/include.php
+/wp-includes/certificates/about.php 14 -
+/images/css.php 2 http://adamfazel.com//images/css.php
+/wp-content/themes/travelscape/json.php 5 www.google.com
+/img/about.php 35 -
+/wp-admin/includes/variant_round.php 2 http://adamfazel.com//wp-admin/includes/variant_round.php
+/wp-content/plugins/wpforms-lite/includes/js/imagesloaded.pkgd.min.php 1 http://adamfazel.com//wp-content/plugins/wpforms-lite/includes/js/imagesloaded.pkgd.min.php
+/wp-admin/admin.php 2 http://adamfazel.com//wp-admin/admin.php
+/m.php 2 http://adamfazel.com//m.php
+/wp-content/uploads/2.php 2 http://adamfazel.com//wp-content/uploads/2.php
+/sidwso.php 14 -
+/wp-content/plugins/tablepress/views/js/imagesloaded.pkgd.min.php 1 http://adamfazel.com//wp-content/plugins/tablepress/views/js/imagesloaded.pkgd.min.php
+/wp-content/plugins/ai-engine/app/index.js 6 -
+/warm.PhP7 2 http://adamfazel.com//warm.PhP7
+/wp-content/plugins/wpconfig.bak.php 1 www.bing.com
+/wp_wrong_datlib.php 1 www.bing.com
+/wp-admin/css/colors/cloud.php 38 -
+/z.php 1 www.bing.com
+/adminfuns.php7 34 -
+/admin/bower_components/datatables-responsive/examples/initialisation/wp-blog.php 3 http://adamfazel.com//admin/bower_components/datatables-responsive/examples/initialisation/wp-blog.php
+/wp-admin/user/xmrlpc.php 36 -
+/themes.php 10 -
+/cms/wp-includes/wlwmanifest.xml 29 -
+/wp-load.php 2 www.bing.com
+/wp-includes/wp-class.php 3 www.bing.com
+/2018/wp-includes/wlwmanifest.xml 24 -
+/alfanew.php7 38 -
+/wp-admin/dropdown.php 47 http://adamfazel.com//wp-admin/dropdown.php
+/wp-content/shell.php 2 http://adamfazel.com//wp-content/shell.php
+/shells.php 1 www.bing.com
+/wp-includes/widgets/about.php 37 -
+/wp-content/plugins/dummyyummy/wp-signup.php 3 www.google.com
+/wp-includes/Text/Diff/Renderer/install.php 14 -
+/mini.php 17 -
+/.well-known/acme-challenge/install.php 5 http://adamfazel.com//.well-known/acme-challenge/install.php
+/test 1 -
+/images/addimage.php 2 http://adamfazel.com//images/addimage.php
+/wp-content/plugins/tawqtqu/index.php 2 http://adamfazel.com//wp-content/plugins/tawqtqu/index.php
+/wp-admin/includes/class_api.php 2 -
+/wp-admin/maint/edit.php 14 -
+/FileZilla.xml 1 -
+/wp-content/plugins/seoo/wsoyanz1.php 38 -
+/2020/wp-includes/wlwmanifest.xml 5 -
+/admin 2 -
+/wp-admin/maint/iR7SzrsOUEP.php 2 -
+/media/wp-includes/wlwmanifest.xml 24 -
+/wp-includes/IXR/about.php 37 -
+/sitemap_index.xml 7 -
+/wp 6 http://adamfazel.com/wp
+/wp-includes/alfacgiapi 1 www.bing.com
+/wp-includes/js/dist/vendor/vcard.php 14 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 1 -
+/.well-known/inc/inc.php 2 http://adamfazel.com//.well-known/inc/inc.php
+/01.php 2 http://adamfazel.com//01.php
+/assets/vendor/icofont/fonts/wp-blog.php 2 http://adamfazel.com//assets/vendor/icofont/fonts/wp-blog.php
+/text.php 3 http://adamfazel.com//text.php
+/as.php 6 -
+/s/432323e2732323e2435323e25363/_/ 1 -
+/assets/css/403.php 2 -
+/resources/lang/network.php 2 http://adamfazel.com//resources/lang/network.php
+/wp-content/plugins/core-plugin/.nxd.php 1 http://adamfazel.com/wp-content/plugins/core-plugin/.nxd.php
+/wp-content/plugins/tgbgjxk/index.php 2 http://adamfazel.com//wp-content/plugins/tgbgjxk/index.php
+/cgi-bin/cgi-bin/about.php 3 http://adamfazel.com//cgi-bin/cgi-bin/about.php
+/wp-content/plugins/seoplugins/db.php 36 -
+/wp-admin/images/404.php 1 http://adamfazel.com//wp-admin/images/404.php
+/wp-content/plugins/seoo/alfa-ioxi.php 2 http://adamfazel.com//wp-content/plugins/seoo/alfa-ioxi.php
+/api/index.php/v1/users 1 -
+/worm0.PhP7 2 -
+/wp-content/admin.php 1 www.google.com
+/wp-includes/js/tinymce/skins/lightgray/img/index.php 4 http://adamfazel.com//wp-includes/js/tinymce/skins/lightgray/img/index.php
+/alfanew2.php7 34 -
+/wp-content/plugins/w0rdpr3ssnew/about.php 2 http://adamfazel.com//wp-content/plugins/w0rdpr3ssnew/about.php
+/wp-admin/images/profile.php 14 -
+/wp-content/cache/db/singletables/897/wp-blog.php 2 http://adamfazel.com//wp-content/cache/db/singletables/897/wp-blog.php
+/wp-content/wso.php 2 -
+/mar.php 2 http://adamfazel.com//mar.php
+/jquery.php 14 -
+/wp-includes/js/tinymce/skins/lightgray/fonts/index.php 3 http://adamfazel.com//wp-includes/js/tinymce/skins/lightgray/fonts/index.php
+/wp-includes/css/about.php 2 http://adamfazel.com//wp-includes/css/about.php
+/upfile.php 6 -
+/wp-content/plugins/seooo/alfa-rex.php 2 http://adamfazel.com//wp-content/plugins/seooo/alfa-rex.php
+/wp-includes/PHPMailer/admin.php 14 -
+/ae.php 6 -
+/classsmtps.php 2 http://adamfazel.com//classsmtps.php
+/wp-content/plugins/uhcbjsm/index.php 2 http://adamfazel.com//wp-content/plugins/uhcbjsm/index.php
+/wp-content/plugins/contact-form-7/includes/swv/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/contact-form-7/includes/swv/wp-blog.php
+/wp-content/shell20211028.php 5 http://adamfazel.com//wp-content/shell20211028.php
+/wp-includes/inputs.php 1 -
+/uploads/64b6bcd37a4ba.php 2 http://adamfazel.com//uploads/64b6bcd37a4ba.php
+/wp-admin/images/cloud.php 38 -
+/log.php 8 -
+/images/projects/italika/wp-blog.php 2 http://adamfazel.com//images/projects/italika/wp-blog.php
+/wp-admin/js/widgets/iR7SzrsOUEP.php 2 -
+/ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js 18 -
+/sites/default/files/ALFA_DATA 1 www.bing.com
+/dockerfile* 1 -
+/wp-content/plugins/woocommerce-payments/includes/fraud-prevention/wp-blog.php 1 http://adamfazel.com//wp-content/plugins/woocommerce-payments/includes/fraud-prevention/wp-blog.php
+/.secret 1 -
+/wp-includes/shell20211028.php 2 http://adamfazel.com//wp-includes/shell20211028.php
+/wp-content/plugins/oxcsbsg/index.php 2 http://adamfazel.com//wp-content/plugins/oxcsbsg/index.php
+/wp-includes/css/mpv2.php 2 http://adamfazel.com//wp-includes/css/mpv2.php
+/wp-includes/js/tinymce/themes/wp-blog.php 1 http://adamfazel.com//wp-includes/js/tinymce/themes/wp-blog.php
+/filezilla.xml 1 -
+/.well-known/radio.php 2 http://adamfazel.com//.well-known/radio.php
+/wp-content/plugins/nrkxjzd/index.php 2 http://adamfazel.com//wp-content/plugins/nrkxjzd/index.php
+/wp-content/plugins/akismet/dir/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/akismet/dir/wp-blog.php
+/misc/ajax.js 9 -
+/cgialfa 1 www.bing.com
+/css/install.php 3 http://adamfazel.com//css/install.php
+/default.php 2 http://adamfazel.com//default.php
+/wp-content/plugins/elementor/modules/admin-top-bar/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/elementor/modules/admin-top-bar/wp-blog.php
+/wp-content/plugins/index.php 4 http://adamfazel.com//wp-content/plugins/index.php
+/web.php 14 -
+/wp-includes/blocks/post-comments-form/wp-blog.php 2 http://adamfazel.com//wp-includes/blocks/post-comments-form/wp-blog.php
+/.well-known/acme-challenge/index.php 14 -
+/wp-site.php 2 http://adamfazel.com//wp-site.php
+/wp-content/plugins/real/v.php 2 http://adamfazel.com//wp-content/plugins/real/v.php
+/upload.php 5 www.bing.com
+/server 1 -
+/wp-content/plugins/png-compress/php 1 http://adamfazel.com//wp-content/plugins/png-compress/php
+/wp-content/plugins/ckwvifj/index.php 2 http://adamfazel.com//wp-content/plugins/ckwvifj/index.php
+/wp-includes/theme-compat/embed-content-core.php 1 http://adamfazel.com//wp-includes/theme-compat/embed-content-core.php
+/wp-admin/ALFA_DATA 1 www.bing.com
+/wp-content/plugins/WordPressCore/include.php 3 http://adamfazel.com//wp-content/plugins/WordPressCore/include.php
+/core 1 -
+/.well-known/zxhfwqyt.php 14 -
+/images/contato.php 1 http://adamfazel.com//images/contato.php
+/wordpress/wp-admin/includes/class-wp-filesystem-base.php 2 http://adamfazel.com//wordpress/wp-admin/includes/class-wp-filesystem-base.php
+/upload/upload.php 2 http://adamfazel.com//upload/upload.php
+/wp-content/upgrade/edit.php 4 http://adamfazel.com//wp-content/upgrade/edit.php
+/.well-known/js.php 3 http://adamfazel.com//.well-known/js.php
+/wp-admin/css/network.php 2 http://adamfazel.com//wp-admin/css/network.php
+/wp-admin/alfacgiapi 1 www.bing.com
+/.well-known/ALFA_DATA 1 www.bing.com
+/wp-admin/admin-ajax.php 4 http://adamfazel.com//wp-admin/admin-ajax.php
+/.well-known/pki-validation/iR7SzrsOUEP.php 5 -
+/autoload_classmap.php 18 -
+/wp-mail.php 2 -
+/js/mage/cookies.js 1 -
+/wp-admin/css/colors/index.php 36 -
+/wp-includes/blocks/post-excerpt/themes.php 2 http://adamfazel.com//wp-includes/blocks/post-excerpt/themes.php
+/gank.php.PhP 1 www.bing.com
+/small.php 2 http://adamfazel.com//small.php
+/images/class-config.php 14 -
+/minik.php 2 http://adamfazel.com//minik.php
+/wp-admin/css/colors/coffee/index.php 5 http://adamfazel.com//wp-admin/css/colors/coffee/index.php
+/db.php 3 https://adamfazel.com/db.php
+/wp-head.php 9 http://adamfazel.com//wp-head.php
+/images/array_diff_uassoc.php 1 http://adamfazel.com//images/array_diff_uassoc.php
+/wp-content/plugins/contact-form-7/includes/js/imagesloaded.pkgd.min.php 1 http://adamfazel.com//wp-content/plugins/contact-form-7/includes/js/imagesloaded.pkgd.min.php
+/defaults.php 14 -
+/wp-includes/blocks/post-excerpt/wp-blog.php 2 http://adamfazel.com//wp-includes/blocks/post-excerpt/wp-blog.php
+/wp-post.php 3 http://adamfazel.com//wp-post.php
+/img/cloud.php 38 -
+/wp-admin/css/colors/blue/index.php 14 -
+/wp-content/uploads/xl2023.php 1 -
+/fm.php 16 -
+/wp-content/fonts/quattrocento-sans/wp-blog.php 2 http://adamfazel.com//wp-content/fonts/quattrocento-sans/wp-blog.php
+/test.php 15 www.bing.com
+/.well-known/cgialfa 1 www.bing.com
+/ern1.PhP7 14 -
+/a.php 3 www.bing.com
+/cgi-bin/cloud.php 38 -
+/root.php 2 http://adamfazel.com//root.php
+/sito/wp-includes/wlwmanifest.xml 25 -
+/cgi-bin/iR7SzrsOUEP.php 4 -
+/assets/lib.php 2 http://adamfazel.com//assets/lib.php
+/.tmb/class_api.php 2 -
+/wp-content/plugins/js_composer/include/templates/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/js_composer/include/templates/wp-blog.php
+/archives.php 1 www.bing.com
+/wp-content/banners/about.php 37 -
+/wp-content/plugins/backup-backup/includes/ 2 http://adamfazel.com/wp-content/plugins/backup-backup/includes/
+/wp-admin/css/colors/light/about.php 14 -
+/woh.php 2 http://adamfazel.com//woh.php
+/wp-includes/class-controller-theme-comment.php 14 -
+/wp-content/plugins/miniorange-malware-protection/includes/js/phone.js 17 -
+/repeater.php 44 -
+/wp-includes/Requests/Exception/HTTP/taf.php 2 http://adamfazel.com//wp-includes/Requests/Exception/HTTP/taf.php
+/wp-content/uploads/wp-booter.php 14 -
+/wp-includes/widgets/class-wp-widget-tag.php 14 -
+/wp-content/plugins/core-stab/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/core-stab/wp-blog.php
+/zas.php 2 http://adamfazel.com//zas.php
+/wp-content/plugins/background-image-cropper/ups.php 2 http://adamfazel.com//wp-content/plugins/background-image-cropper/ups.php
+/sitemap.xml 10 -
+/s_e.php 1 www.bing.com
+/cong.php 16 -
+/xm.php 2 http://adamfazel.com//xm.php
+/wp-admin/images/xmrlpc.php 36 -
+/wso.php 4 -
+/wp-admin/ccx/index.php 2 -
+/index/plugins.php 2 http://adamfazel.com//index/plugins.php
+/ee.php 6 http://adamfazel.com//ee.php
+/options.php 2 http://adamfazel.com//options.php
+/admin/controller/extension/extension/ 10 binance.com
+/feed/atom/ 1 -
+/.well-known/acme-challenge/mariju.php 14 -
+/dup-installer/main.installer.php 2 http://adamfazel.com/dup-installer/main.installer.php
+/portal/classwithtostring.php 2 http://adamfazel.com//portal/classwithtostring.php
+/wp-content/plugins/litespeed-cache/assets/img/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/litespeed-cache/assets/img/wp-blog.php
+/.env.staging 1 -
+/3.php 2 http://adamfazel.com//3.php
+/1index.php 1 www.bing.com
+/.well-known/acme-challenge/iR7SzrsOUEP.php 2 -
+/.DS_Store 1 -
+/sc.php 2 http://adamfazel.com//sc.php
+/wp-includes/repeater.php 40 -
+/wp-consar.php 40 -
+/wp-apxupx.php 4 http://adamfazel.com//wp-apxupx.php
+/wp-includes/images/css.php 1 www.bing.com
+/wp-content/plugins/auxin-portfolio/public/assets/js/portfolio.min.js 16 -
+/Dockerfile 1 -
+/web/wp-includes/wlwmanifest.xml 29 -
+/.well-known/security.txt 1 http://www.adamfazel.com/.well-known/security.txt
+/content.php 13 -
+/templates/beez3/cgialfa 1 www.bing.com
+/wp-includes/cgialfa 1 www.bing.com
+/config/.env 1 -
+/.well-known/about.php 37 -
+/wp-includes/SimplePie/IRI-core.php 2 http://adamfazel.com//wp-includes/SimplePie/IRI-core.php
+/wp-content/themes/twenty/twenty.php 5 http://adamfazel.com//wp-content/themes/twenty/twenty.php
+/images/prettyPhoto/dark_rounded/contentPattern.png 1 https://adamfazel.com/css/prettyPhoto.css
+/dockerfile 1 -
+/.well-known/pki-validation/update.php 2 http://adamfazel.com//.well-known/pki-validation/update.php
+/news/wp-includes/wlwmanifest.xml 25 -
+/.config 1 -
+/bitbucket-pipelines.yaml 1 -
+/wp-includes/uplaod.php 1 http://adamfazel.com//wp-includes/uplaod.php
+/wp-content/plugins/install.php 3 http://adamfazel.com//wp-content/plugins/install.php
+/wp-content/plugins/Update/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/Update/wp-blog.php
+/wp-includes/blocks/text/wp-blog.php 1 http://adamfazel.com//wp-includes/blocks/text/wp-blog.php
+/users.php 5 -
+/wp-includes/wp-atom.php 1 www.bing.com
+/wp-admin/includes/admin-header.php 1 http://adamfazel.com//wp-admin/includes/admin-header.php
+/wp-admin/includes/iR7SzrsOUEP.php 2 -
+/wp-config-sample.php 5 http://adamfazel.com//wp-config-sample.php
+/xl2023x.php 1 -
+/wp-includes/Requests/network.php 2 http://adamfazel.com//wp-includes/Requests/network.php
+/about.php7 38 -
+/wp-includes/email.php 1 http://adamfazel.com//wp-includes/email.php
+/wp-includes/css/css.php 1 www.bing.com
+/yanz.php 42 -
+/wp/wp-includes/menu.php 14 -
+/wp-content/uploads/2019/01/wp-blog.php 2 http://adamfazel.com//wp-content/uploads/2019/01/wp-blog.php
+/_profiler/empty/search/results 1 -
+/wp-includes.bak/html-api/about.php 35 -
+/wp-admin/Xl2023.php 2 http://adamfazel.com//wp-admin/Xl2023.php
+/wp-admin/css/colors/xmrlpc.php 34 -
+/admin-heade.php 2 -
+/wp-includes/js/thickbox/wp-blog.php 2 http://adamfazel.com//wp-includes/js/thickbox/wp-blog.php
+/wp-content/themes/aahana/json.php 3 www.google.com
+/libraries/phpmailer/updates.php 38 -
+/wp-content/LA.php 2 http://adamfazel.com//wp-content/LA.php
+/wp-admin/js/widgets/xmrlpc.php 34 -
+/.env 9 -
+/wp-blog.php 4 http://adamfazel.com//wp-blog.php
+/ae/wp-content/themes/seotheme/mar.php 2 http://adamfazel.com//ae/wp-content/themes/seotheme/mar.php
+/pub/errors/503.php 1 https://adamfazel.com/pub/errors/503.php
+/wp-content/plugins/about.php 5 http://adamfazel.com//wp-content/plugins/about.php
+/images/about.php 37 -
+/wp-content/classwithtostring.php 2 http://adamfazel.com//wp-content/classwithtostring.php
+/Njima.php 2 http://adamfazel.com//Njima.php
+/ebs.php7 34 -
+/.well-known/acme-challenge/license.php 4 http://adamfazel.com//.well-known/acme-challenge/license.php
+/.well-known/pki-validation/xmrlpc.php 36 -
+/.well-known/pki-validation/moon.php 2 http://adamfazel.com//.well-known/pki-validation/moon.php
+/wp/wp-includes/wlwmanifest.xml 29 -
+/.well-known/pki-validation/about.php 42 -
+/wp-includes/wp-widgets.php 1 http://adamfazel.com//wp-includes/wp-widgets.php
+/wp-content/alfacgiapi 1 www.bing.com
+/sites/default/files/cgialfa 1 www.bing.com
+/.env.local 1 -
+/wp-includes/js/tinymce/plugins/compat3x/css/index.php 5 http://adamfazel.com//wp-includes/js/tinymce/plugins/compat3x/css/index.php
+/config.json 2 -
+/cloud.php 38 -
+/images/projects/trackday/wp-blog.phpmaliyat.ae/wp-content/plugins/core-stab/wp-blog.php 2 http://adamfazel.com//images/projects/trackday/wp-blog.phpmaliyat.ae/wp-content/plugins/core-stab/wp-blog.php
+/ultra.php 2 http://adamfazel.com//ultra.php
+/wp-content/themes/wp-classic/inc/index.php 2 http://adamfazel.com//wp-content/themes/wp-classic/inc/index.php
+/wp-admin/images/about.php 37 -
+/wp-includes/js/wp-eux6r.php 1 http://adamfazel.com//wp-includes/js/wp-eux6r.php
+/da%2023/wp-admin/images/Mhbgf.php 2 http://adamfazel.com//da%2023/wp-admin/images/Mhbgf.php
+/menu.php 4 http://adamfazel.com//menu.php
+/wp-admin/css/colors/blue/cloud.php 38 -
+/wp-admin/wso112233.php 2 http://adamfazel.com//wp-admin/wso112233.php
+/alfa.php 3 www.bing.com
+/testing 1 -
+/config.bak.php 1 www.bing.com
+/includes/alfanew.php7 2 http://adamfazel.com//includes/alfanew.php7
+/index.php 9 -
+/wp-includes/block-patterns/about.php 37 -
+/function.php 14 -
+/wp-sigunq.php 6 -
+/sitemanager.xml 1 -
+/wp-admin/includes/xmrlpc.php 34 -
+/wp-content/cache/db/singletables/db6/wp-blog.php 2 http://adamfazel.com//wp-content/cache/db/singletables/db6/wp-blog.php
+/wp-includes/sodium_compat/src/Core/Curve25519/Ge/wp_blog.php 3 http://adamfazel.com//wp-includes/sodium_compat/src/Core/Curve25519/Ge/wp_blog.php
+/plugins.php 13 -
+/class-wp-filesystem-http.php 2 http://adamfazel.com//class-wp-filesystem-http.php
+/api/.env 1 http://app.adamfazel.com/api/.env
+/.well-known/acme-challenge/upfile.php 2 http://adamfazel.com//.well-known/acme-challenge/upfile.php
+/priv8.php 2 http://adamfazel.com//priv8.php
+/cgi-bin/about.php 37 -
+/comdofuns.php 14 -
+/v2/_catalog 1 -
+/main/admin.php 2 http://adamfazel.com//main/admin.php
+/ftpsync.settings 1 -
+/admin.php 61 -
+/wp-admin/users.php 2 http://adamfazel.com//wp-admin/users.php
+/img/xmrlpc.php 34 -
+/wp-content/plugins/linkpreview/db.php 38 -
+/site/wp-includes/wlwmanifest.xml 29 -
+/Wp-includes/amaxx.php 1 http://adamfazel.com/Wp-includes/amaxx.php
+/.well-known/wso112233.php 7 http://adamfazel.com//.well-known/wso112233.php
+/assets/images/cmd.php 14 -
+/blocks/products/models/wp-blog.php 1 http://adamfazel.com//blocks/products/models/wp-blog.php
+/wp-admin/images/admin.php 4 http://adamfazel.com//wp-admin/images/admin.php
+/wp-content/themes/seotheme/mar.php 38 -
+/406.php 1 https://adamfazel.com/406.php
+/wp-includes/js/tinymce/skins/lightgray/fonts/mfglabs/wp-blog.php 1 http://adamfazel.com//wp-includes/js/tinymce/skins/lightgray/fonts/mfglabs/wp-blog.php
+/wp-content/plugins/masterx/wpx.php 3 http://adamfazel.com//wp-content/plugins/masterx/wpx.php
+/.well-known/acme-challenge/network.php 2 http://adamfazel.com//.well-known/acme-challenge/network.php
+/wp-includes/images/about.php 37 -
+/images/domat.php 1 http://adamfazel.com//images/domat.php
+/olux.php 1 www.bing.com
+/cgi-bin/xmrlpc.php 36 -
+/random_bytes_cyclone.php 2 http://adamfazel.com//random_bytes_cyclone.php
+/bc 5 http://adamfazel.com/bc
+/nf_tracking.php 2 -
+/wp-includes/class-json-ajax-session.php 2 http://adamfazel.com//wp-includes/class-json-ajax-session.php
+/wp-includes/Requests/about.php 39 -
+/wp-signin.php 1 www.bing.com
+/wp-header.php 5 http://adamfazel.com//wp-header.php
+/wp-content/updraft/about.php 35 -
+/wp-content/1.php 2 http://adamfazel.com//wp-content/1.php
+/wp-content/plugins/ubh/up.php 1 www.bing.com
+/wp-crons.php 14 -
+/th1s_1s_a_4o4.html 23 -
+/wp-content/plugins/ipsrzfw/index.php 2 http://adamfazel.com//wp-content/plugins/ipsrzfw/index.php
+/wp-admin/includes/cloud.php 38 -
+/eski/wp-content/themes/Canyon/cache/wp-blog.php 2 http://adamfazel.com//eski/wp-content/themes/Canyon/cache/wp-blog.php
+/wp-admin/css/about.php 39 -
+/wp-admin/includes/about.php 40 -
+/wp-content/indeX.php 2 http://adamfazel.com//wp-content/indeX.php
+/wp-admin/css/admin.php 2 http://adamfazel.com//wp-admin/css/admin.php
+/wp-content/themes/intense/block-css.php 4 -
+/app_list_git.php 1 https://adamfazel.com/app_list_git.php
+/old 6 http://adamfazel.com/old
+/library.php 2 http://adamfazel.com//library.php
+/wp-includes/js/auto.php 1 http://adamfazel.com//wp-includes/js/auto.php
+/wp-booking.php 1 www.bing.com
+/wp-admin/maint/update.php 2 http://adamfazel.com//wp-admin/maint/update.php
+/error.php 1 www.bing.com
+/wp-content/updates.php 41 -
+/truffle-configuration 1 -
+/cache/d/f/b/a/wp-blog.phpwebblogkkn.unsyiah.ac.id 1 http://adamfazel.com//cache/d/f/b/a/wp-blog.phpwebblogkkn.unsyiah.ac.id
+/wp-content/plugins/revslider/includes/external/page/index.php 18 -
+/wp-content/themes/astra/inc/lib/astra-notices/alfa-rex.php 2 http://adamfazel.com//wp-content/themes/astra/inc/lib/astra-notices/alfa-rex.php
+/wp-includes/Text/themes.php 2 http://adamfazel.com//wp-includes/Text/themes.php
+/wp-admin/images/old.php 2 http://adamfazel.com//wp-admin/images/old.php
+/fmm.php 2 http://adamfazel.com//fmm.php
+/xzy.php 2 http://adamfazel.com//xzy.php
+/ioxinew.php 2 http://adamfazel.com//ioxinew.php
+/alfa-rex.php7 43 -
+/.well-known/ 10 binance.com
+/.well-known/acme-challenge/atomlib.php 2 http://adamfazel.com//.well-known/acme-challenge/atomlib.php
+/login.action 1 -
+/wp-content/db-cache.php 1 www.bing.com
+/wp-content/themes/universal-news/php 1 http://adamfazel.com//wp-content/themes/universal-news/php
+/alfa-rex2.php7 34 -
+/wp-content/plugins/fix/up.php 2 http://adamfazel.com//wp-content/plugins/fix/up.php
+/chosen.php 17 www.google.com
+/wp-content/blogs.dir/about.php 35 -
+/wp-content/themes/about.php 42 -
+/wp-includes/js/benes.php 2 http://adamfazel.com//wp-includes/js/benes.php
+/wp-includes/widgets/mah.php 1 http://adamfazel.com//wp-includes/widgets/mah.php
+/wp-content/plugins/backup_index.php 1 www.bing.com
+/task.php 2 http://adamfazel.com//task.php
+/index.html 22 -
+/wp-content/uploads/alfacgiapi 1 www.bing.com
+/wp-includes/css/wp-config.php 1 www.bing.com
+/makeasmtp.php 13 -
+/wp-admin/user/about.php 18 -
+/wp-content/plugins/custom-registration-form-builder-with-submission-manager/public/js/bootstrap.min.js 1 -
+/wp-includes/wso112233.php 2 http://adamfazel.com//wp-includes/wso112233.php
+/bak.php 6 -
+/wp-content/uploads/style.php 6 -
+/wsoyanz.php 38 -
+/wp-content/plugins/wordpresss3cll/up.php 2 http://adamfazel.com//wp-content/plugins/wordpresss3cll/up.php
+/4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV 1 http://adamfazel.com/4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV
+/wp-content/gallery/about.php 37 -
+/sitemaps.xml 5 -
+/wp-admin/configAMI/Jump/0-tuncesd/wwp5h3b/wp-blog.php 2 http://adamfazel.com//wp-admin/configAMI/Jump/0-tuncesd/wwp5h3b/wp-blog.php
+/wp-admin/includes/lib.php 3 http://adamfazel.com//wp-admin/includes/lib.php
+/new 6 http://adamfazel.com/new
+/ads.txt 6 http://www.adamfazel.com/ads.txt
+/wp-admin/network/amaxx.php 4 http://adamfazel.com//wp-admin/network/amaxx.php
+/libraries/vendor/updates.php 38 -
+/kgbyt.php 2 http://adamfazel.com//kgbyt.php
+/defau1t.php 1 www.bing.com
+/css.php 23 -
+/wp-content/themes/twentynineteen/sass/elements/wp-blog.php 2 http://adamfazel.com//wp-content/themes/twentynineteen/sass/elements/wp-blog.php
+/bk 5 http://adamfazel.com/bk
+/up.php 1 www.bing.com
+/wp-content/export.php 1 www.bing.com
+/wp-admin/ajax-actions.php 40 -
+/wp-includes/customize/amaxx.php 17 -
+/customize.php 2 http://adamfazel.com//customize.php
+/my1.php 4 http://adamfazel.com//my1.php
+/nsmma.com/themes/about.php 2 http://adamfazel.com//nsmma.com/themes/about.php
+/include/bussubmit.php 14 -
+/wp-includes/ID3/about.php 42 -
+/avaa.php 34 -
+/wp-admin/css/data.php 1 http://adamfazel.com//wp-admin/css/data.php
+/wp-content/plugins/zvtcxlm/index.php 2 http://adamfazel.com//wp-content/plugins/zvtcxlm/index.php
+/wp-content/ALFA_DATA 1 www.bing.com
+/empty.php 2 http://adamfazel.com//empty.php
+/about 1 -
+/wp-info.php 5 http://adamfazel.com//wp-info.php
+/wp-content/plugins/alfa-rex.php 5 http://adamfazel.com//wp-content/plugins/alfa-rex.php
+/wp-includes/Requests/Cookie/core-about.php 1 http://adamfazel.com//wp-includes/Requests/Cookie/core-about.php
+/wp-content/uploads/ 3 http://adamfazel.com//wp-content/uploads/
+/security.txt 1 http://www.adamfazel.com/security.txt
+/ini.php 6 -
+/parawatch-hub 1 http://adamfazel.com//parawatch-hub
+/wp-includes/Text/Diff/Engine/alfanew.php 2 http://adamfazel.com//wp-includes/Text/Diff/Engine/alfanew.php
+/index 1 http://adamfazel.com//index
+/wp-2019.php 23 -
+/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/taf.php 2 http://adamfazel.com//wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/taf.php
+/https://adsensetalk.online/ 1 -
+/wp-includes/customize/about.php 37 -
+/edit-comments.php 2 http://adamfazel.com//edit-comments.php
+/wp-includes/class-wp-post-link.php 2 http://adamfazel.com//wp-includes/class-wp-post-link.php
+/wp-content/themes/twentyseventeen/page/index.php 2 -
+/wp-includes/blocks/text-columns/wp-blog.php 2 http://adamfazel.com//wp-includes/blocks/text-columns/wp-blog.php
+/wp-admin.php 1 www.bing.com
+/manager/ 1 -
+/wp-content/plugins/oieelzl/ncxrfzpy.php 2 http://adamfazel.com//wp-content/plugins/oieelzl/ncxrfzpy.php
+/wp-content/plugins/seoplugins/mar.php 36 -
+/.env.example 1 -
+/.well-known/pki-validation/xl2023.php 2 -
+/wp-content/plugins/Cache/Cache.php 44 -
+/images/projects/trackday/wp-blog.php 2 http://adamfazel.com//images/projects/trackday/wp-blog.php
+/wp-admin/includes/class-wp-filesystem-base.php.1314862037 2 http://adamfazel.com//wp-admin/includes/class-wp-filesystem-base.php.1314862037
+/feed/ 4 -
+/rindex.php 2 http://adamfazel.com//rindex.php
+/wp-content/upgrade/ava.php 2 http://adamfazel.com//wp-content/upgrade/ava.php
+/M1.php 4 http://adamfazel.com//M1.php
+/fm1.php 4 http://adamfazel.com/fm1.php
+/wp-content/plugins/kcksyfs/index.php 2 http://adamfazel.com//wp-content/plugins/kcksyfs/index.php
+/.git/config 9 -
+/wp-includes/sodium_compat/src/Core32/wp-blog.php 2 http://adamfazel.com//wp-includes/sodium_compat/src/Core32/wp-blog.php
+/about.PHP 2 http://adamfazel.com//about.PHP
+/wp-admin/cgialfa 1 www.bing.com
+/wordpress 6 http://adamfazel.com/wordpress
+/system_log.php 1 www.bing.com
+/wp-content/uploads/2023/05/mar.php 2 http://adamfazel.com//wp-content/uploads/2023/05/mar.php
+/wp-content/plugins/seoo/ioxi-aneh.php 2 http://adamfazel.com//wp-content/plugins/seoo/ioxi-aneh.php
+/wp-includes/js/tinymce/skins/lightgray/fonts/weathericons/wp-blog.php 1 http://adamfazel.com//wp-includes/js/tinymce/skins/lightgray/fonts/weathericons/wp-blog.php
+/wp-includes/js/tinymce/skins/lightgray/fonts/fontelico/wp-blog.php 1 http://adamfazel.com//wp-includes/js/tinymce/skins/lightgray/fonts/fontelico/wp-blog.php
+/wp-content/plugins/ango/sett.php 2 http://adamfazel.com//wp-content/plugins/ango/sett.php
+/4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZValfadheat.php 1 http://adamfazel.com/4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZValfadheat.php
+/wp-content/plugins/auxin-elements/public/assets/js/plugins.js 1 -
+/wp-content/plugins/product-csv-import-export-for-woocommerce/styles/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/product-csv-import-export-for-woocommerce/styles/wp-blog.php
+/wp-content/plugins/elementor-pro/modules/slides/wp-blog.php 1 http://adamfazel.com//wp-content/plugins/elementor-pro/modules/slides/wp-blog.php
+/legion.php 1 www.bing.com
+/wp-includes/images/wp-vmmks.php 1 http://adamfazel.com//wp-includes/images/wp-vmmks.php
+/about.php 49 -
+/wp-content/plugins/core-plugin/include.php 3 http://adamfazel.com//wp-content/plugins/core-plugin/include.php
+/wp-content/themes/travel/issue.php 5 www.google.com
+/ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js 17 -
+/libs/modernizr-2.0.6.min.js 17 -
+/wp-content/plugins/aioseoextensions/238db86a11ebe147eea0f8a05c4d0a2a/login_files/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/aioseoextensions/238db86a11ebe147eea0f8a05c4d0a2a/login_files/wp-blog.php
+/wp-content/outcms.php 1 www.bing.com
+/wp-admin/css/colors/coffee/cloud.php 38 -
+/wp-content/plugins/xwp/setup-config.php 2 http://adamfazel.com//wp-content/plugins/xwp/setup-config.php
+/admin-post.php 41 -
+/wp-includes/Requests/Text/admin.php 40 -
+/archivarix.cms.php 1 -
+/.well-known/plugins.php 3 http://adamfazel.com//.well-known/plugins.php
+/config/truffle.js 1 -
+/wp-admin/user/iR7SzrsOUEP.php 2 -
+/wp-content/plugins/wp-cloudflare-page-cache/vendor/deliciousbrains/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/wp-cloudflare-page-cache/vendor/deliciousbrains/wp-blog.php
+/wp-includes/images/acces.php 1 http://adamfazel.com//wp-includes/images/acces.php
+/wp-includes/js/jquery/wp-blog.php 2 http://adamfazel.com//wp-includes/js/jquery/wp-blog.php
+/wp-content/repeater.php 40 -
+/xleet-shell.php 4 -
+/fade.js 20 -
+/files/upload.php 2 http://adamfazel.com//files/upload.php
+/admin/ 1 -
+/wp-includes/js/codemirror/dir.php 2 http://adamfazel.com//wp-includes/js/codemirror/dir.php
+/x.php 21 www.bing.com
+/css/cloud.php 38 -
+/mx.php 2 http://adamfazel.com//mx.php
+/wp-admin/network/iR7SzrsOUEP.php 2 -
+/bitbucket-pipelines.yml 1 -
+/wp-content/plugins/wp-automatic/css/style.css 19 -
+/wp-includes/new.php 2 http://adamfazel.com//wp-includes/new.php
+/404.php 10 -
+/cgi-bin/cgi-bin/about.php7 3 http://adamfazel.com//cgi-bin/cgi-bin/about.php7
+/wp-includes/css/buttons.css 6 http://adamfazel.com//wp-includes/css/buttons.css
+/wp-1ogin_bak.php 2 http://adamfazel.com//wp-1ogin_bak.php
+/.well-known/pki-validation/themes.php 2 http://adamfazel.com//.well-known/pki-validation/themes.php
+/wp-admin/css/ 10 binance.com
+/wp-content/uploads/cgialfa 1 www.bing.com
+/wp-admin/css/colors/blue/ 1 http://adamfazel.com//wp-admin/css/colors/blue/
+/byp.php 16 -
+/moon.php 24 -
+/wp-includes/style-engine/about.php 37 -
+/libs/honest.php 2 http://adamfazel.com//libs/honest.php
+/script.js 16 -
+/wp-includes/js/tinymce/skins/lightgray/fonts/7-stroke/wp-blog.php 1 http://adamfazel.com//wp-includes/js/tinymce/skins/lightgray/fonts/7-stroke/wp-blog.php
+/sitemap 1 -
+/wp-pano.php 2 -
+/wp-includes/defaults.php 1 http://adamfazel.com//wp-includes/defaults.php
+/LA.php 14 -
+/wp-content/themes/sketch/404.php 2 http://adamfazel.com//wp-content/themes/sketch/404.php
+/style2.php 2 http://adamfazel.com//style2.php
+/wp-includes/js/wp-emoji-release.min.js 4 www.google.com
+/cache-compat.php 40 -
+/updates.php 38 -
+/wp-includes/Requests/Exception/HTTP/HTTP.php 2 http://adamfazel.com//wp-includes/Requests/Exception/HTTP/HTTP.php
+/wp-includes.bak/Text/network.php 2 http://adamfazel.com//wp-includes.bak/Text/network.php
+/wp-admin/js/widgets/about.php7 40 -
+/wp-admin/maint/moon.php 17 http://adamfazel.com//wp-admin/maint/moon.php
+/wp-admin/images/atomlib.php 14 -
+/wp-includes/css.php 2 http://adamfazel.com//wp-includes/css.php
+/wp-includes/ID3/upload.php 1 http://adamfazel.com//wp-includes/ID3/upload.php
+/wp-includes/css/dist/nux/wp-blog.php 1 http://adamfazel.com//wp-includes/css/dist/nux/wp-blog.php
+/themes/zMousse/ee.php 2 http://adamfazel.com//themes/zMousse/ee.php
+/wp-admin/alfa.php 2 http://adamfazel.com//wp-admin/alfa.php
+/wp-includes/IXR/allez.php 14 -
+/wp-content/plugins/press/wp-class.php 5 http://adamfazel.com//wp-content/plugins/press/wp-class.php
+/wp-plugins.php 1 www.bing.com
+/wp-admin/cloud.php 38 -
+/wp-signup.php 2 http://adamfazel.com//wp-signup.php
+/wp-content/themes/bricks/assets/js/feedback.min.js 18 -
+/images/test_upload.php 2 http://adamfazel.com//images/test_upload.php
+/wp-json/wpgmza/v1/markers 2 -
+/ccx/index.php 2 -
+/wp-content/uploads/revslider/templates/architecture-text-block/wp-blog.php 2 http://adamfazel.com//wp-content/uploads/revslider/templates/architecture-text-block/wp-blog.php
+/3index.php 1 www.bing.com
+/dropdown.php 47 http://adamfazel.com//dropdown.php
+/wp-content/plugins/seooo/alfanew.php 2 http://adamfazel.com//wp-content/plugins/seooo/alfanew.php
+/wp-content/themes/digital-download/new.php 3 www.google.com
+/inputs.php 21 -
+/indeex.php 14 -
+/s_ne.php 1 www.bing.com
+/wp-content/plugins/zkvlsth/index.php 2 http://adamfazel.com//wp-content/plugins/zkvlsth/index.php
+/wp-content/bak.php 2 http://adamfazel.com//wp-content/bak.php
+/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/ch.php 2 http://adamfazel.com//ch.php
+/wp-includes/widgets/include.php 3 http://adamfazel.com//wp-includes/widgets/include.php
+/wp-includes/js/js420.php 1 http://adamfazel.com//wp-includes/js/js420.php
+/.well-known/acme-challenge/xmrlpc.php 36 -
+/images/1.php 2 http://adamfazel.com//images/1.php
+/old/ALFA_DATA/alfacgiapi/0z.php 2 http://adamfazel.com//old/ALFA_DATA/alfacgiapi/0z.php
+/.well-known/pki-validation/sts.php 2 http://adamfazel.com//.well-known/pki-validation/sts.php
+/wp-content/plugins/wordpress-seo/admin/statistics/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/wordpress-seo/admin/statistics/wp-blog.php
+/wp-includes/blocks/freeform/wp-blog.php 2 http://adamfazel.com//wp-includes/blocks/freeform/wp-blog.php
+/.bashrc 1 -
+/wp-includes/js/underscore/wp-blog.php 1 http://adamfazel.com//wp-includes/js/underscore/wp-blog.php
+/wp-admin/includes/upload.php.INFECTED.php 2 http://adamfazel.com//wp-admin/includes/upload.php.INFECTED.php
+/wp-includes/blocks/about.php 37 -
+/inopbouw/wp-content/themes/twentytwenty/assets/wp-blog.php 2 http://adamfazel.com//inopbouw/wp-content/themes/twentytwenty/assets/wp-blog.php
+/admin/content/sitetree/ 1 -
+/images/prettyPhoto/light_rounded/btnNext.png 1 https://adamfazel.com/css/prettyPhoto.css
+/bypass.php 6 -
+/assets/images/tinyimg.php 14 -
+/sftp-config.json 2 -
+/wp-content/about.php 40 -
+/shell4.php 2 http://adamfazel.com//shell4.php
+/images/index2.php 1 http://adamfazel.com//images/index2.php
+/wp-includes/Requests/core-about.php 2 http://adamfazel.com//wp-includes/Requests/core-about.php
+/wp-includes/sx.php 14 -
+/2021/wp-includes/wlwmanifest.xml 4 -
+/xl2023.php 6 -
+/ok.php 2 http://adamfazel.com//ok.php
+/xmrlpc.php 39 -
+/wp-admin/css/colors/blue/CasperExV1.php 2 http://adamfazel.com//wp-admin/css/colors/blue/CasperExV1.php
+/2019/wp-includes/wlwmanifest.xml 29 -
+/.well-known/admin.php 2 -
+/wp-includes/blocks/quote/wp-blog.php 2 http://adamfazel.com//wp-includes/blocks/quote/wp-blog.php
+/wp-includes/SimplePie/Plugin.php 2 http://adamfazel.com//wp-includes/SimplePie/Plugin.php
+/wp-content/cache/wp-rocket/blog/wp-blog.php 1 http://adamfazel.com//wp-content/cache/wp-rocket/blog/wp-blog.php
+/wp-admin/css/colors/blue/about.php 2 -
+/wp-content/plugins/woocommerce/packages/action-scheduler/wp-blog.php 1 http://adamfazel.com//wp-content/plugins/woocommerce/packages/action-scheduler/wp-blog.php
+/wp-includes/88.php 1 http://adamfazel.com//wp-includes/88.php
+/images/prettyPhoto/dark_rounded/loader.gif 1 https://adamfazel.com/css/prettyPhoto.css
+/ma1.php 2 http://adamfazel.com//ma1.php
+/blog 1 -
+/index2.php 2 http://adamfazel.com//index2.php
+/wp-includes/Text/Diff/Renderer/content.php 2 http://adamfazel.com//wp-includes/Text/Diff/Renderer/content.php
+/wp-file.php 14 -
+/wp-admin/xmrlpc.php 34 -
+/gel4y.php 16 -
+/wp-content/plugins/elementor/core/app/modules/kit-library/data/kits/endpoints/download.php 2 http://adamfazel.com//wp-content/plugins/elementor/core/app/modules/kit-library/data/kits/endpoints/download.php
+/admin/controller/extension/extension/ALFA_DATA 1 www.bing.com
+/wp-content/plugins/hkqoqcv/index.php 2 http://adamfazel.com//wp-content/plugins/hkqoqcv/index.php
+/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js 33 -
+/wp-admin/css/colors/blue/xmrlpc.php 34 -
+/wp-includes/Text/about.php 43 http://adamfazel.com//wp-includes/Text/about.php
+/radio.txt 1 -
+/.Dockerfile 1 -
+/wp-content/mu-plugins/db-safe-mode.php 1 www.bing.com
+/wp-includes/blocks/query-no-results/wp-blog.php 2 http://adamfazel.com//wp-includes/blocks/query-no-results/wp-blog.php
+/ga.js 18 -
+/doscar/wp-content/themes/universal-news/php 1 http://adamfazel.com//doscar/wp-content/themes/universal-news/php
+/wp-includes/IXR/admin.php 14 -
+/wp-includes/plugins/instabuilder2/cache/up.php 2 http://adamfazel.com//wp-includes/plugins/instabuilder2/cache/up.php
+/wp-content/upgrade/cloud.php 2 http://adamfazel.com//wp-content/upgrade/cloud.php
+/ioxi02.php 1 http://adamfazel.com/ioxi02.php
+/wp-includes/js/jquery/jquery.min.js 2 -
+/wp-includes/ALFA_DATA 1 www.bing.com
+/ajax-actions.php 40 -
+/wp-atom.php 6 -
+/simple.php 28 -
+/wp-admin/network/index.php 14 -
+/wp-content/plugins/seooo/alfanew.php7 2 http://adamfazel.com//wp-content/plugins/seooo/alfanew.php7
+/img/g4.php 2 http://adamfazel.com//img/g4.php
+/images/sfm.php 1 http://adamfazel.com//images/sfm.php
+/cache/a/f/h/e/wp-blog.php 1 http://adamfazel.com//cache/a/f/h/e/wp-blog.php
+/wp-admin/images/images.php 2 http://adamfazel.com//wp-admin/images/images.php
+/alfanew.PHP7 1 -
+/lock360.php 3 www.bing.com
+/images/download-iout.php 1 http://adamfazel.com//images/download-iout.php
+/wp-content/cong.php 3 http://adamfazel.com//wp-content/cong.php
+/wp-content/plugins/core/include.php 7 http://adamfazel.com//wp-content/plugins/core/include.php
+/wp-content/plugins_culpables/old_wordpress-seo/admin/capabilities/wp-blog.php 2 http://adamfazel.com//wp-content/plugins_culpables/old_wordpress-seo/admin/capabilities/wp-blog.php
+/wp-includes/widgets/themes.php 3 http://adamfazel.com//wp-includes/widgets/themes.php
+/export.php 1 www.bing.com
+/0z.php 2 http://adamfazel.com//0z.php
+/beence.php 1 www.bing.com
+/wp-includes/sitemaps/providers/install.php 1 http://adamfazel.com//wp-includes/sitemaps/providers/install.php
+/composermusic 2 -
+/iR7SzrsOUEP.php 2 -
+/templates/hcapmaster_comps.php 2 http://adamfazel.com//templates/hcapmaster_comps.php
+/wp-content/plugins/Cache/dropdown.php 5 http://adamfazel.com//wp-content/plugins/Cache/dropdown.php
+/%c2%ae.php 1 -
+/site/plugins.php 2 http://adamfazel.com//site/plugins.php
+/l.php 2 http://adamfazel.com//l.php
+/wp-admin/images/iR7SzrsOUEP.php 2 -
+/wp-admin/js/about.php7 3 http://adamfazel.com//wp-admin/js/about.php7
+/wp-content/plugins/wp-rocket/inc/front/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/wp-rocket/inc/front/wp-blog.php
+/shell20211028.php 18 -
+/wp-admin/images/install.php 5 http://adamfazel.com//wp-admin/images/install.php
+/.secrets 1 -
+/frontend_crm1.php.php 1 https://adamfazel.com/frontend_crm1.php.php
+/wp-admin/includes/media.php.INFECTED.php 1 http://adamfazel.com//wp-admin/includes/media.php.INFECTED.php
+/wp-includes/block-editor.php 1 http://adamfazel.com//wp-includes/block-editor.php
+/wp-admin/network/cloud.php 40 -
+/.well-known/index.php 14 -
+/moduless.php 1 www.bing.com
+/wp-includes/wlwmanifest.xml 34 -
+/wp-admin/maint/maint/ajax-actions.php 40 -
+/wp-content/plugins/wp-faq/wp-faq.php 1 http://adamfazel.com//wp-content/plugins/wp-faq/wp-faq.php
+/telescope/requests 1 -
+/wp-backup-sql-302.php 1 www.bing.com
+/wp-content/themes/finley/min.php 4 http://adamfazel.com//wp-content/themes/finley/min.php
+/proton_recovery_phrase.txt 1 -
+/wp-content/themes/remv.php.INFECTED.php 1 http://adamfazel.com//wp-content/themes/remv.php.INFECTED.php
+/server.php 2 http://adamfazel.com//server.php
+/wp-admin/maint/about.php 2 http://adamfazel.com//wp-admin/maint/about.php
+/wp-includes/about.php 37 -
+/ALFA_DATA 1 www.bing.com
+/wp-admin/images/index.php 36 -
+/1.php 17 www.bing.com
+/wp-includes/widgets/n3rDD7.php 2 http://adamfazel.com//wp-includes/widgets/n3rDD7.php
+/wp-content/dropdown.php 3 http://adamfazel.com//wp-content/dropdown.php
+/images/xmrlpc.php 34 -
+/mm.php 1 http://adamfazel.com//mm.php
+/ups.php 2 www.bing.com
+/wp-includes/SimplePie/plugins.php 5 http://adamfazel.com//wp-includes/SimplePie/plugins.php
+/.tmb/admin.php 14 -
+/moded.php 14 -
+/install.php 32 http://adamfazel.com//install.php
+/view-source: 9 -
+/wp-admin/ws.php 2 http://adamfazel.com//wp-admin/ws.php
+/xxl.php 4 -
+/wp-admin/ss.php 2 http://adamfazel.com//wp-admin/ss.php
+/wp-content/cache/autoptimize/js/wp-blog.php 1 http://adamfazel.com//wp-content/cache/autoptimize/js/wp-blog.php
+/config/.env.local 1 -
+/wp-content/plugins/seoox/alfanew.php 2 http://adamfazel.com//wp-content/plugins/seoox/alfanew.php
+/wp-cron.php 1 -
+/wp-content/plugins/sukxicr/index.php 2 http://adamfazel.com//wp-content/plugins/sukxicr/index.php
+/wp-content/uploads/about.php 14 -
+/wp-includes/js/tinymce/skins/lightgray/fonts/icomoon/wp-blog.php 1 http://adamfazel.com//wp-includes/js/tinymce/skins/lightgray/fonts/icomoon/wp-blog.php
+/wp-content/upgrade-temp-backup/about.php 35 -
+/wp-includes/versions.php 2 http://adamfazel.com//wp-includes/versions.php
+/wp.php 16 -
+/sitemap.xml.gz 7 -
+/wp-admin/js/widgets/cloud.php 38 -
+/modules/mod_simplefileuploadv1.3/elements/pipvyoco.php 2 http://adamfazel.com//modules/mod_simplefileuploadv1.3/elements/pipvyoco.php
+/wp-content/themes/twentyfive/include.php 16 -
+/wp-includes/js/configure.php 1 http://adamfazel.com//wp-includes/js/configure.php
+/Dockerfile* 1 -
+/wp-content/plugins/woocommerce/packages/action-scheduler/classes/wp-blog.php 1 http://adamfazel.com//wp-content/plugins/woocommerce/packages/action-scheduler/classes/wp-blog.php
+/wp-includes/pomo/user-new.php 1 http://adamfazel.com//wp-includes/pomo/user-new.php
+/wp-content/plugins/loginizer/assets/wp-blog.php 2 http://adamfazel.com//wp-content/plugins/loginizer/assets/wp-blog.php
+/defau11.php 1 www.bing.com
+/css/xmrlpc.php 34 -
+/c99.php 2 http://adamfazel.com//c99.php
+/wp-admin/css/colors/coffee/xmrlpc.php 34 -
+/wp-admin/css/acces.php 1 http://adamfazel.com//wp-admin/css/acces.php
+/wp-content/plugins/apikey/apikey.php 2 http://adamfazel.com//wp-content/plugins/apikey/apikey.php
+/wp-admin/includes/logs.php 1 http://adamfazel.com//wp-admin/includes/logs.php
+/.well-known/pki-validation/install.php 2 http://adamfazel.com//.well-known/pki-validation/install.php
+/admin/controller/extension/extension/cgialfa 1 www.bing.com
+/wp-includes/class-wordpress-license.php 2 http://adamfazel.com//wp-includes/class-wordpress-license.php
+/wp-includes/js/tinymce/skins/lightgray/fonts/ionicons/wp-blog.php 1 http://adamfazel.com//wp-includes/js/tinymce/skins/lightgray/fonts/ionicons/wp-blog.php
+/wp-content/upgrade/iR7SzrsOUEP.php 2 -
+/wp-includes/plugins.php 2 -
+/libs/jquery-1.6.2.min.js 16 -
+/sitemap.txt 5 -
+/foutbgone.js 19 -
+/proton_recovery.asc 1 -
+/wp-includes/js/dist/rich-text/wp-blog.php 1 http://adamfazel.com//wp-includes/js/dist/rich-text/wp-blog.php
+/wp1/wp-includes/wlwmanifest.xml 29 -
+/ioxi001.PhP7 14 -
+/wp-content/plugins/hello.php 2 http://adamfazel.com//wp-content/plugins/hello.php
+/epinyins.php 3 www.google.com
+/photos/plugins/visiblehookpoints/css/wp-blog.php 2 http://adamfazel.com//photos/plugins/visiblehookpoints/css/wp-blog.php
+/.well-known/acme-challenge/xl2023.php 2 -
+/wp-content/style.php 6 -
+/wp-admin/images/Mhbgf.php 3 http://adamfazel.com//wp-admin/images/Mhbgf.php
+/wp-includes/SimplePie/lock360.php 1 http://adamfazel.com//wp-includes/SimplePie/lock360.php
+/wp-configs.php 14 -
+/wp_info.php 2 http://adamfazel.com//wp_info.php
+/wp-content/install.php 3 http://adamfazel.com//wp-content/install.php
+/fw.php 23 -
+/wp-admin/taf.php 2 http://adamfazel.com//wp-admin/taf.php
+/xml.php 2 http://adamfazel.com//xml.php
+/wp-includes/Requests/Proxy/dir/wp-blog.php 1 http://adamfazel.com//wp-includes/Requests/Proxy/dir/wp-blog.php
+/include/upload_interface.php 1 http://adamfazel.com//include/upload_interface.php
+/wp-content/uploads/wpr-addons/forms/b1ack.php 1 -
+/le.php 2 http://adamfazel.com//le.php
+/qindex.php 1 www.bing.com
+/Marvins.php 2 http://adamfazel.com//Marvins.php
+/wp-includes/qw.php 14 -
+/wp-content/plugins/yymspou/azlkzidh.php 2 http://adamfazel.com//wp-content/plugins/yymspou/azlkzidh.php
+/wp-content/index.php 5 http://adamfazel.com//wp-content/index.php
+/configuration/truffle 1 -
+/_profiler 1 -
+/classwithtostring.php 6 -
+/plugin.php 2 http://adamfazel.com//plugin.php
+/wp-includes/pomo/about.php 39 -
+/wp-includes/ID3/license.txt 4 -
+/wp-includes/class-wp-customize-control-private.php 1 http://adamfazel.com//wp-includes/class-wp-customize-control-private.php
+/wp-includes/IXR/edit.php 2 http://adamfazel.com//wp-includes/IXR/edit.php
+/wp-content/plugins/background-image-cropper/tmpls.php 14 -
+/wp-content/plugins/si-contact-form/includes/modules/wp-blog.php 1 http://adamfazel.com//wp-content/plugins/si-contact-form/includes/modules/wp-blog.php
+/wp-config.php 1 -
+/file.php 4 http://adamfazel.com//file.php
+/xl.php 2 -
+/wp-content/plugins/TOPXOH/wDR.php 3 http://adamfazel.com//wp-content/plugins/TOPXOH/wDR.php
+/templates/beez3/alfacgiapi 1 www.bing.com
+/website/wp-includes/wlwmanifest.xml 25 -
+/wp-includes/fonts/log404.php 14 -
+/wp-admin/inputs.php 1 -
+/wp-includes/sitemaps/about.php 14 -
+/wp-includes/js/tinymce/skins/lightgray/fonts/materialdesignicons/webfont/wp-blog.php 1 http://adamfazel.com//wp-includes/js/tinymce/skins/lightgray/fonts/materialdesignicons/webfont/wp-blog.php
+/packages/network.php 2 http://adamfazel.com//packages/network.php
+/wp-activate.php 20 -
+/wp-content/plugins/apikey/mar.php 17 -
+/leaf.php 2 http://adamfazel.com//leaf.php
+/pub/health_check.php 1 https://adamfazel.com/pub/health_check.php
+/wp-includes/theme-compat/wp-conflg.php 4 http://adamfazel.com//wp-includes/theme-compat/wp-conflg.php
+/libraries/legacy/updates.php 38 -
+/wp-content/plugins/hellopress/wp_filemanager.php 30 -
+/_all_dbs 1 -
+/newsite 1 -
+/config.php 1 www.bing.com
+/vendor/contato.php 1 http://adamfazel.com//vendor/contato.php
+/ws.php7 36 -
+/wp-content/cgialfa 1 www.bing.com
+/templates/beez3/index.php 1 www.bing.com
+/xixi-10211.php 2 http://adamfazel.com//xixi-10211.php
+/lufix.php 8 -
+/xmlrpcs.php 1 www.bing.com
+/filemanager2.php 2 http://adamfazel.com//filemanager2.php
+/sx.php 14 -
+/wp-includes/SimplePie/about.php 37 -
+/wp-content/inputs.php 1 -
+/r3x.php 14 -
+/wp-content/plugins/quick-pagepost-redirect-plugin/js/wp-blog.php 1 http://adamfazel.com//wp-content/plugins/quick-pagepost-redirect-plugin/js/wp-blog.php
+/wp-admin/repeater.php 40 -
+/ioxi-rex4.php7 3 http://adamfazel.com//ioxi-rex4.php7
+/wp-include/about.php 2 http://adamfazel.com//wp-include/about.php
+/c.php 4 http://adamfazel.com//c.php
+/wp-content/uploads/404HAC/6-Drupal-portal-www.txt404/wp-blog.php 2 http://adamfazel.com//wp-content/uploads/404HAC/6-Drupal-portal-www.txt404/wp-blog.php
+/ekahu1l/index/plugins.php 2 http://adamfazel.com//ekahu1l/index/plugins.php
+/wp-content/hader/seothemes/mp.php 2 http://adamfazel.com//wp-content/hader/seothemes/mp.php
+/wp-admin/css/colors/blue/taf.php 2 http://adamfazel.com//wp-admin/css/colors/blue/taf.php
+/authorize.php 2 http://adamfazel.com//authorize.php
+/wp-content/themes/pridmag/db.php 38 -
+/wp-includes/blocks/video/wp-blog.php 2 http://adamfazel.com//wp-includes/blocks/video/wp-blog.php
+/wp-includes/js/tinymce/skins/lightgray/fonts/linecons/wp-blog.php 1 http://adamfazel.com//wp-includes/js/tinymce/skins/lightgray/fonts/linecons/wp-blog.php
+/.well-known/pki-validation/cloud.php 42 -
+/user.php 2 http://adamfazel.com//user.php
+/templates/beez3/ALFA_DATA 1 www.bing.com
+/mah.php 21 -
+/wp-admin/setup-config.php 3 http://adamfazel.com//wp-admin/setup-config.php
+/ws.php 22 -
+/favicon.png 2 -
+/debug/default/view 1 -
+/wp2/wp-includes/wlwmanifest.xml 25 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 238
+77.83.26.247 13 17 19028340 20240311042539
+154.6.12.20 11 11 0 20240307101842
+154.28.229.235 11 19 74877 20240307112359
+149.56.160.196 11 11 29493 20240301210939
+154.28.229.5 10 18 39677 20240307073044
+69.160.160.58 10 16 16453 20240303164835
+184.154.76.34 8 28 54796 20240321063443
+138.68.180.18 7 7 5268 20240315034539
+47.229.96.137 5 50 17792287 20240323210951
+54.88.179.33 5 5 0 20240323024753
+45.94.31.199 2 2 0 20240307200016
+83.99.151.64 1 1 11381 20240320094145
+165.227.39.102 1 1 0 20240322090040
+43.134.190.89 1 1 0 20240310080756
+213.202.233.34 1 1 2699 20240311223700
+94.247.172.129 1 1 0 20240311000155
+152.44.106.55 0 1 0 
+45.86.86.242 1 1 0 20240322022816
+101.44.249.138 1 1 0 20240323121918
+2.58.56.214 3 3 0 20240314054540
+178.254.24.91 1 1 0 20240308182855
+193.118.52.30 1 1 0 20240306211308
+43.133.72.69 2 2 0 20240311130059
+35.94.163.227 0 6 13744 
+101.44.250.22 1 1 2699 20240313205010
+43.155.138.79 1 1 0 20240310175938
+3.235.155.161 1 1 0 20240319065546
+104.239.96.46 1 1 0 20240312211659
+43.159.128.149 1 1 0 20240322074041
+34.219.187.129 1 1 0 20240313063401
+64.227.2.183 1 1 0 20240308083731
+5.133.192.166 1 1 0 20240305063837
+101.44.251.175 1 1 0 20240312123832
+101.44.248.125 1 1 0 20240305000511
+18.236.114.147 1 1 0 20240305065057
+154.22.61.240 1 1 0 20240301201613
+165.232.89.74 1 1 2699 20240307083827
+185.220.100.250 1 1 0 20240309101843
+101.44.249.84 1 1 7941 20240311182017
+69.58.76.67 1 3 0 20240306135546
+185.180.143.143 1 1 0 20240310004625
+35.89.217.25 1 7 29970 20240301064131
+68.183.53.30 1 1 0 20240320100513
+45.94.31.24 1 1 0 20240323110236
+35.89.170.151 1 1 0 20240317063255
+184.154.139.6 1 4 0 20240306063119
+15.204.182.106 1 1 0 20240308201728
+54.212.109.62 0 6 0 
+45.80.158.85 4 4 0 20240304162948
+18.191.117.57 1 1 0 20240316202040
+64.227.125.83 1 1 0 20240311042512
+196.242.114.37 4 4 11381 20240301184442
+172.177.110.234 1 1 0 20240307044056
+101.44.248.181 1 1 8480 20240316174549
+54.212.162.60 1 1 0 20240310190056
+193.118.51.134 1 1 0 20240319170350
+185.130.226.86 1 1 0 20240306070103
+45.80.158.25 1 1 0 20240313020614
+5.133.192.108 1 1 2699 20240311021236
+67.205.147.207 1 1 0 20240317151235
+3.108.44.142 1 1 0 20240315144812
+45.156.129.27 1 1 0 20240320034400
+84.54.44.213 1 1 0 20240319125132
+35.86.76.119 1 1 0 20240316024212
+35.204.73.224 0 1 1540977 
+128.199.231.40 1 1 0 20240308123548
+199.244.88.231 1 1 0 20240314223555
+93.159.230.87 1 1 0 20240301084055
+45.156.128.12 1 1 0 20240322210111
+91.92.250.136 1 1 0 20240320064840
+35.87.129.173 1 1 0 20240321071034
+35.93.115.100 1 1 0 20240301052036
+85.192.41.110 1 1 2699 20240317095917
+93.100.144.207 1 1 0 20240321123021
+5.133.192.192 1 1 0 20240318194011
+34.220.202.157 1 1 0 20240313060146
+142.147.110.2 0 1 0 
+193.118.51.130 1 1 0 20240304001755
+205.185.125.109 1 1 0 20240308215655
+54.189.142.10 1 1 0 20240317062339
+43.155.136.16 1 1 0 20240317002304
+89.248.174.34 1 1 0 20240316051911
+35.175.131.142 1 1 0 20240310051714
+181.214.167.199 4 4 16649 20240321031627
+199.45.155.18 1 1 0 20240308110012
+43.134.37.211 2 2 0 20240323122657
+128.199.231.34 2 2 0 20240316172855
+91.92.248.54 2 2 0 20240313165413
+193.27.90.63 1 1 0 20240319031855
+103.164.81.98 1 1 0 20240323193745
+43.128.100.220 1 1 0 20240301055023
+103.162.78.130 1 1 0 20240320120947
+35.92.82.242 1 1 0 20240313060144
+101.44.250.151 1 1 4101 20240323132630
+101.44.250.10 1 1 8480 20240317200420
+184.154.139.9 2 8 10050 20240322063506
+91.92.250.248 1 1 0 20240319161146
+104.248.158.88 1 1 0 20240321173625
+101.44.251.5 1 1 0 20240309071535
+54.149.82.8 1 1 0 20240309052908
+185.180.143.80 1 1 0 20240320093737
+167.99.79.103 2 2 0 20240307134118
+206.189.44.65 1 1 0 20240311210239
+35.171.144.152 3 3 0 20240315225242
+147.92.53.41 1 10 29805 20240323230710
+5.133.192.193 1 1 0 20240318194010
+89.248.174.42 1 1 0 20240310102111
+104.187.55.56 5 44 39494747 20240318133218
+192.36.109.118 1 1 1647 20240319092514
+34.209.85.50 1 7 0 20240309065733
+130.255.166.26 1 1 1647 20240307175843
+54.190.35.32 1 1 0 20240321071006
+3.78.221.13 1 1 0 20240307185449
+185.101.21.190 1 1 0 20240309185301
+101.44.250.86 1 1 8480 20240304204931
+184.154.139.8 5 22 60657 20240314063501
+66.220.149.120 0 1 37234 
+103.225.202.225 2 2 0 20240306014111
+83.99.151.66 1 1 0 20240320094144
+101.44.249.226 1 1 0 20240313024559
+34.219.46.255 1 1 0 20240321090822
+91.92.255.218 2 2 2699 20240320083654
+43.128.100.206 2 2 0 20240313053025
+45.80.158.134 2 2 0 20240321112948
+52.206.139.141 1 1 0 20240309134455
+144.126.217.89 1 1 0 20240314082510
+164.90.210.154 1 1 0 20240316073615
+43.159.63.75 2 2 0 20240319195648
+162.244.144.16 1 5 11381 20240309190745
+194.163.164.43 1 1 0 20240307080041
+167.248.133.183 1 1 0 20240320154236
+139.59.119.87 1 1 0 20240307020501
+94.156.64.15 1 1 0 20240322043623
+101.44.248.135 1 1 0 20240315223247
+34.221.44.141 0 6 0 
+93.159.230.90 1 1 0 20240320232441
+5.164.29.116 1 1 0 20240307133601
+172.96.85.65 0 4 0 
+101.44.251.251 1 1 0 20240313131859
+35.94.109.185 1 7 0 20240309065726
+185.170.10.187 1 1 0 20240316073114
+173.252.83.8 1 1 0 20240303080143
+199.45.154.18 1 1 0 20240308132515
+18.191.199.208 1 1 0 20240310171735
+4.242.242.34 1 1 0 20240307224517
+149.20.243.10 0 1 0 
+24.235.12.20 0 1 0 
+101.44.251.58 1 1 0 20240311030440
+104.236.197.245 1 1 0 20240316102206
+101.44.249.164 1 1 0 20240308012730
+185.181.61.115 1 1 0 20240321053548
+195.211.77.140 1 1 0 20240307063306
+199.45.154.65 1 1 0 20240320152439
+192.36.109.89 1 1 0 20240319092516
+159.203.113.240 1 1 0 20240306081300
+192.36.24.172 1 1 0 20240313092130
+101.44.251.160 1 1 0 20240312151208
+150.109.16.20 1 1 0 20240312081301
+69.127.115.222 1 1 0 20240307082908
+159.203.182.197 1 1 0 20240321111108
+101.44.250.78 1 1 0 20240315022528
+3.88.160.230 1 1 0 20240319053549
+199.45.155.35 1 1 0 20240320183909
+124.248.191.170 1 1 0 20240311083530
+101.44.249.133 1 1 0 20240313072826
+101.44.250.251 1 1 0 20240319042734
+181.214.167.132 4 4 0 20240322003023
+5.133.192.94 1 1 0 20240322133406
+91.227.68.162 1 1 0 20240317000706
+154.84.143.206 2 2 0 20240312211706
+185.241.208.85 1 1 0 20240301134416
+35.87.74.102 0 6 0 
+35.88.212.217 1 1 0 20240321071007
+45.138.16.164 1 1 0 20240305151254
+74.50.8.68 1 1 0 20240308034231
+101.44.251.240 1 1 8480 20240314200027
+196.196.147.105 3 3 5268 20240306014301
+216.250.255.209 4 4 8480 20240323083631
+184.154.139.5 4 13 0 20240316063433
+143.110.166.81 1 1 0 20240311204421
+93.159.230.89 1 1 0 20240315094749
+93.158.91.31 1 1 0 20240316192954
+203.95.196.241 1 1 0 20240323182137
+134.209.122.219 1 1 0 20240302082529
+66.249.77.168 1 1 10071497 20240304130532
+176.9.76.162 1 1 0 20240305200006
+192.36.198.80 1 1 0 20240313092128
+165.22.108.223 1 1 2699 20240307063325
+91.92.248.47 2 2 0 20240305200108
+206.189.88.25 1 1 0 20240311213612
+43.131.249.153 2 2 0 20240314015228
+101.44.248.249 1 1 0 20240311131500
+35.94.84.202 0 6 40020 
+45.154.35.141 1 1 0 20240322085001
+101.44.250.44 1 1 0 20240315173904
+35.85.254.185 0 6 41042 
+185.190.42.200 1 1 0 20240308160234
+35.84.188.157 0 6 0 
+149.56.150.103 0 1 0 
+195.90.221.76 1 1 0 20240317102345
+165.22.57.224 1 1 0 20240320035106
+43.163.3.58 1 1 0 20240307213552
+198.71.56.224 1 1 0 20240310053707
+199.45.155.32 1 1 0 20240320210710
+142.93.151.185 1 1 0 20240314100226
+18.212.224.28 1 1 0 20240303064257
+65.154.226.169 1 7 0 20240307063321
+130.255.166.24 1 1 0 20240307175845
+45.141.215.210 1 1 0 20240308043158
+103.125.146.69 1 1 0 20240304044844
+52.12.215.169 1 7 40020 20240301064122
+101.44.248.93 1 1 0 20240312153502
+40.69.33.92 2 2 0 20240301171450
+80.92.205.225 1 1 0 20240308231958
+35.92.204.188 1 1 0 20240309052918
+93.158.90.17 1 1 0 20240302033751
+171.67.70.233 1 1 2699 20240307103418
+143.110.166.21 1 1 0 20240311174058
+136.52.15.164 1 13 0 20240318200708
+101.44.249.162 1 1 0 20240311194751
+34.219.187.71 1 1 0 20240309065721
+69.10.48.174 1 1 0 20240320100757
+83.99.151.67 1 1 0 20240320094146
+101.44.249.213 1 1 8480 20240311024625
+209.97.135.94 1 1 0 20240318090548
+86.127.230.205 1 1 0 20240306160845
+13.95.133.245 1 1 0 20240307204402
+101.44.248.116 1 1 0 20240315164730
+165.227.204.128 1 1 0 20240310100628
+43.128.110.17 1 1 0 20240317103635
+184.154.139.7 2 7 0 20240323063352
+150.109.253.34 1 1 0 20240316044253
+84.17.49.97 1 1 0 20240308175230
+128.199.231.58 1 1 0 20240314180116
+72.13.62.25 3 3 0 20240318112910
+47.242.224.70 2 7 0 20240307165632
+52.124.19.25 0 1 0 
+67.205.156.43 1 1 0 20240312084727
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20240301 26 40 110864 13
+20240302 4 7 10050 4
+20240303 16 25 16453 6
+20240304 8 11 10079977 7
+20240305 8 22 41042 8
+20240306 11 20 5268 9
+20240307 54 83 124298 24
+20240308 17 20 13744 17
+20240309 11 35 11381 11
+20240310 10 14 1540977 10
+20240311 29 35 19050159 17
+20240312 13 15 0 11
+20240313 13 28 2699 13
+20240314 9 12 24706 8
+20240315 16 18 19012 9
+20240316 11 14 8480 11
+20240317 11 25 67642 11
+20240318 14 62 39535799 8
+20240319 11 19 1647 11
+20240320 16 20 79302 16
+20240321 15 24 16649 12
+20240322 12 15 0 9
+20240323 20 77 17834673 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+2mn-5mn 1
+0s-30s 253
+30s-2mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/ 225 21592 221 206
+/composer 27 50880 12 14
+/directorCommercial 18 31608 6 2
+/pressPrint 17 68286 4 10
+/directorVideo 15 39705 7 8
+/home 12 5398 1 5
+/directorFilm 9 22055 0 1
+/composerCues 7 16404 1 2
+/composerMusic 6 4088 0 2
+/composerEnsembles 6 12261 0 0
+/pdfs/musiciansfriend/Feb2012Issue.pdf 1 8603814 0 1
+/humans.txt 5 4941 4 5
+/pdfs/musiciansfriend/Nov2012Issue.pdf 2 20142994 1 1
+/pressMedia 5 14824 0 0
+END_SIDER

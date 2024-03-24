@@ -1,0 +1,959 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 202301 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2537                
+POS_VISITOR 20793               
+POS_DAY 28606               
+POS_DOMAIN 3315                
+POS_LOGIN 3546                
+POS_ROBOT 3701                
+POS_WORMS 4243                
+POS_EMAILSENDER 4374                
+POS_EMAILRECEIVER 4517                
+POS_SESSION 29343               
+POS_SIDER 29512               
+POS_FILETYPES 4652                
+POS_OS 4861                
+POS_BROWSER 4990                
+POS_SCREENSIZE 5256                
+POS_UNKNOWNREFERER 5330                
+POS_UNKNOWNREFERERBROWSER 5995                
+POS_ORIGIN 6220                
+POS_SEREFERRALS 6360                
+POS_PAGEREFS 6518                
+POS_SEARCHWORDS 6691                
+POS_KEYWORDS 6843                
+POS_MISC 2201                
+POS_ERRORS 6902                
+POS_CLUSTER 3402                
+POS_SIDER_404 7048                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230201005342 5489 1051373 42492351343
+FirstTime 0
+LastTime 20230131202409
+LastUpdate 20230201025331 5489 5386 102 0 0
+TotalVisits 240                 
+TotalUnique 206                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 221                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 18 24 35378 50 84 38263
+1 8 8 4346 87 137 99219
+2 9 10 48102 97 173 104378
+3 4 4 5398 38 81 208616
+4 7 7 0 37 78 152481
+5 4 4 5398 152 219 306835
+6 29 115 332930 375 543 464334
+7 8 14 25755 272 301 163496
+8 8 8 22249 108 140 91180
+9 7 7 2699 67 87 34964
+10 11 11 0 59 107 8671267
+11 8 8 5398 90 155 10184492
+12 13 55 18805806 78 183 67312390
+13 70 91 86349 498 562 274653
+14 2 2 0 176 199 8740305
+15 13 13 2699 98 151 10186671
+16 9 15 20572 86 178 103016
+17 2 2 0 39 82 123185
+18 26 60 18820439 163 192 78277
+19 3 4 37234 78 113 60728
+20 15 15 1647 121 160 89439
+21 12 31 4252735 566 630 347973
+22 2 8 945613 118 142 71858
+23 8 8 2699 127 181 96918
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 296 524 43463446
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+spider 391 400037 20230131063138 0
+bot[+:,\.\;\/\\-] 185 37500636 20230131164613 108
+googlebot 164 553716 20230131191216 40
+robot 153 50287 20230131122528 31
+yandex 46 94255 20230129020936 16
+mail\.ru 19 0 20230129123735 7
+python 16 0 20230131221227 0
+unknown 15 0 20230131171151 15
+crawl 9 0 20230112212638 0
+netcraft 7 10796 20230120143844 0
+no_user_agent 3 0 20230125185141 1
+custo 5 8097 20230130143209 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 42 162016 0 0
+png 20 28164773 0 0
+txt 3 4941 0 0
+html 239 59378 0 0
+js 127 445734 0 0
+jpg 32 14387332 0 0
+jpeg 2 150804 0 0
+Unknown 54 88468 0 0
+gif 5 0 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+winlong 8
+winxp 8
+unix 7
+winnt 103
+winvista 4
+linux 107
+macosx 128
+Unknown 32
+win2008 127
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 17
+firefox82.0 1
+msie6.0 2
+firefox68.0 1
+firefox90.0 1
+mozilla 40
+chrome 278
+firefox60.0 1
+firefox51.0 1
+firefox102.0 8
+firefox108.0 3
+msie9.0 105
+curl 2
+firefox100.0 1
+firefox104.0 2
+firefox24.0 1
+Unknown 7
+safari 70
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Mozilla/5.0_(Android_8.0.0;_Mobile;_rv:61.0)_Gecko/61.0_Firefox/68.0 20230128114836
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20230120214310
+test 20230106124017
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20230125111303
+Mozilla/5.0_(compatible;_ips-agent) 20230126102904
+curl/7.54.0 20230131202409
+curl/7.81.0 20230122202755
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20230131044536
+Go-http-client/1.1 20230119180143
+Mozilla/5.0_(compatible;_Dataprovider.com) 20230130004822
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+test 20230106124017
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20230131044536
+Go-http-client/1.1 20230119180143
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 203 210
+From1 1 1
+From2 31 111
+From3 3 3
+From4 58 199
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 31 111
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://www.bing.com 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 32 6936
+302 1671 353489
+206 1 67196074
+407 3 1245
+404 2158 1829370
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 413
+/blog/wp-includes/wlwmanifest.xml 59 -
+/priv8.php 4 http://adamfazel.com//priv8.php
+/api/.env 1 -
+/wp-content/upload.php 3 http://adamfazel.com//wp-content/upload.php
+/xx.php 4 http://adamfazel.com/xx.php
+/sitemap.ashx 1 -
+/admin.php 6 -
+/js/tinymce4/plugins/filemanager/dialog.php 2 -
+/asset/kcfinder/upload.php 2 -
+/site/wp-includes/wlwmanifest.xml 59 -
+/aws.yml 2 -
+/0.php 1 -
+/wp-content/themes/seotheme/mar.php 20 www.google.com
+/o.php 1 -
+/wp-includes/css/modules.php 1 -
+/wp-content/plugins/masterx/wpx.php 3 http://adamfazel.com//wp-content/plugins//masterx/wpx.php
+/sqjgjhjb.php 1 www.google.com
+/local.php 1 -
+/bala.php 1 -
+/olux.php 3 -
+/radio.php 4 http://adamfazel.com//radio.php
+/alfashell.php 1 -
+/sites/default/files/ 27 binance.com
+/4price.php 3 http://adamfazel.com//4price.php
+/test/wp-includes/wlwmanifest.xml 59 -
+/bc 6 http://adamfazel.com/bc
+/pdf/ 2 -
+/nf_tracking.php 1 -
+/xmlrqc.php 3 http://adamfazel.com//xmlrqc.php
+/tinymce/plugins/filemanager/dialog.php 1 -
+/doc.php 4 http://adamfazel.com//doc.php
+/p.php 1 -
+/th1s_1s_a_4o4.html 31 -
+/alwso.php 2 -
+/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/assets/plugins/filemanager/dialog.php 2 -
+/XxX.php 3 http://adamfazel.com//XxX.php
+/shop/wp-includes/wlwmanifest.xml 59 -
+/assets/filemanager/dialog.php 2 -
+/old 6 http://adamfazel.com/old
+/style.php 37 -
+/google.php 3 http://adamfazel.com//google.php
+/main 6 http://adamfazel.com/main
+/blog/wp-json/wp/v2/users 1 -
+/haxor.php 4 http://adamfazel.com//haxor.php
+/wp-json/wp/v2/users 1 -
+/y.php 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 9 http://adamfazel.com//wp-content/plugins/ioptimization/IOptimize.php
+/assets/js/kcfinder/upload.php 2 -
+/wp-admin/xleet.php 3 http://adamfazel.com//wp-admin/xleet.php
+/.aws/credentials 2 -
+/.well-known/ 28 binance.com
+/backend/.env 2 -
+/wp-admin/style.php 38 -
+/local/.env 2 -
+/wp-content/vuln.php 1 -
+/wp-2021.php 3 http://adamfazel.com//wp-2021.php
+/utchiha.php 3 http://adamfazel.com//utchiha.php
+/zzzvubrw.php 1 www.google.com
+/upl.php 1 -
+/gallery/ 2 -
+/wp-easy.php 3 http://adamfazel.com//wp-easy.php
+/ALFA_DATA/alfacgiapi/perl.alfa 9 www.google.com
+/wp-content/plugins/vwcleanerplugin/bump.php 1 -
+/assets/elfinder/elfinder.html 2 -
+/thumb.php 1 -
+/html.zip 1 -
+/assets/tinymce/plugins/filemanager/dialog.php 2 -
+/index.html 20 -
+/wp-customize.php 1 -
+/wp-log.php 1 -
+/ofc/php-ofc-library/ofc_upload_image.php 1 -
+/w.php 1 -
+/wp-admin/network/wp-footer.php 1 -
+/license.php 1 -
+/wp-admin/shapes.php 1 -
+/www.zip 1 -
+/new 7 http://adamfazel.com/new
+/admin/filemanager/dialog.php 2 -
+/10.php 1 -
+/wp/wp-commentin.php 2 http://adamfazel.com/wp/wp-commentin.php
+/old-index.php 4 http://adamfazel.com//old-index.php
+/ads.txt 5 http://adamfazel.com/ads.txt
+/wp-content/themes/wp-pridmag/init.php 3 http://adamfazel.com//wp-content/themes/wp-pridmag/init.php
+/archive.zip 1 -
+/FoxWSO.php 1 -
+/up.php 7 http://adamfazel.com//up.php
+/bk 6 http://adamfazel.com/bk
+/wp-admin/includes/class-wp-media-list-data.php 1 -
+/wp-content/plugins/ubh/index.php 1 -
+/php-ofc-library/ofc_upload_image.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 59 -
+/wp-content/uploads/typehub/custom/motcucon/.zo.php 1 www.google.com
+/9.php 1 -
+/blog/.env 1 -
+/wp-info.php 6 -
+/fox.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 8 -
+/wp-content/uploads/ 1 -
+/wp-content/themes/alera/alpha.php 2 http://adamfazel.com//wp-content/themes/alera/alpha.php
+/ini.php 3 http://adamfazel.com//ini.php
+/u.php 1 -
+/wp-content/plugins/html404/index.html 1 -
+/s.php 1 -
+/wp-2019.php 4 -
+/WSO.php 1 -
+/assets/plugins/elfinder/elfinder.html 2 -
+/wp-admin/css/fw.php 1 -
+/backup 6 http://adamfazel.com/backup
+/media-admin.php 3 http://adamfazel.com//media-admin.php
+/h.php 1 -
+/100.php 1 -
+/1337.php 4 http://adamfazel.com//1337.php
+/wp-admin.php 2 -
+/sitemap_index.xml.gz 2 -
+/alfacgiapi/perl.alfa 7 www.google.com
+/wso112233.php 2 -
+/wp-content/plugins/seoplugins/mar.php 20 www.google.com
+/config/aws.yml 2 -
+/feed/ 26 -
+/chart/php-ofc-library/ofc_upload_image.php 1 -
+/ALFA_DATA/alfacgiapi/ups.php 3 http://adamfazel.com//ALFA_DATA/alfacgiapi/ups.php
+/media/system/js/core.js 2 http://adamfazel.com/media/system/js/core.js
+/env/.env 2 -
+/marijuana.php 4 http://adamfazel.com//marijuana.php
+/shell.php 8 -
+/wp-admin/rss.php 3 http://adamfazel.com//wp-admin/rss.php
+/sessions/.env 2 -
+/fdksevlc.php 1 www.google.com
+/.git/config 5 -
+/wordpress 7 http://adamfazel.com/wordpress
+/wpx.php 3 http://adamfazel.com//wpx.php
+/back/.env 2 -
+/wp-content/themes/seotheme/db.php 26 www.google.com
+/wp-2020.php 3 http://adamfazel.com//wp-2020.php
+/g.php 1 -
+/wp-fox.php 1 -
+/403.php 4 http://adamfazel.com//403.php
+/wp/wp-json/wp/v2/users 1 -
+/11index.php 1 -
+/backup.zip 1 -
+/about.php 6 http://adamfazel.com//about.php
+/wp-includes/assets/pi.php 3 http://adamfazel.com//wp-includes/assets/pi.php
+/dev/.env 1 -
+/ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js 1 -
+/libs/modernizr-2.0.6.min.js 1 -
+/adamfazel.sql 1 -
+/plugins/kcfinder/upload.php 2 -
+/wsa.php 1 -
+/wp-content/mu-plugins-old/index.php 1 -
+/templates/beez5/index.php 1 -
+/1h6j5.php 3 http://adamfazel.com//1h6j5.php
+/wp2.php 1 -
+/.vscode/sftp.json 4 -
+/wp-22.php 3 http://adamfazel.com//wp-22.php
+/blog.php 1 -
+/docs/ 2 -
+/wikindex.php 6 -
+/baindex.php 3 http://adamfazel.com//baindex.php
+/core/.env 1 -
+/xleet-shell.php 1 -
+/e.php 1 -
+/fade.js 2 -
+/plugins.js 1 -
+/xleet.php 4 http://adamfazel.com//xleet.php
+/uploads/xleet.php 3 http://adamfazel.com//uploads/xleet.php
+/x.php 4 http://adamfazel.com//x.php
+/02.php 3 http://adamfazel.com//02.php
+/wp-uploads.php 1 -
+/404.php 4 http://adamfazel.com//404.php
+/wp-includes/css/buttons.css 6 http://adamfazel.com/wp-includes/css/buttons.css
+/wp-admin/css/ 28 binance.com
+/wp-content/plugins/xichang/x.php 1 -
+/assets/kcfinder/upload.php 2 -
+/uploads/up.php 4 http://adamfazel.com//uploads/up.php
+/m.php 1 -
+/script.js 1 -
+/sitemap 4 -
+/wp_wrong_datlib.php 4 http://adamfazel.com//wp_wrong_datlib.php
+/admin/.env 1 -
+/.git/index 1 -
+/z.php 1 -
+/site/wp-commentin.php 2 http://adamfazel.com/site/wp-commentin.php
+/cms/wp-includes/wlwmanifest.xml 59 -
+/2018/wp-includes/wlwmanifest.xml 12 -
+/wp-includes/wp-class.php 1 -
+/w3llstore.php 1 -
+/images/ 2 -
+/hehe.php 3 http://adamfazel.com//hehe.php
+/duggijoj.php 1 www.google.com
+/mini.php 4 http://adamfazel.com//mini.php
+/scripts/filemanager/dialog.php 2 -
+/ffAA531.php 1 -
+/up-kon.php 3 http://adamfazel.com//up-kon.php
+/wp-content/languages/index.php 1 -
+/assets/admin/tinymce/plugins/filemanager/dialog.php 2 -
+/wp-commentin.php 37 -
+/3index.php 4 -
+/hello.php 1 -
+/2020/wp-includes/wlwmanifest.xml 47 -
+/media/wp-includes/wlwmanifest.xml 12 -
+/wp-content/plugins/wpyii2/wpyii2.php 1 -
+/admin 1 https://adamfazel.com/
+/wp-god.php 3 http://adamfazel.com//wp-god.php
+/good.php 3 http://adamfazel.com//good.php
+/sitemap_index.xml 2 -
+/wp 7 http://adamfazel.com/wp
+/by.php 1 -
+/wp-includes/customize/class-wp-customize-nav-menu.php 3 http://adamfazel.com//wp-includes/customize/class-wp-customize-nav-menu.php
+/Alfa.php 1 -
+/wp-content/uploads/2023/01/ 1 -
+/01.php 4 http://adamfazel.com//01.php
+/goods.php 1 -
+/assets/plugins/kcfinder/upload.php 2 -
+/b.php 1 -
+/wp-setups.php 1 -
+/site.zip 1 -
+/wp-x.php 3 http://adamfazel.com//wp-x.php
+/images/vuln.php 3 http://adamfazel.com//images/vuln.php
+/wp-content/plugins/dzs-zoomsounds/savepng.php 1 -
+/bypass.php 1 -
+/sftp-config.json 5 -
+/typo3conf/ext/hi_surveystats/res/php-ofc-library/ofc_upload_image.php 1 -
+/wp-content/about.php 1 -
+/.well-known/traffic-advice 2 -
+/phpformbuilder/plugins/filemanager/dialog.php 2 -
+/wso1.php 1 -
+/kcfinder/upload.php 2 -
+/2021/wp-includes/wlwmanifest.xml 26 -
+/laravel/.env 3 -
+/screenshot_1.php 3 http://adamfazel.com//screenshot_1.php
+/13.php 1 -
+/wp-content/plugins/fighter/fk.php 3 http://adamfazel.com//wp-content/plugins/fighter/fk.php
+/wordpress/wp-commentin.php 2 http://adamfazel.com/wordpress/wp-commentin.php
+/admin/controller/extension/wpm.php 3 http://adamfazel.com//admin/controller/extension/wpm.php
+/ok.php 1 -
+/2019/wp-includes/wlwmanifest.xml 57 -
+/mar.php 1 -
+/n.php 1 -
+/wp-admin/fw.php 1 -
+/blog 1 -
+/storage/.env 2 -
+/upload/ 2 -
+/assets/js/fileupload/server/php/index.php 1 -
+/wp-file.php 1 -
+/098.php 1 -
+/date.php 1 -
+/upel.php 1 -
+/_profiler/phpinfo 2 -
+/joobi/inc/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/wp_logx.php 3 http://adamfazel.com//wp_logx.php
+/ga.js 2 -
+/ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js 1 -
+/alf.php 1 -
+/wp-includes/shell20211028.php 1 -
+/wp-content/plugins/upspy/index.php 1 -
+/lock360.php 3 http://adamfazel.com//lock360.php
+/Telerik.Web.UI.WebResource.axd 4 -
+/misc/ajax.js 3 -
+/0z.php 4 http://adamfazel.com//0z.php
+/.env.bak 2 -
+/phpinfo.php 2 -
+/wp-includes/1index.php 3 http://adamfazel.com//wp-includes/1index.php
+/upload.php 9 http://adamfazel.com//upload.php
+/old/wp-json/wp/v2/users 1 -
+/q.php 1 -
+/l.php 2 -
+/123.php 1 -
+/wp-admin/radio.php 1 -
+/new.php 1 -
+/5.php 1 -
+/wp-content/x.php 1 -
+/wxo.php 3 http://adamfazel.com//wxo.php
+/wp-includes/wlwmanifest.xml 36 -
+/new_license.php 1 -
+/wp-admin/admin-ajax.php 3 -
+/sh.php 1 -
+/assets/admin/js/tinymce/plugins/filemanager/dialog.php 2 -
+/app/.env 1 -
+/payout.php 3 http://adamfazel.com//payout.php
+/autoload_classmap.php 5 -
+/filemanager/dialog.php 3 -
+/small.php 4 http://adamfazel.com//small.php
+/wp-content/language/index.php 1 -
+/mari.php 1 -
+/wp-admin/maint/about.php 1 -
+/wp-includes/about.php 1 -
+/DKIZ.php 3 http://adamfazel.com//DKIZ.php
+/1.php 4 http://adamfazel.com//1.php
+/C.php 3 http://adamfazel.com//C.php
+/ups.php 4 http://adamfazel.com//ups.php
+/xlt.php 3 http://adamfazel.com//xlt.php
+/adamfazel.com.zip 1 -
+/wp-content/plugins/ppus/up.php 1 -
+/wp-story.php 2 -
+/a.php 1 -
+/mininew.php 3 http://adamfazel.com//mininew.php
+/view-source: 3 -
+/sito/wp-includes/wlwmanifest.xml 35 -
+/root.php 1 -
+/wp-reset.php 1 -
+/wp-includes/991176.php 1 -
+/0byte.php 1 -
+/filemanager/filemanager/dialog.php 2 -
+/shx.php 1 -
+/k.php 1 -
+/wp.php 4 http://adamfazel.com//wp.php
+/sitemap.xml.gz 2 -
+/blog/wp-commentin.php 2 http://adamfazel.com/blog/wp-commentin.php
+/c99.php 1 -
+/sitemap.xml 5 -
+/timthumb.php 1 -
+/old.zip 1 -
+/wso.php 8 -
+/public/403.php 1 -
+/sitemap.txt 4 -
+/jindex.php 1 -
+/libs/jquery-1.6.2.min.js 2 -
+/srx.php 3 http://adamfazel.com//srx.php
+/admin/controller/extension/extension/ 28 binance.com
+/wordpress/wp-json/wp/v2/users 1 -
+/wp1/wp-includes/wlwmanifest.xml 59 -
+/wp-content/fw.php 4 http://adamfazel.com//wp-content/fw.php
+/oldindex.php 1 -
+/3.php 1 -
+/1index.php 7 http://adamfazel.com//1index.php
+/config.js 2 -
+/r.php 1 -
+/pi.php 3 http://adamfazel.com//pi.php
+/wp-content/ 5 -
+/fw.php 4 http://adamfazel.com//fw.php
+/adminer.php 3 -
+/wp-content/plugins/widget-logic/mini.php 1 -
+/xltavrat.php 1 -
+/xml.php 3 http://adamfazel.com//xml.php
+/lol.php 1 -
+/web/wp-includes/wlwmanifest.xml 59 -
+/new-index.php 3 http://adamfazel.com//new-index.php
+/Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php 3 http://adamfazel.com//Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php
+/.well-known/security.txt 1 -
+/content.php 1 -
+/mad.php 3 http://adamfazel.com//mad.php
+/wp-content/plugins/easybusy/wp-blog.php 3 http://adamfazel.com//wp-content/plugins/easybusy/wp-blog.php
+/wp-cc.php 17 -
+/i.php 1 -
+/news/wp-includes/wlwmanifest.xml 35 -
+/wp-class.php 2 -
+/indoxploit.php 3 -
+/wp-content/wp.php 1 -
+/edit-form.php 1 -
+/assets/scripts/filemanager/dialog.php 2 -
+/crypted.php 3 http://adamfazel.com//crypted.php
+/4.php 1 -
+/wp-includes/ID3/license.txt 21 -
+/public/.env 3 -
+/vuln.php 1 -
+/laravel/public/.env 2 -
+/xl.php 5 http://adamfazel.com//xl.php
+/wp-2018.php 3 http://adamfazel.com//wp-2018.php
+/V5.php 1 -
+/rss.php 1 -
+/website/wp-includes/wlwmanifest.xml 35 -
+/v.php 1 -
+/wp-content/plugins/seoplugins/index.php 1 -
+/wp-content/uploads/typehub/custom/zhmazfvi/.zo.php 1 www.google.com
+/adamfazel.zip 1 -
+/xwxx.php 3 http://adamfazel.com//xwxx.php
+/wp-2022.php 3 http://adamfazel.com//wp-2022.php
+/mjvzjizg.php 5 www.google.com
+/3x.php 3 http://adamfazel.com//3x.php
+/logs.php 1 -
+/wso2.php 1 -
+/new/wp-json/wp/v2/users 1 -
+/.wp-themes.php 1 -
+/front/.env 2 -
+/.env 33 -
+/sgwrwjzt.php 1 www.google.com
+/wp-blog.php 4 http://adamfazel.com//wp-blog.php
+/info.php 2 -
+/wp-admin/priv8.php 3 http://adamfazel.com//wp-admin/priv8.php
+/js/kcfinder/upload.php 2 -
+/lufix.php 3 http://adamfazel.com//lufix.php
+/sites/all/modules/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 1 -
+/fx.php 1 -
+/images/about.php 1 -
+/tinymce/filemanager/dialog.php 2 -
+/xxx.php 1 -
+/wp/wp-includes/wlwmanifest.xml 59 -
+/2.php 1 -
+/c.php 4 http://adamfazel.com//c.php
+/wp-plain.php 6 www.google.com
+/mass.php 3 http://adamfazel.com//mass.php
+/admin/php-ofc-library/ofc_upload_image.php 1 -
+/wp-content/plugins/theme-configurator/mini.php 1 -
+/_ignition/execute-solution 2 -
+/reminder.php 3 http://adamfazel.com//reminder.php
+/wp-content/themes/pridmag/db.php 2 www.google.com
+/f.php 1 -
+/demo 1 -
+/wp-admin/setup-config.php 3 http://adamfazel.com//wp-admin/setup-config.php
+/alfa.php 4 http://adamfazel.com//alfa.php
+/uploader.php 1 -
+/.wp-back.phP 1 -
+/index.php 3 -
+/wp-admin/fx.php 3 http://adamfazel.com//wp-admin/fx.php
+/ws.php 1 -
+/Makhdamx.php 1 -
+/favicon.png 6 -
+/image/screenshot_1.php 3 http://adamfazel.com//image/screenshot_1.php
+/2index.php 7 http://adamfazel.com//2index.php
+/files/ 2 -
+/wp2/wp-includes/wlwmanifest.xml 35 -
+/phpinfo 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 221
+144.217.135.129 10 10 16453 20230130004800
+178.62.82.141 7 7 23733 20230128181728
+184.154.76.34 7 24 43714 20230131063127
+24.218.107.239 5 41 18803107 20230103122059
+198.20.67.200 5 21 49858 20230128063545
+20.125.117.109 5 5 0 20230129100022
+184.154.139.8 4 17 0 20230120063440
+3.143.5.89 4 4 0 20230113231911
+159.89.27.76 4 4 0 20230130072938
+156.146.36.82 4 4 0 20230113154844
+154.12.77.144 3 3 19550 20230113081848
+35.84.211.84 1 1 0 20230114131207
+216.173.110.155 1 1 0 20230113081844
+52.26.64.40 1 1 0 20230118131148
+34.217.19.122 1 1 2699 20230128132506
+69.138.49.75 1 7 0 20230109120841
+34.210.19.146 1 1 0 20230126133000
+35.91.213.198 1 1 0 20230113130816
+43.130.123.58 1 1 0 20230122224441
+3.95.177.201 1 1 0 20230115121007
+176.9.114.107 2 10 46361 20230119132159
+52.88.42.207 1 1 0 20230116132200
+199.244.88.219 1 1 0 20230102181619
+52.36.28.200 1 1 0 20230131135134
+209.126.77.67 2 2 0 20230102215110
+85.96.13.25 2 2 5398 20230113002651
+159.65.10.242 1 1 0 20230116123557
+35.92.131.190 1 1 0 20230117133207
+195.154.61.140 2 2 0 20230130180200
+54.212.243.199 2 2 0 20230102123854
+185.129.61.8 1 1 0 20230108191832
+34.214.146.145 1 1 0 20230122132530
+34.210.161.109 1 1 0 20230128131804
+69.10.40.142 1 1 0 20230109183445
+213.152.162.149 1 1 0 20230130162411
+18.236.102.214 1 1 2699 20230116130846
+54.198.177.107 1 1 0 20230106153705
+34.211.53.83 1 1 0 20230126132952
+54.214.230.63 1 1 0 20230104132247
+199.244.88.232 1 1 0 20230126200714
+172.58.26.181 1 10 8169 20230111211223
+18.236.120.90 1 1 0 20230115134822
+185.180.143.145 1 1 0 20230105023828
+40.77.188.255 0 5 101606 
+172.173.232.83 2 2 0 20230104012604
+157.230.176.175 1 1 8169 20230106024057
+184.154.139.6 2 8 0 20230130063508
+139.99.219.252 1 1 0 20230126014342
+34.215.175.218 1 1 2699 20230114053627
+45.141.215.105 1 1 0 20230119180143
+165.22.51.171 1 1 0 20230116154444
+18.246.21.128 1 1 0 20230112131848
+54.185.26.98 1 1 0 20230102133551
+35.90.153.75 1 1 0 20230130134615
+5.188.62.26 1 1 0 20230102205917
+170.64.157.65 1 1 0 20230104213341
+163.172.69.223 1 1 0 20230118205320
+3.210.199.213 1 1 0 20230101231233
+18.236.171.185 1 1 0 20230111130655
+34.219.69.243 1 1 0 20230130133942
+68.183.190.99 3 3 2699 20230122202755
+130.255.166.11 1 1 0 20230124011518
+159.223.173.153 1 1 0 20230125233222
+35.90.169.63 1 1 0 20230119132414
+47.148.83.173 0 1 502574 
+217.144.108.53 1 1 0 20230107204016
+54.184.190.18 1 1 0 20230102133947
+68.183.111.115 1 1 0 20230108004737
+89.117.20.210 2 2 0 20230117181730
+31.13.127.119 0 1 37234 
+185.203.187.108 1 1 0 20230125150922
+20.125.141.33 1 1 0 20230103001022
+172.251.52.160 1 1 0 20230104141853
+35.88.51.18 1 1 0 20230123231738
+128.199.77.27 1 1 0 20230107235634
+54.190.163.84 1 1 0 20230121130306
+35.91.224.30 1 1 0 20230110135352
+72.13.62.27 3 3 0 20230126102904
+209.126.86.238 2 2 0 20230105190627
+54.190.24.166 1 1 0 20230105133400
+40.77.202.175 0 6 91556 
+35.88.175.209 1 1 2699 20230112132749
+35.90.220.204 1 1 0 20230110140317
+184.154.139.9 2 8 0 20230121063322
+54.190.103.213 1 1 0 20230122133730
+45.81.4.29 1 1 0 20230117124957
+157.230.45.251 1 1 0 20230120204951
+35.91.78.178 1 1 0 20230112132530
+52.12.80.205 1 1 0 20230115134814
+40.77.139.106 0 1 0 
+38.106.120.6 1 1 0 20230109130353
+34.220.221.77 1 1 0 20230124130738
+45.86.202.90 1 1 2699 20230107081818
+18.236.244.24 1 1 0 20230109132035
+83.240.221.24 1 1 0 20230114093836
+54.185.160.109 1 1 0 20230120134109
+35.88.250.12 1 1 0 20230108133417
+35.178.120.6 1 1 0 20230119203029
+68.183.31.219 1 1 0 20230101104104
+5.165.49.47 2 2 5398 20230121034308
+54.214.68.190 1 1 0 20230101132930
+35.184.56.66 1 1 0 20230118015035
+37.1.214.127 1 1 0 20230123171608
+54.218.89.210 1 1 0 20230114131039
+43.130.156.149 2 2 0 20230117204249
+185.241.208.106 1 1 2699 20230120234613
+52.36.242.4 1 1 0 20230124130430
+52.89.91.45 1 1 0 20230115134841
+134.209.214.99 1 1 0 20230127213018
+89.117.20.171 2 2 0 20230127204547
+37.19.221.33 4 4 0 20230103184049
+74.208.217.123 1 1 0 20230126110257
+35.88.173.61 1 1 0 20230125132210
+34.216.196.164 1 1 0 20230107132632
+104.248.0.209 1 1 0 20230121092720
+34.214.159.244 1 1 0 20230109132628
+43.153.44.198 1 1 0 20230115213807
+54.191.2.189 1 1 0 20230106133001
+34.210.108.18 1 1 2699 20230130133856
+34.212.168.167 1 1 0 20230111130235
+94.102.49.193 1 1 0 20230106043329
+34.219.123.227 1 1 0 20230129131340
+54.86.217.40 1 1 0 20230128150718
+196.244.191.155 1 1 0 20230124115158
+176.106.246.67 1 1 0 20230128204928
+213.159.38.90 1 1 0 20230129014219
+20.125.134.140 1 1 0 20230126110954
+142.202.240.36 1 1 2699 20230128122803
+38.90.148.142 1 1 0 20230110005256
+199.244.88.229 1 1 0 20230111005335
+14.160.95.114 1 1 0 20230119165442
+20.115.1.186 1 1 2699 20230122110034
+37.170.96.25 0 6 0 
+20.28.189.181 1 1 0 20230128082204
+206.189.94.238 2 2 0 20230120162702
+34.222.107.179 1 1 0 20230118131828
+167.99.182.206 1 1 0 20230107044245
+164.68.125.108 1 1 2699 20230129161504
+34.211.150.122 1 1 0 20230127132808
+206.238.115.100 1 1 0 20230127043625
+167.248.133.119 1 1 2699 20230125111303
+144.126.151.207 4 4 0 20230127005329
+54.214.179.249 1 1 0 20230122133728
+23.90.160.146 1 1 0 20230117063151
+54.200.139.237 1 1 0 20230101132916
+185.241.208.25 1 1 0 20230102024704
+20.166.248.192 2 2 0 20230123101107
+35.92.99.192 1 1 0 20230106134435
+52.24.222.125 1 1 0 20230120135039
+154.83.9.106 1 1 0 20230104180410
+93.158.90.65 2 2 1647 20230113162137
+68.69.184.202 2 2 0 20230106124017
+173.244.55.118 1 1 2699 20230121150431
+43.153.68.108 1 1 0 20230117183541
+23.129.64.211 4 4 0 20230124094619
+18.236.228.176 1 1 0 20230121130058
+192.71.142.35 1 1 1647 20230102203437
+68.183.187.213 1 1 0 20230106124330
+91.107.142.245 1 1 0 20230113022537
+34.222.95.208 1 7 10050 20230106134439
+54.218.113.192 1 1 0 20230123132101
+54.185.111.243 1 1 0 20230125132213
+45.76.33.34 1 1 0 20230131202409
+54.212.164.103 1 1 0 20230113130705
+35.83.39.174 1 1 0 20230121111604
+18.191.157.36 1 1 0 20230105113922
+184.154.139.5 4 16 46196 20230117063629
+170.64.133.131 1 1 0 20230103132625
+193.186.4.54 1 1 0 20230121050555
+20.42.86.131 1 1 0 20230128161104
+43.153.48.172 1 1 0 20230117172731
+130.255.166.122 1 1 1647 20230124011516
+54.189.70.20 1 1 0 20230110133913
+172.58.27.58 0 4 4244566 
+54.188.61.179 1 1 0 20230123133310
+23.97.205.210 1 1 0 20230105154913
+52.12.223.209 1 1 0 20230131135024
+18.246.26.232 1 1 0 20230121131839
+20.225.235.165 3 3 0 20230109210514
+185.181.60.12 1 1 0 20230107221244
+52.41.58.155 1 1 0 20230114131239
+198.46.202.94 1 1 0 20230119021506
+137.184.89.107 1 1 0 20230102102644
+87.236.176.34 1 1 0 20230120214310
+149.56.160.197 1 7 16226 20230130004821
+193.186.4.206 1 1 0 20230130211330
+174.56.48.240 0 1 443039 
+51.195.195.183 1 1 0 20230115234805
+18.237.130.123 0 6 13744 
+212.52.197.42 1 1 2699 20230125011903
+35.160.35.250 1 1 0 20230109132334
+165.22.71.235 1 1 0 20230103211346
+40.77.139.126 0 1 0 
+192.71.38.71 1 1 0 20230102203438
+173.252.83.24 1 1 0 20230131044536
+62.252.126.229 1 7 25755 20230123070032
+66.220.149.11 0 1 37234 
+40.77.139.107 0 1 0 
+34.216.125.237 1 1 0 20230123215509
+165.232.122.56 3 3 0 20230130073106
+155.186.109.252 4 35 18794007 20230111184108
+116.96.236.241 1 1 0 20230121044650
+20.212.218.100 1 1 2699 20230116053732
+40.77.139.72 0 1 0 
+185.181.60.189 1 1 0 20230117083027
+165.22.44.243 1 1 0 20230103020002
+43.130.151.182 1 1 0 20230124024438
+185.202.172.76 1 1 2699 20230131024120
+34.174.11.126 1 1 0 20230119211027
+149.202.180.22 1 1 0 20230114045220
+31.220.110.144 1 1 0 20230117150513
+20.115.48.151 2 2 0 20230110164805
+91.165.234.31 0 6 16226 
+128.1.248.34 1 1 0 20230103031221
+184.154.139.7 3 11 0 20230125063211
+35.89.34.164 1 1 2699 20230107132714
+35.165.134.75 1 1 0 20230104132250
+65.109.140.151 1 1 0 20230128114836
+40.77.188.233 0 1 0 
+34.208.117.90 1 1 2699 20230131135148
+159.89.192.180 1 1 0 20230121030146
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20230101 6 8 0 6
+20230102 15 18 1647 13
+20230103 16 55 18803107 9
+20230104 7 11 37234 7
+20230105 7 9 0 6
+20230106 10 27 488746 10
+20230107 11 13 5398 11
+20230108 4 7 16226 4
+20230109 8 16 0 8
+20230110 6 9 13744 6
+20230111 9 55 23046742 6
+20230112 5 8 21624 5
+20230113 21 24 26595 12
+20230114 7 10 2699 7
+20230115 6 8 16226 6
+20230116 6 9 5398 6
+20230117 12 15 13744 11
+20230118 6 14 16226 6
+20230119 9 20 46361 8
+20230120 7 9 2699 7
+20230121 12 22 136887 11
+20230122 7 13 16443 7
+20230123 8 17 45643 8
+20230124 10 13 1647 7
+20230125 7 9 507972 7
+20230126 9 15 101606 7
+20230127 8 16 16226 6
+20230128 16 19 29131 10
+20230129 9 12 2699 5
+20230130 25 34 35378 11
+20230131 7 9 5398 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+5mn-15mn 1
+30s-2mn 1
+0s-30s 238
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/ 239 59378 230 215
+/composer 13 24507 2 3
+/pressPrint 12 22762 2 8
+/directorCommercial 12 5268 3 2
+/home 8 0 0 6
+/humans.txt 3 4941 3 2
+/directorVideo 2 15882 0 1
+/directorFilm 2 8822 0 0
+/pressMedia 2 7126 0 2
+/composerMusic 1 0 0 1
+/composerEnsembles 1 0 0 0
+/composerCues 1 4101 0 0
+END_SIDER
