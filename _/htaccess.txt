@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond /http://www.adamfazel.com/%{REQUEST_FILENAME} !-d
+RewriteCond /http://www.adamfazel.com/%{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
